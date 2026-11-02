@@ -18,3 +18,5 @@ results/*.log
 paper/rendered/
 paper/final_render/
 .DS_Store
+paper/clinical_render/
+results/clinical/*.log

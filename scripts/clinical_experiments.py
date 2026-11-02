@@ -1,7 +1,6 @@
 """All frozen clinical cases; keeps the original datasets and negative outcomes."""
 
 import argparse
-import gzip
 import hashlib
 import json
 import platform
@@ -9,18 +8,13 @@ import time
 from dataclasses import replace
 from importlib.metadata import version
 
+from artifact_io import save_gzip_json as save
 from baselines import majority, resplit
 from clinical_baselines import greedy_repair
 from clinical_data import ROOT, clinical_problem, load_clinical
 
 from splitmend import audit, repair
 from splitmend.model import problem_dict
-
-
-def save(path, obj):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with gzip.open(path, "wt", encoding="utf-8") as stream:
-        json.dump(obj, stream, sort_keys=True, allow_nan=False, separators=(",", ":"))
 
 
 def main():

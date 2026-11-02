@@ -16,6 +16,8 @@ OUT = ROOT / "paper"
 def main():
     summary = json.loads((ROOT / "results/summary.json").read_text())
     values = {(r["dataset"], r["method"]): r for r in summary}
+    clinical = json.loads((ROOT / "results/clinical/summary.json").read_text())
+    clinical_values = {(r["tolerance"], r["method"]): r for r in clinical["summaries"]}
     aggregation = json.loads((ROOT / "results/aggregation.json").read_text())
     with (ROOT / "results/model_summary.csv").open() as model_file:
         models = {
@@ -55,7 +57,10 @@ def main():
 
     def p(text):
         paragraphs.append(text)
-        return d.add_paragraph(text)
+        para = d.add_paragraph(text)
+        if text.startswith("Table "):
+            para.paragraph_format.keep_with_next = True
+        return para
 
     def h(text):
         d.add_heading(text, level=1)
@@ -71,6 +76,7 @@ def main():
             for cell, text in zip(t.add_row().cells, row):
                 cell.text = str(text)
         for i, row in enumerate(t.rows):
+            row._tr.get_or_add_trPr().append(OxmlElement("w:cantSplit"))
             if i == 0:
                 repeat = OxmlElement("w:tblHeader")
                 row._tr.get_or_add_trPr().append(repeat)
@@ -90,6 +96,8 @@ def main():
                     shade.set(qn("w:fill"), "E7EDF2")
                     props.append(shade)
                 for para in cell.paragraphs:
+                    para.paragraph_format.keep_with_next = i < len(t.rows) - 1
+                    para.paragraph_format.keep_together = True
                     para.paragraph_format.space_after = Pt(4)
                     para.paragraph_format.space_before = Pt(4)
                     para.paragraph_format.line_spacing = 1.0
@@ -108,7 +116,7 @@ def main():
     p("Corresponding author: thadishetti.ravishanker@gmail.com")
     h("Abstract")
     p(
-        "Existing machine-learning partitions can require revision when researchers introduce validation sets, discover repeated entities, or change temporal evaluation requirements. Rebuilding a split may unnecessarily move previously assigned observations. SplitMend is an MIT-licensed Python library that minimizes a weighted assignment-change objective subject to explicit group separation, locked memberships, temporal eligibility, size and class constraints. It combines integer optimization, exact aggregation of equivalent records, independent output verification and bounded conflict explanations. In 15 workflow simulations on three public datasets, every returned repair satisfied the declared policy and was certified optimal by the solver. On Human Activity Recognition data, repair changed a mean of 2,009.8 records, compared with 2,113.8 for greedy repair and 2,478.8 for group re-splitting. On Open University learning data, majority repair already attained the same objective as SplitMend. A temporal case retained 99.73% of forecasting windows and also matched a direct eligibility baseline. These results support a reusable constrained-repair workflow, while identifying cases where simpler methods suffice. Source data, manifests, raw outputs, tests and reproduction scripts accompany the software."
+        "Existing machine-learning partitions can require revision when researchers introduce validation sets, discover repeated entities, or change temporal evaluation requirements. Rebuilding a split may unnecessarily move previously assigned observations. SplitMend is an MIT-licensed Python library that minimizes a weighted assignment-change objective subject to explicit group separation, locked memberships, temporal eligibility, size and class constraints. It combines integer optimization, exact aggregation of equivalent records, independent output verification and bounded conflict explanations. Across 30 workflow configurations on four public datasets, every SplitMend repair satisfied its policy and was certified optimal by the solver. In a clinical cohort of 101,766 encounters, repair reduced aggregate assignment changes by 23.47% versus violation-first greedy, but only 0.008% versus cost-aware greedy with local exchanges. The latter comparison comprised four wins and eleven ties. On human activity data, the aggregate reduction versus cost-aware greedy was 1.66%; simpler rules tied the optimum on education and temporal workflows. These results support verified repair with objective bounds, while showing that efficient heuristics can be competitive. Source data, manifests, raw outputs, tests and reproduction scripts accompany the software."
     )
     p(
         "Keywords: dataset partitioning; data leakage; constrained optimization; reproducible research; Python software"
@@ -117,7 +125,7 @@ def main():
     table(
         ["Item", "Description"],
         [
-            ("Current code version", "0.1.0"),
+            ("Current code version", "0.1.1"),
             (
                 "Permanent repository or archive",
                 "Accompanying SplitMend research archive; public release URL and DOI not yet assigned",
@@ -139,7 +147,7 @@ def main():
         "Established tools provide important parts of this workflow. Scikit-learn supplies group-aware splitting [4]. DataSAIL constructs identity- or similarity-aware partitions using optimization [5]. DataEval Flow audits existing partitions and records decisions [6], while dataset-splitter combines grouping, stratification, temporal splitting and reports [7]. SplitMend addresses an adjacent operation: revising an existing assignment while preserving explicit locks and minimizing disruption. It does not introduce a new integer-programming algorithm or claim that auditing, grouping or provenance is individually novel."
     )
     p(
-        "The software contribution is a common representation connecting repair, verification and conflict explanation. A researcher can express interacting requirements, obtain a revised row-to-partition map, and inspect an independently checked result with an objective bound. Exact aggregation reduces redundant assignment variables without altering the feasible repair problem. The evaluation compares this workflow with established split constructors and simple repair heuristics, including cases where optimization gives no practical advantage."
+        "The software contribution is a common representation connecting repair, verification and conflict explanation. A researcher can express interacting requirements, obtain a revised row-to-partition map, and inspect an independently checked result with an objective bound. Exact aggregation reduces redundant assignment variables without altering the feasible repair problem. The evaluation compares this workflow with established split constructors and repair heuristics, including a cost-aware local method and cases where optimization gives little or no practical advantage."
     )
     h("2 Software description")
     p(
@@ -187,11 +195,17 @@ def main():
         "Comparators are weighted group-majority repair, a greedy count-violation repair, scikit-learn GroupShuffleSplit, DataSAIL 1.4.0 I1 and dataset-splitter 0.1.0. External-tool adapters first assign groups containing locked test records to testing and split the remaining groups. DataSAIL is called through its pinned I1 solver to supply mixed-class group count vectors. Its relative lower-bound tolerances are conservatively mapped to the common absolute bounds. Native and tighter fixed-tolerance runs are also retained. This mapping was added during implementation after inspecting policy mismatches, and is not a preregistered comparison."
     )
     p(
+        "The clinical extension uses all 101,766 encounters from 71,518 patients in the UCI Diabetes 130-US Hospitals table [9]. It supplements the original datasets. For seeds 0-4, 20% of patients form a locked test cohort; all other encounters initially receive train/validation assignments at 75/25 within joint readmission, age and gender strata. Four age bands (under 40, 40-59, 60-79, 80+) produce 25 nonempty joint strata with the published outcome and gender categories. Unknown gender values are retained. Patient separation, no quarantine and train/validation eligibility are mandatory. Size and stratum bounds allow 1, 2.5 or 5 percentage points around the target partition fraction, using floor/ceiling bounds on each available count. All 15 configurations are reported. The table has no hospital identifier or admission timestamp; this is neither site-held-out nor chronological evaluation."
+    )
+    p(
+        "The clinical protocol and comparator parameters were committed before clinical comparisons, after observing the original study; this is an exploratory extension, not external preregistration. Comparators include patient majority, group re-splitting, violation-first greedy and cost-aware greedy with feasible local exchanges. The cost-aware rule selects added movement cost per unit violation reduction, then improves feasible solutions using single-patient flips and pairs from up to 256 lowest-cost profiles in each direction. Both greedy methods and SplitMend have 60-second search/optimization budgets, with preprocessing and verification measured separately. After observing clinical near-ties, the unchanged cost-aware method was also applied to all HAR/OULAD cases. That adapter fixes groups forced into test and searches remaining train/validation memberships; it does not explore unrelated groups moving into test. Both protocol stages and all outcomes are archived."
+    )
+    p(
         "All outputs pass through the same row-level audit. Invalid results remain in the raw archive and are excluded from successful-repair cost summaries. Split constructors do not optimize edit cost, so differences from them demonstrate the consequences of the repair objective rather than a superior solution to their original problem. Primary evidence is validity and assignment cost; timings are descriptive single-host measurements. Fifteen zero-cost fixed-point controls, three deliberately contradictory lock controls, 100 exhaustive problems of two to six rows, and compressed/uncompressed comparisons supplement the real-data cases."
     )
     d.add_heading("4.2 Repair results", level=2)
     p(
-        "SplitMend produced verified, solver-certified optima for all 15 configurations. Table 1 reports the two classification workflows; each listed method satisfied the common policy in all five runs. HAR required a mean of 2,009.8 changes, 4.92% fewer than greedy repair and 18.92% fewer than group re-splitting when aggregating changes across the five seeds. OULAD required 2,140.6 changes, 80.03% fewer than group re-splitting. However, majority and greedy repair already achieved the same optimum on OULAD. This negative comparison limits any claim of a general advantage over simple repair rules."
+        "SplitMend produced verified, solver-certified optima for all 30 configurations. Table 1 reports HAR and OULAD; each listed method satisfied the common policy in all five runs. HAR required a mean of 2,009.8 changes. Relative to cost-aware greedy, the aggregate saving was 170 changes (1.66%), comprising one win and four ties. The original simpler greedy comparison gave 4.92% fewer changes. OULAD required 2,140.6 changes; majority and both greedy repairs already attained this optimum. Its 80.03% reduction versus group re-splitting measures preservation of earlier assignments, not superiority for constructing fresh splits."
     )
     p(
         "Table 1. Mean assignment changes over five valid runs. All methods preserve the original locked test rows. DataSAIL and dataset-splitter include the documented adapters."
@@ -199,7 +213,8 @@ def main():
     rows = []
     for method, label in [
         ("splitmend", "SplitMend"),
-        ("greedy", "Greedy repair"),
+        ("greedy", "Original greedy repair"),
+        ("cost_greedy_local", "Cost-aware greedy + exchanges"),
         ("group_resplit", "Group re-split"),
         ("datasail_i1_aligned", "DataSAIL I1"),
         ("dataset_splitter", "dataset-splitter"),
@@ -212,12 +227,51 @@ def main():
             )
         )
     table(["Method", "HAR changes", "OULAD changes"], rows, [2.9, 1.8, 1.8])
-    d.add_picture(str(ROOT / "paper/figures/changes.png"), width=Inches(6.35))
-    p(
-        "Figure 1. Individual-seed assignment changes and mean bars for valid repairs. Seeds describe repeated partitions of the same dataset, not independent datasets."
-    )
     p(
         "Every Beijing configuration quarantined 1,128 boundary-crossing windows and retained 99.73% of input windows. The direct temporal baseline gave exactly the same result. Majority repair was invalid on HAR because it eliminated required validation coverage. Native DataSAIL tolerance configurations sometimes violated the custom count policy; the aligned adapter satisfied it in all ten classification cases. These are differences in supported constraint specifications, not reported defects in DataSAIL."
+    )
+    p(
+        "The clinical extension exposes the importance of comparator strength (Table 2). Both greedy methods and SplitMend satisfy all 15 policies. SplitMend saves 35,010 changes (23.47%) against violation-first greedy, but only nine changes (0.008%) against cost-aware greedy with exchanges: four wins, eleven ties and no losses. The largest single-case saving against the latter is five records. Patient-majority repair fails the count policy in every case, while group re-splitting is valid in four cases. Invalid outputs remain available. These results establish constraint enforcement and an optimum bound, but no substantial clinical-cohort advantage over the stronger heuristic."
+    )
+    p(
+        "Table 2. Clinical mean assignment changes over five seeds per tolerance. Each listed method is valid in all five runs at each tolerance; pp denotes percentage points."
+    )
+    clinical_rows = []
+    for tolerance in [0.01, 0.025, 0.05]:
+        clinical_rows.append(
+            (
+                f"{100 * tolerance:g} pp",
+                *(
+                    f"{clinical_values[(tolerance, method)]['mean_changed_valid']:,.1f}"
+                    for method in ["splitmend", "violation_greedy", "cost_greedy_local"]
+                ),
+            )
+        )
+    table(
+        ["Tolerance", "SplitMend", "Violation-first greedy", "Cost-aware greedy + exchanges"],
+        clinical_rows,
+        [1.0, 1.3, 1.9, 2.3],
+    )
+    p(
+        "Across clinical tolerances, median verified times were %.2f-%.2f s for SplitMend and %.2f-%.2f s for cost-aware greedy. Seeds and tolerances are repeated configurations of one cohort, not independent clinical datasets. The joint strata impose a declared evaluation-coverage policy, not a fairness or clinical-representativeness guarantee. No patient-outcome or clinical prediction endpoint is evaluated."
+        % (
+            min(
+                clinical_values[(t, "splitmend")]["median_verified_seconds"]
+                for t in [0.01, 0.025, 0.05]
+            ),
+            max(
+                clinical_values[(t, "splitmend")]["median_verified_seconds"]
+                for t in [0.01, 0.025, 0.05]
+            ),
+            min(
+                clinical_values[(t, "cost_greedy_local")]["median_verified_seconds"]
+                for t in [0.01, 0.025, 0.05]
+            ),
+            max(
+                clinical_values[(t, "cost_greedy_local")]["median_verified_seconds"]
+                for t in [0.01, 0.025, 0.05]
+            ),
+        )
     )
     p(
         "Median verified wall times for SplitMend were %.3f s on HAR, %.3f s on OULAD and %.3f s on Beijing. Verification time is separately recorded. The SplitMend call also includes input hashing and internal audits. Simpler comparators were generally faster; no runtime-speedup claim is made. All 100 exhaustive cases agreed with enumeration, all 15 clean controls remained unchanged, and all three contradictory-lock controls produced infeasibility witnesses."
@@ -228,7 +282,7 @@ def main():
         )
     )
     p(
-        "Table 2. Aggregation ablation on selected records containing violations. Each compressed and row-level pair reached the identical optimal objective; reduction depends on repeated constraint profiles."
+        "Table 3. Aggregation ablation on selected records containing violations. Each compressed and row-level pair reached the identical optimal objective; reduction depends on repeated constraint profiles."
     )
     table(
         ["Dataset", "Rows", "Compressed variables", "Row variables", "Objective"],
@@ -251,15 +305,15 @@ def main():
         "These results demonstrate executable integration and do not establish an accuracy improvement. The changed training and validation populations also prevent attributing every metric difference exclusively to leakage removal."
     )
     p(
-        "The evidence covers three datasets and simulated workflows. It does not establish independent user adoption, reduced retraining cost or broad domain generalization. Constraints depend on correctly supplied identities and dependency spans. Multiple optimal assignments may produce different model scores. Large instances can exceed solver budgets; the package distinguishes feasible incumbents from proved optima. Repairing a partition cannot erase historical test exposure or preserve official benchmark comparability after changing membership. Independent-host reproduction and external workflow studies remain future work."
+        "The evidence covers four datasets and simulated workflows. It does not establish independent user adoption, reduced retraining cost or broad domain generalization. Constraints depend on correctly supplied identities and dependency spans. Multiple optimal assignments may produce different model scores. Large instances can exceed solver budgets; the package distinguishes feasible incumbents from proved optima. Repairing a partition cannot erase historical test exposure or preserve official benchmark comparability after changing membership. Independent-host reproduction and external workflow studies remain future work."
     )
     h("5 Conclusions")
     p(
-        "SplitMend provides an installable, auditable workflow for revising existing dataset partitions under explicit constraints. Its contribution combines a weighted repair objective, exact record aggregation, lock-preserving assignments, independent verification and qualified conflict explanations. The experiments show a modest improvement over greedy repair on HAR, substantial preservation of existing assignments compared with fresh splits, and ties with simpler rules on other tasks. The software and evidence support using optimization when requirements interact while retaining simple methods as meaningful comparators."
+        "SplitMend provides an installable, auditable workflow for revising existing dataset partitions under explicit constraints. Its contribution combines a weighted repair objective, exact record aggregation, lock-preserving assignments, independent verification and qualified conflict explanations. The experiments show verified optima, preservation of existing assignments relative to fresh splits, and small or absent improvements over stronger repair heuristics. The clinical extension strengthens constraint and reproducibility evidence without establishing heuristic dominance. Optimization provides objective bounds and consistent policy handling; fast near-optimal heuristics remain useful where those guarantees are unnecessary."
     )
     h("Data and software availability")
     p(
-        "The accompanying research archive contains version 0.1.0, original public dataset archives and attribution, SHA256 provenance, all derived policies and assignments, raw solver outputs, comparison scripts, pinned environment files and generated tables. The source distribution and wheel are included. Public repository and archival identifiers must be assigned during release; none are represented as already registered. Unit tests and wheel installation were checked in separate environments on the same host."
+        "The accompanying research archive contains version 0.1.1, original public dataset archives and attribution, SHA256 provenance, all derived policies and assignments, raw solver outputs, comparison scripts, pinned environment files and generated tables. The source distribution and wheel are included. Public repository and archival identifiers must be assigned during release; none are represented as already registered. The one-command harness reruns 180 method comparisons, independently re-audits their assignments and regenerates results. Seventy-two source tests and 49 core tests against an installed wheel were checked in separate environments on the same host. This is a development-host rerun, not independent reproduction."
     )
     h("Funding")
     p(
@@ -279,6 +333,7 @@ def main():
         "[6] DataEval Flow developers. Audit a set of splits before training. https://dataeval-flow.readthedocs.io/en/latest/notebooks/audit.html. Accessed 2 November 2026.",
         "[7] dataset-splitter developers. dataset-splitter version 0.1.0. https://pypi.org/project/dataset-splitter/. Accessed 2 November 2026.",
         "[8] SciPy developers. scipy.optimize.milp documentation. https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html. Accessed 2 November 2026.",
+        "[9] Clore J, Cios K, DeShazo J, Strack B. Diabetes 130-US Hospitals for Years 1999-2008. UCI Machine Learning Repository; 2014. https://doi.org/10.24432/C5230J.",
     ]
     for ref in references:
         para = d.add_paragraph(ref)

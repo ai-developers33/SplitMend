@@ -5,7 +5,7 @@ It minimizes a weighted assignment-change objective, keeps locked records fixed,
 group/duplicate separation and time-window eligibility, and independently verifies every
 returned assignment. It uses SciPy's HiGHS integer optimizer; it does not call an LLM.
 
-Version 0.1.0 is a research release. Publication on GitHub/PyPI is a separate release step.
+Version 0.1.1 is a research release. Publication on GitHub/PyPI is a separate release step.
 
 ## Install from source
 
@@ -63,7 +63,8 @@ Use Python 3.12 on Linux for the supplied full reference lock files. This instal
 the original archives if they are not already included. Alternatively, if both environments
 are installed, run `python scripts/reproduce.py --baseline-python /path/to/baseline/python`.
 The following individual commands run the main study; the full entry point also runs
-external comparisons, exhaustive checks, fixed classifiers and result verification.
+external comparisons, the clinical extension, stronger repair baselines, exhaustive checks,
+fixed classifiers and result verification (180 method runs across 30 repair cases).
 Successful completion writes `results/reproduction.json`; a missing completion file means
 the full command has not finished. The included rerun is on the development host, not an
 independent reproduction.
@@ -74,9 +75,19 @@ python scripts/run_experiments.py
 python scripts/summarize.py
 ```
 
-Original datasets are credited in `data/sources.json` and `data/README.md`. Experimental
+Original datasets are credited in `data/sources.json`, `data/clinical_sources.json` and
+`data/README.md`. Experimental
 partitions are workflow simulations on real observations, not reports of defects in the
-datasets' original published partitions. See `docs/EXPERIMENT_PROTOCOL.md`.
+datasets' original published partitions. See `docs/EXPERIMENT_PROTOCOL.md`, `docs/CLINICAL_PROTOCOL.md` and
+`docs/STRONG_BASELINE_FOLLOWUP.md`. The clinical extension supplements OULAD. Its protocol
+was committed before clinical comparisons, after the original study; it is exploratory.
+
+The clinical study uses all 101,766 UCI diabetes encounters from 71,518 patients. All
+15 SplitMend configurations reached verified optima. Aggregate movement cost was 23.47%
+lower than violation-first greedy, but only 0.008% lower than cost-aware greedy with
+local exchanges (nine fewer changes in total; four wins and eleven ties). The latter
+was faster. These results support constraint enforcement and optimality certification,
+not a substantial advantage over strong heuristics. See `docs/RESULTS_INTERPRETATION.md`.
 
 ## Release
 

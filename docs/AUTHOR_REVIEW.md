@@ -28,7 +28,12 @@ restored or the submission system specifies additional fields. The narrative is 
 
 The study does not demonstrate an 8/10 score in all dimensions merely because the
 implementation passes tests. Useful differentiation is present, but the evidence is
-limited to three datasets and workflow simulations; independent user adoption is absent.
-The main HAR advantage over a reasonable greedy repair is 4.92% fewer changes. OULAD and
-Beijing demonstrate ties with simpler repair rules. These findings should remain visible
-to reviewers. Acceptance is an editorial decision, not a result guaranteed by the code.
+limited to four datasets and workflow simulations; independent user adoption is absent.
+The stronger comparator reduces the HAR aggregate advantage to 1.66% (one win and four
+ties). On the clinical cohort, SplitMend saves 23.47% versus violation-first greedy but
+only 0.008% versus cost-aware greedy with exchanges (nine records across 15 cases).
+OULAD and Beijing show ties. The clinical protocol was frozen before those outcomes,
+but added after the original study; the HAR/OULAD stronger-baseline follow-up was added
+after seeing the clinical near-ties. This sequence must remain explicit. These findings
+support verified repair and solver bounds, not broad heuristic dominance. Acceptance
+is an editorial decision, not a result guaranteed by the code.

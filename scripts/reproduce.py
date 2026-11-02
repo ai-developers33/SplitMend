@@ -53,13 +53,27 @@ def main():
     ]:
         run([main_python, ROOT / "scripts" / script])
     run([baseline_python, ROOT / "scripts/external_baselines.py"])
+    run([main_python, ROOT / "scripts/strong_baseline_followup.py"])
+    run([main_python, ROOT / "scripts/clinical_experiments.py"])
+    run([main_python, ROOT / "scripts/clinical_summary.py"])
     run([main_python, ROOT / "scripts/summarize.py"])
     run([main_python, ROOT / "scripts/verify_results.py"])
+    run([main_python, ROOT / "scripts/verify_clinical.py"])
     counts = {
         name: len(json.loads((ROOT / "results" / name).read_text()))
-        for name in ["main.json", "external.json"]
+        for name in [
+            "main.json",
+            "external.json",
+            "strong_baseline_followup.json",
+            "clinical/runs.json",
+        ]
     }
-    assert counts == {"main.json": 55, "external.json": 40}, counts
+    assert counts == {
+        "main.json": 55,
+        "external.json": 40,
+        "strong_baseline_followup.json": 10,
+        "clinical/runs.json": 75,
+    }, counts
     record = {
         "completed_utc": datetime.now(timezone.utc).isoformat(),
         "complete": True,
@@ -69,7 +83,10 @@ def main():
         "steps": STEPS,
     }
     completion.write_text(json.dumps(record, indent=2) + "\n")
-    print("REPRODUCTION COMPLETE: 55 main and 40 external runs verified.", flush=True)
+    print(
+        "REPRODUCTION COMPLETE: 180 runs across original, external, clinical and follow-up comparisons verified.",
+        flush=True,
+    )
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 # Dataset provenance and attribution
 
 Software is MIT-licensed; these datasets remain under their own CC BY 4.0 licenses.
-Original archive URLs, byte lengths and SHA256 values are in sources.json. Downloads
+Original archive URLs, byte lengths and SHA256 values are in sources.json and clinical_sources.json. Downloads
 are cached and checksum changes fail rather than silently replacing the study data.
 
 * UCI Human Activity Recognition Using Smartphones: Jorge Reyes-Ortiz, Davide Anguita,
@@ -18,7 +18,18 @@ are cached and checksum changes fail rather than silently replacing the study da
   first 23 and last 24 timestamps at each of 12 stations. The temporal experiment
   audits dependency spans; it does not impute missing pollutants or train a forecaster.
 
-Transformations and constructed splits are implemented in scripts/datasets.py. Derived
+* Diabetes 130-US Hospitals for Years 1999-2008: John Clore, Krzysztof Cios,
+  Jon DeShazo, Beata Strack (2014), DOI 10.24432/C5230J. All 101,766 encounters
+  from 71,518 distinct patient IDs are used, including three rows with gender
+  Unknown/Invalid. Patient IDs define groups; encounter IDs identify observations.
+  The released table does not contain hospital IDs or admission timestamps. We do
+  not claim hospital-held-out or chronological evaluation. The public outcome,
+  age and gender columns define 25 nonempty joint strata for the repair policy.
+  Age bins and split construction are derived in scripts/clinical_data.py. This is
+  a simulated evaluation workflow, not a clinical trial or patient-outcome study.
+
+Transformations and constructed splits are implemented in scripts/datasets.py and
+scripts/clinical_data.py. Derived
 JSON manifests contain metadata, sample IDs and policies; feature values remain in the
 original archives. No claims of defects in the datasets' official evaluation protocols
 are made. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/

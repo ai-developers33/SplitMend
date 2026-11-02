@@ -2,13 +2,13 @@
 
 import argparse
 import csv
-import gzip
 import importlib.metadata as metadata
 import json
 import platform
 import time
 from dataclasses import replace
 
+from artifact_io import save_gzip_json as save_json
 from baselines import greedy, majority, resplit
 from datasets import (
     ROOT,
@@ -21,12 +21,6 @@ from datasets import (
 
 from splitmend import audit, repair
 from splitmend.model import problem_dict
-
-
-def save_json(path, obj):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with gzip.open(path, "wt", encoding="utf-8") as f:
-        json.dump(obj, f, sort_keys=True, allow_nan=False, separators=(",", ":"))
 
 
 def emit(samples, policy, name, seed, method, assignments, elapsed, extra=None):

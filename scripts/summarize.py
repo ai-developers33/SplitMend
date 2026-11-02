@@ -16,6 +16,9 @@ def main():
     rows = json.loads((ROOT / "results/main.json").read_text()) + json.loads(
         (ROOT / "results/external.json").read_text()
     )
+    followup = ROOT / "results/strong_baseline_followup.json"
+    if followup.exists():
+        rows += json.loads(followup.read_text())
     f = pd.DataFrame(rows)
     f.to_csv(ROOT / "results/all_runs.csv", index=False)
     summaries = []
@@ -62,10 +65,18 @@ def main():
     model.groupby(["dataset", "method", "partition"])[
         ["accuracy", "macro_f1"]
     ].mean().reset_index().to_csv(ROOT / "results/model_summary.csv", index=False)
-    methods = ["splitmend", "greedy", "group_resplit", "datasail_i1_aligned", "dataset_splitter"]
+    methods = [
+        "splitmend",
+        "greedy",
+        "cost_greedy_local",
+        "group_resplit",
+        "datasail_i1_aligned",
+        "dataset_splitter",
+    ]
     names = [
         "SplitMend",
         "Greedy repair",
+        "Cost-aware greedy\nwith local exchanges",
         "Group re-split",
         "DataSAIL I1\nwith adapter",
         "dataset-splitter\nwith adapter",
@@ -84,7 +95,7 @@ def main():
         ax.set_ylabel("Records with changed assignments")
         ax.grid(axis="y", alpha=0.2)
         ax.spines[["top", "right"]].set_visible(False)
-    (ROOT / "paper/figures").mkdir(exist_ok=True)
+    (ROOT / "paper/figures").mkdir(parents=True, exist_ok=True)
     fig.savefig(ROOT / "paper/figures/changes.png", dpi=300)
     fig.savefig(ROOT / "paper/figures/changes.svg")
     plt.close(fig)

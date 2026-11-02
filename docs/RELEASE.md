@@ -24,11 +24,11 @@ pending publisher also does not reserve a name before the first successful uploa
 ```sh
 git init -b main
 git add .
-git commit -m "Release SplitMend 0.1.0 with reproducible evaluation"
+git commit -m "Release SplitMend 0.1.1 with reproducible evaluation"
 git remote add origin https://github.com/ravishanker39/SplitMend.git
 git push -u origin main
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 If using the already initialized working repository, skip `git init` and do not create
@@ -57,7 +57,7 @@ not been performed on your behalf.
 python -m venv test-install
 # Activate test-install as appropriate for your operating system.
 python -m pip install 'numpy>=1.26,<3' 'scipy>=1.11,<2'
-python -m pip install --index-url https://test.pypi.org/simple/ --no-deps splitmend==0.1.0
+python -m pip install --index-url https://test.pypi.org/simple/ --no-deps splitmend==0.1.1
 splitmend --version
 ```
 
