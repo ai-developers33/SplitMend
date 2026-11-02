@@ -1,0 +1,12 @@
+{
+  "main_results_match_first_run": true,
+  "rows_compared": 55,
+  "fields": [
+    "valid",
+    "changed",
+    "quarantined",
+    "objective"
+  ],
+  "timing_comparison": "not compared; wall times are environment-dependent",
+  "independent_host": false
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "seed": 1000,
+    "rows": 5,
+    "feasible_assignments": 11,
+    "oracle_objective": 15,
+    "solver_status": "optimal",
+    "solver_objective": 15,
+    "pass": true
+  },
+  {
+    "seed": 1001,
+    "rows": 2,
+    "feasible_assignments": 5,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1002,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1003,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1004,
+    "rows": 5,
+    "feasible_assignments": 4,
+    "oracle_objective": 42,
+    "solver_status": "optimal",
+    "solver_objective": 42,
+    "pass": true
+  },
+  {
+    "seed": 1005,
+    "rows": 5,
+    "feasible_assignments": 2,
+    "oracle_objective": 10,
+    "solver_status": "optimal",
+    "solver_objective": 10,
+    "pass": true
+  },
+  {
+    "seed": 1006,
+    "rows": 4,
+    "feasible_assignments": 108,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1007,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1008,
+    "rows": 6,
+    "feasible_assignments": 398,
+    "oracle_objective": 2,
+    "solver_status": "optimal",
+    "solver_objective": 2,
+    "pass": true
+  },
+  {
+    "seed": 1009,
+    "rows": 3,
+    "feasible_assignments": 19,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1010,
+    "rows": 6,
+    "feasible_assignments": 855,
+    "oracle_objective": 5,
+    "solver_status": "optimal",
+    "solver_objective": 5,
+    "pass": true
+  },
+  {
+    "seed": 1011,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1012,
+    "rows": 4,
+    "feasible_assignments": 5,
+    "oracle_objective": 30,
+    "solver_status": "optimal",
+    "solver_objective": 30,
+    "pass": true
+  },
+  {
+    "seed": 1013,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1014,
+    "rows": 6,
+    "feasible_assignments": 24,
+    "oracle_objective": 89,
+    "solver_status": "optimal",
+    "solver_objective": 89,
+    "pass": true
+  },
+  {
+    "seed": 1015,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 5,
+    "solver_status": "optimal",
+    "solver_objective": 5,
+    "pass": true
+  },
+  {
+    "seed": 1016,
+    "rows": 4,
+    "feasible_assignments": 30,
+    "oracle_objective": 42,
+    "solver_status": "optimal",
+    "solver_objective": 42,
+    "pass": true
+  },
+  {
+    "seed": 1017,
+    "rows": 5,
+    "feasible_assignments": 3,
+    "oracle_objective": 7,
+    "solver_status": "optimal",
+    "solver_objective": 7,
+    "pass": true
+  },
+  {
+    "seed": 1018,
+    "rows": 5,
+    "feasible_assignments": 82,
+    "oracle_objective": 7,
+    "solver_status": "optimal",
+    "solver_objective": 7,
+    "pass": true
+  },
+  {
+    "seed": 1019,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1020,
+    "rows": 2,
+    "feasible_assignments": 3,
+    "oracle_objective": 3,
+    "solver_status": "optimal",
+    "solver_objective": 3,
+    "pass": true
+  },
+  {
+    "seed": 1021,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1022,
+    "rows": 3,
+    "feasible_assignments": 3,
+    "oracle_objective": 41,
+    "solver_status": "optimal",
+    "solver_objective": 41,
+    "pass": true
+  },
+  {
+    "seed": 1023,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1024,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1025,
+    "rows": 3,
+    "feasible_assignments": 14,
+    "oracle_objective": 2,
+    "solver_status": "optimal",
+    "solver_objective": 2,
+    "pass": true
+  },
+  {
+    "seed": 1026,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 21,
+    "solver_status": "optimal",
+    "solver_objective": 21,
+    "pass": true
+  },
+  {
+    "seed": 1027,
+    "rows": 2,
+    "feasible_assignments": 5,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1028,
+    "rows": 5,
+    "feasible_assignments": 4,
+    "oracle_objective": 24,
+    "solver_status": "optimal",
+    "solver_objective": 24,
+    "pass": true
+  },
+  {
+    "seed": 1029,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1030,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 40,
+    "solver_status": "optimal",
+    "solver_objective": 40,
+    "pass": true
+  },
+  {
+    "seed": 1031,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1032,
+    "rows": 5,
+    "feasible_assignments": 30,
+    "oracle_objective": 8,
+    "solver_status": "optimal",
+    "solver_objective": 8,
+    "pass": true
+  },
+  {
+    "seed": 1033,
+    "rows": 3,
+    "feasible_assignments": 5,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1034,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1035,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1036,
+    "rows": 5,
+    "feasible_assignments": 28,
+    "oracle_objective": 1,
+    "solver_status": "optimal",
+    "solver_objective": 1,
+    "pass": true
+  },
+  {
+    "seed": 1037,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 3,
+    "solver_status": "optimal",
+    "solver_objective": 3,
+    "pass": true
+  },
+  {
+    "seed": 1038,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1039,
+    "rows": 3,
+    "feasible_assignments": 3,
+    "oracle_objective": 3,
+    "solver_status": "optimal",
+    "solver_objective": 3,
+    "pass": true
+  },
+  {
+    "seed": 1040,
+    "rows": 4,
+    "feasible_assignments": 6,
+    "oracle_objective": 60,
+    "solver_status": "optimal",
+    "solver_objective": 60,
+    "pass": true
+  },
+  {
+    "seed": 1041,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1042,
+    "rows": 3,
+    "feasible_assignments": 5,
+    "oracle_objective": 32,
+    "solver_status": "optimal",
+    "solver_objective": 32,
+    "pass": true
+  },
+  {
+    "seed": 1043,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1044,
+    "rows": 3,
+    "feasible_assignments": 1,
+    "oracle_objective": 21,
+    "solver_status": "optimal",
+    "solver_objective": 21,
+    "pass": true
+  },
+  {
+    "seed": 1045,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1046,
+    "rows": 5,
+    "feasible_assignments": 37,
+    "oracle_objective": 30,
+    "solver_status": "optimal",
+    "solver_objective": 30,
+    "pass": true
+  },
+  {
+    "seed": 1047,
+    "rows": 2,
+    "feasible_assignments": 5,
+    "oracle_objective": 1,
+    "solver_status": "optimal",
+    "solver_objective": 1,
+    "pass": true
+  },
+  {
+    "seed": 1048,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1049,
+    "rows": 6,
+    "feasible_assignments": 10,
+    "oracle_objective": 4,
+    "solver_status": "optimal",
+    "solver_objective": 4,
+    "pass": true
+  },
+  {
+    "seed": 1050,
+    "rows": 4,
+    "feasible_assignments": 16,
+    "oracle_objective": 41,
+    "solver_status": "optimal",
+    "solver_objective": 41,
+    "pass": true
+  },
+  {
+    "seed": 1051,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 2,
+    "solver_status": "optimal",
+    "solver_objective": 2,
+    "pass": true
+  },
+  {
+    "seed": 1052,
+    "rows": 3,
+    "feasible_assignments": 1,
+    "oracle_objective": 70,
+    "solver_status": "optimal",
+    "solver_objective": 70,
+    "pass": true
+  },
+  {
+    "seed": 1053,
+    "rows": 4,
+    "feasible_assignments": 4,
+    "oracle_objective": 6,
+    "solver_status": "optimal",
+    "solver_objective": 6,
+    "pass": true
+  },
+  {
+    "seed": 1054,
+    "rows": 2,
+    "feasible_assignments": 7,
+    "oracle_objective": 1,
+    "solver_status": "optimal",
+    "solver_objective": 1,
+    "pass": true
+  },
+  {
+    "seed": 1055,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1056,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1057,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1058,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1059,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1060,
+    "rows": 3,
+    "feasible_assignments": 3,
+    "oracle_objective": 20,
+    "solver_status": "optimal",
+    "solver_objective": 20,
+    "pass": true
+  },
+  {
+    "seed": 1061,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1062,
+    "rows": 2,
+    "feasible_assignments": 1,
+    "oracle_objective": 10,
+    "solver_status": "optimal",
+    "solver_objective": 10,
+    "pass": true
+  },
+  {
+    "seed": 1063,
+    "rows": 3,
+    "feasible_assignments": 1,
+    "oracle_objective": 4,
+    "solver_status": "optimal",
+    "solver_objective": 4,
+    "pass": true
+  },
+  {
+    "seed": 1064,
+    "rows": 3,
+    "feasible_assignments": 6,
+    "oracle_objective": 20,
+    "solver_status": "optimal",
+    "solver_objective": 20,
+    "pass": true
+  },
+  {
+    "seed": 1065,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1066,
+    "rows": 5,
+    "feasible_assignments": 244,
+    "oracle_objective": 5,
+    "solver_status": "optimal",
+    "solver_objective": 5,
+    "pass": true
+  },
+  {
+    "seed": 1067,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1068,
+    "rows": 5,
+    "feasible_assignments": 3,
+    "oracle_objective": 94,
+    "solver_status": "optimal",
+    "solver_objective": 94,
+    "pass": true
+  },
+  {
+    "seed": 1069,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1070,
+    "rows": 4,
+    "feasible_assignments": 17,
+    "oracle_objective": 14,
+    "solver_status": "optimal",
+    "solver_objective": 14,
+    "pass": true
+  },
+  {
+    "seed": 1071,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1072,
+    "rows": 5,
+    "feasible_assignments": 6,
+    "oracle_objective": 74,
+    "solver_status": "optimal",
+    "solver_objective": 74,
+    "pass": true
+  },
+  {
+    "seed": 1073,
+    "rows": 4,
+    "feasible_assignments": 65,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1074,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1075,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1076,
+    "rows": 4,
+    "feasible_assignments": 138,
+    "oracle_objective": 2,
+    "solver_status": "optimal",
+    "solver_objective": 2,
+    "pass": true
+  },
+  {
+    "seed": 1077,
+    "rows": 2,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1078,
+    "rows": 2,
+    "feasible_assignments": 3,
+    "oracle_objective": 3,
+    "solver_status": "optimal",
+    "solver_objective": 3,
+    "pass": true
+  },
+  {
+    "seed": 1079,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1080,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1081,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1082,
+    "rows": 3,
+    "feasible_assignments": 3,
+    "oracle_objective": 26,
+    "solver_status": "optimal",
+    "solver_objective": 26,
+    "pass": true
+  },
+  {
+    "seed": 1083,
+    "rows": 3,
+    "feasible_assignments": 1,
+    "oracle_objective": 6,
+    "solver_status": "optimal",
+    "solver_objective": 6,
+    "pass": true
+  },
+  {
+    "seed": 1084,
+    "rows": 2,
+    "feasible_assignments": 6,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1085,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1086,
+    "rows": 6,
+    "feasible_assignments": 189,
+    "oracle_objective": 31,
+    "solver_status": "optimal",
+    "solver_objective": 31,
+    "pass": true
+  },
+  {
+    "seed": 1087,
+    "rows": 3,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1088,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1089,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1090,
+    "rows": 5,
+    "feasible_assignments": 74,
+    "oracle_objective": 4,
+    "solver_status": "optimal",
+    "solver_objective": 4,
+    "pass": true
+  },
+  {
+    "seed": 1091,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1092,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1093,
+    "rows": 4,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1094,
+    "rows": 6,
+    "feasible_assignments": 24,
+    "oracle_objective": 39,
+    "solver_status": "optimal",
+    "solver_objective": 39,
+    "pass": true
+  },
+  {
+    "seed": 1095,
+    "rows": 3,
+    "feasible_assignments": 14,
+    "oracle_objective": 0,
+    "solver_status": "optimal",
+    "solver_objective": 0,
+    "pass": true
+  },
+  {
+    "seed": 1096,
+    "rows": 5,
+    "feasible_assignments": 12,
+    "oracle_objective": 20,
+    "solver_status": "optimal",
+    "solver_objective": 20,
+    "pass": true
+  },
+  {
+    "seed": 1097,
+    "rows": 6,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  },
+  {
+    "seed": 1098,
+    "rows": 3,
+    "feasible_assignments": 10,
+    "oracle_objective": 4,
+    "solver_status": "optimal",
+    "solver_objective": 4,
+    "pass": true
+  },
+  {
+    "seed": 1099,
+    "rows": 5,
+    "feasible_assignments": 0,
+    "oracle_objective": null,
+    "solver_status": "infeasible",
+    "solver_objective": null,
+    "pass": true
+  }
+]

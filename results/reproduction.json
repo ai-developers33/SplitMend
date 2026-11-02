@@ -1,0 +1,70 @@
+{
+  "completed_utc": "2026-11-02T16:19:59.494167+00:00",
+  "complete": true,
+  "independent_reproduction": false,
+  "description": "Full sequential rerun on the development host; all subprocesses succeeded.",
+  "counts": {
+    "main.json": 55,
+    "external.json": 40
+  },
+  "steps": [
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "seconds": 0.9167908349918434
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/download_data.py"
+      ],
+      "seconds": 0.19052899900998455
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/run_experiments.py"
+      ],
+      "seconds": 164.5737678000005
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/correctness.py"
+      ],
+      "seconds": 6.164948347999598
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/model_evaluation.py"
+      ],
+      "seconds": 9.738097373003257
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_baselines/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/external_baselines.py"
+      ],
+      "seconds": 62.70377082999039
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/summarize.py"
+      ],
+      "seconds": 1.310363001000951
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py"
+      ],
+      "seconds": 41.40222110200557
+    }
+  ]
+}

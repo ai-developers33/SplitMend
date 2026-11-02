@@ -1,0 +1,83 @@
+[
+  {
+    "dataset": "har",
+    "n": 1904,
+    "compressed": {
+      "status": "optimal",
+      "objective": 396,
+      "seconds": 0.02146045300469268,
+      "model": {
+        "rows": 1904,
+        "blocks": 72,
+        "variables": 234,
+        "constraints": 294
+      }
+    },
+    "expanded": {
+      "status": "optimal",
+      "objective": 396,
+      "seconds": 0.22280934199807234,
+      "model": {
+        "rows": 1904,
+        "blocks": 1904,
+        "variables": 5730,
+        "constraints": 7622
+      }
+    },
+    "equal_optimum": true
+  },
+  {
+    "dataset": "oulad",
+    "n": 1999,
+    "compressed": {
+      "status": "optimal",
+      "objective": 1008,
+      "seconds": 0.14929002401186153,
+      "model": {
+        "rows": 1999,
+        "blocks": 1951,
+        "variables": 8634,
+        "constraints": 9771
+      }
+    },
+    "expanded": {
+      "status": "optimal",
+      "objective": 1008,
+      "seconds": 0.1525351369928103,
+      "model": {
+        "rows": 1999,
+        "blocks": 1999,
+        "variables": 8778,
+        "constraints": 9969
+      }
+    },
+    "equal_optimum": true
+  },
+  {
+    "dataset": "beijing",
+    "n": 2000,
+    "compressed": {
+      "status": "optimal",
+      "objective": 10000,
+      "seconds": 0.018436086000292562,
+      "model": {
+        "rows": 2000,
+        "blocks": 33,
+        "variables": 132,
+        "constraints": 131
+      }
+    },
+    "expanded": {
+      "status": "optimal",
+      "objective": 10000,
+      "seconds": 0.06660074499086477,
+      "model": {
+        "rows": 2000,
+        "blocks": 2000,
+        "variables": 8000,
+        "constraints": 7000
+      }
+    },
+    "equal_optimum": true
+  }
+]

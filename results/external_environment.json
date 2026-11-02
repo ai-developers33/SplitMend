@@ -1,0 +1,8 @@
+{
+  "datasail": "1.4.0",
+  "dataset-splitter": "0.1.0",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "cvxpy": "1.7.5",
+  "pyscipopt": "6.3.0"
+}

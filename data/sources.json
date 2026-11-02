@@ -1,0 +1,32 @@
+{
+  "retrieved_utc": "2026-11-02T15:32:08.011996+00:00",
+  "sources": [
+    {
+      "dataset": "har",
+      "archive": "data/raw/har.zip",
+      "url": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+      "doi": "https://doi.org/10.24432/C54S4K",
+      "license": "CC-BY-4.0",
+      "bytes": 61005872,
+      "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031"
+    },
+    {
+      "dataset": "beijing",
+      "archive": "data/raw/beijing.zip",
+      "url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+      "doi": "https://doi.org/10.24432/C5RK5G",
+      "license": "CC-BY-4.0",
+      "bytes": 8192212,
+      "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+    },
+    {
+      "dataset": "oulad",
+      "archive": "data/raw/oulad.zip",
+      "url": "https://ndownloader.figshare.com/files/8606371",
+      "doi": "https://doi.org/10.6084/m9.figshare.5081998.v1",
+      "license": "CC-BY-4.0",
+      "bytes": 46750706,
+      "sha256": "90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec"
+    }
+  ]
+}

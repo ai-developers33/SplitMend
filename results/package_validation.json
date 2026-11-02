@@ -1,0 +1,17 @@
+{
+  "source_tests_passed": 49,
+  "installed_wheel_tests_passed": 49,
+  "installed_wheel_test_directory": "outside_source_checkout",
+  "wheel_environment": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1"
+  },
+  "twine_check": "passed for wheel and source distribution",
+  "independent_host_reproduction": false,
+  "distribution_sha256": {
+    "splitmend-0.1.0-py3-none-any.whl": "40a85d0bb5499a5803e00184804d5ec2174daa4c8086508e4ea25d78fa2d79fe",
+    "splitmend-0.1.0.tar.gz": "45a2b98b9ee7357d1081d1e4d688e01e7e5b994215bf9a2507bebec997a42312"
+  },
+  "ruff_check": "passed"
+}

@@ -1,0 +1,13 @@
+Dear SoftwareX Editors,
+
+Please consider the manuscript "SplitMend for constraint aware repair of machine learning dataset splits in Python" as an Original Software Publication.
+
+SplitMend is an installable Python library for revising existing dataset assignments under explicit group, lock, temporal, size and class requirements. Its software contribution joins a weighted repair objective, exact aggregation, independent output verification and qualified conflict explanations. The manuscript describes the API, failure handling and an executable example.
+
+Evaluation uses three cited public datasets, five workflow configurations per dataset, established split constructors, simple repair heuristics, exhaustive small-instance checks and downstream classification pipelines. The paper reports both improved assignment preservation and cases where simpler methods achieve the same optimum. The accompanying reproducibility materials include original source archives, attribution, hashes, derived policies, raw assignments, pinned environments and one-command experiments.
+
+The manuscript includes funding and AI-assistance disclosures. Permanent public software and archive identifiers will be inserted before submission. The author will complete the authorship, contribution, competing-interest and submission attestations after reviewing the work.
+
+Sincerely,
+Ravi Shanker Thadishetti
+thadishetti.ravishanker@gmail.com

@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "har",
+    "seed": 0,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "har",
+    "seed": 1,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "har",
+    "seed": 2,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "har",
+    "seed": 3,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "har",
+    "seed": 4,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "seed": 0,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "seed": 1,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "seed": 2,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "seed": 3,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "seed": 4,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "seed": 0,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "seed": 1,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "seed": 2,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "seed": 3,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "seed": 4,
+    "test": "clean_fixed_point",
+    "status": "optimal",
+    "objective": 0,
+    "pass": true
+  }
+]

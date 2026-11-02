@@ -1,0 +1,76 @@
+[
+  {
+    "dataset": "har",
+    "control": "deliberately_conflicting_lock",
+    "status": "infeasible",
+    "conflict": {
+      "kind": "direct_witness",
+      "complete": true,
+      "constraints": [
+        {
+          "kind": "group",
+          "group": "har:person:1"
+        },
+        {
+          "kind": "lock",
+          "sample": "train:1",
+          "partition": "validation"
+        },
+        {
+          "kind": "lock",
+          "sample": "train:2",
+          "partition": "train"
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "dataset": "oulad",
+    "control": "deliberately_conflicting_lock",
+    "status": "infeasible",
+    "conflict": {
+      "kind": "direct_witness",
+      "complete": true,
+      "constraints": [
+        {
+          "kind": "group",
+          "group": "oulad:person:129955"
+        },
+        {
+          "kind": "lock",
+          "sample": "AAA:2013J:129955",
+          "partition": "train"
+        },
+        {
+          "kind": "lock",
+          "sample": "AAA:2014J:129955",
+          "partition": "validation"
+        }
+      ]
+    },
+    "pass": true
+  },
+  {
+    "dataset": "beijing",
+    "control": "deliberately_conflicting_lock",
+    "status": "infeasible",
+    "conflict": {
+      "kind": "direct_witness",
+      "complete": true,
+      "constraints": [
+        {
+          "kind": "lock",
+          "sample": "Aotizhongxin:21014",
+          "partition": "train"
+        },
+        {
+          "kind": "eligibility",
+          "sample": "Aotizhongxin:21014",
+          "allowed": []
+        }
+      ]
+    },
+    "pass": true
+  }
+]
