@@ -5,7 +5,7 @@
     "compressed": {
       "status": "optimal",
       "objective": 396,
-      "seconds": 0.02146045300469268,
+      "seconds": 0.02021905100264121,
       "model": {
         "rows": 1904,
         "blocks": 72,
@@ -16,7 +16,7 @@
     "expanded": {
       "status": "optimal",
       "objective": 396,
-      "seconds": 0.22280934199807234,
+      "seconds": 0.2191426370118279,
       "model": {
         "rows": 1904,
         "blocks": 1904,
@@ -32,7 +32,7 @@
     "compressed": {
       "status": "optimal",
       "objective": 1008,
-      "seconds": 0.14929002401186153,
+      "seconds": 0.14690291600709315,
       "model": {
         "rows": 1999,
         "blocks": 1951,
@@ -43,7 +43,7 @@
     "expanded": {
       "status": "optimal",
       "objective": 1008,
-      "seconds": 0.1525351369928103,
+      "seconds": 0.154438637997373,
       "model": {
         "rows": 1999,
         "blocks": 1999,
@@ -59,7 +59,7 @@
     "compressed": {
       "status": "optimal",
       "objective": 10000,
-      "seconds": 0.018436086000292562,
+      "seconds": 0.027109076007036492,
       "model": {
         "rows": 2000,
         "blocks": 33,
@@ -70,7 +70,7 @@
     "expanded": {
       "status": "optimal",
       "objective": 10000,
-      "seconds": 0.06660074499086477,
+      "seconds": 0.09849326599214692,
       "model": {
         "rows": 2000,
         "blocks": 2000,

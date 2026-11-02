@@ -8,10 +8,10 @@
     "changed": 2707,
     "quarantined": 0,
     "objective": 2707,
-    "seconds": 0.027960824998444878,
+    "seconds": 0.01765168600832112,
     "error": null,
-    "audit_seconds": 0.013436431996524334,
-    "verified_seconds": 0.04139725699496921,
+    "audit_seconds": 0.013870609996956773,
+    "verified_seconds": 0.031522296005277894,
     "violations": {
       "size": 2
     }
@@ -25,10 +25,10 @@
     "changed": 2386,
     "quarantined": 0,
     "objective": 2386,
-    "seconds": 0.015307595007470809,
+    "seconds": 0.012061019995599054,
     "error": null,
-    "audit_seconds": 0.012883258008514531,
-    "verified_seconds": 0.02819085301598534,
+    "audit_seconds": 0.013495855004293844,
+    "verified_seconds": 0.025556874999892898,
     "violations": {}
   },
   {
@@ -40,10 +40,10 @@
     "changed": 2475,
     "quarantined": 0,
     "objective": 2475,
-    "seconds": 0.011049961001845077,
+    "seconds": 0.01745232500252314,
     "error": null,
-    "audit_seconds": 0.012313218001509085,
-    "verified_seconds": 0.023363179003354162,
+    "audit_seconds": 0.014507490996038541,
+    "verified_seconds": 0.03195981599856168,
     "violations": {}
   },
   {
@@ -55,10 +55,10 @@
     "changed": 2380,
     "quarantined": 0,
     "objective": 2380,
-    "seconds": 0.015529708995018154,
+    "seconds": 0.012207880994537845,
     "error": null,
-    "audit_seconds": 0.013070219996734522,
-    "verified_seconds": 0.028599928991752677,
+    "audit_seconds": 0.01460843300446868,
+    "verified_seconds": 0.026816313999006525,
     "violations": {}
   },
   {
@@ -70,10 +70,10 @@
     "changed": 2729,
     "quarantined": 0,
     "objective": 2729,
-    "seconds": 0.011776347004342824,
+    "seconds": 0.013652680994709954,
     "error": null,
-    "audit_seconds": 0.012748744004056789,
-    "verified_seconds": 0.024525091008399613,
+    "audit_seconds": 0.015088978005223908,
+    "verified_seconds": 0.02874165899993386,
     "violations": {
       "size": 2
     }
@@ -87,10 +87,10 @@
     "changed": 2424,
     "quarantined": 0,
     "objective": 2424,
-    "seconds": 0.011583184998016804,
+    "seconds": 0.011899805991561152,
     "error": null,
-    "audit_seconds": 0.013940061995526776,
-    "verified_seconds": 0.02552324699354358,
+    "audit_seconds": 0.014366909003001638,
+    "verified_seconds": 0.02626671499456279,
     "violations": {}
   },
   {
@@ -102,10 +102,10 @@
     "changed": 2501,
     "quarantined": 0,
     "objective": 2501,
-    "seconds": 0.01075826100714039,
+    "seconds": 0.012351316996500827,
     "error": null,
-    "audit_seconds": 0.017140976997325197,
-    "verified_seconds": 0.027899238004465587,
+    "audit_seconds": 0.014733361997059546,
+    "verified_seconds": 0.027084678993560374,
     "violations": {}
   },
   {
@@ -117,10 +117,10 @@
     "changed": 2503,
     "quarantined": 0,
     "objective": 2503,
-    "seconds": 0.011095794994616881,
+    "seconds": 0.012016151988063939,
     "error": null,
-    "audit_seconds": 0.013536647005821578,
-    "verified_seconds": 0.02463244200043846,
+    "audit_seconds": 0.014041989008546807,
+    "verified_seconds": 0.026058140996610746,
     "violations": {}
   },
   {
@@ -132,10 +132,10 @@
     "changed": 2699,
     "quarantined": 0,
     "objective": 2699,
-    "seconds": 0.012452000009943731,
+    "seconds": 0.013194440005463548,
     "error": null,
-    "audit_seconds": 0.014018695001141168,
-    "verified_seconds": 0.0264706950110849,
+    "audit_seconds": 0.03483093300019391,
+    "verified_seconds": 0.04802537300565746,
     "violations": {
       "size": 2
     }
@@ -149,10 +149,10 @@
     "changed": 2436,
     "quarantined": 0,
     "objective": 2436,
-    "seconds": 0.01354119299503509,
+    "seconds": 0.01879600300162565,
     "error": null,
-    "audit_seconds": 0.014166747001581825,
-    "verified_seconds": 0.027707939996616915,
+    "audit_seconds": 0.023811170001863502,
+    "verified_seconds": 0.04260717300348915,
     "violations": {}
   },
   {
@@ -164,10 +164,10 @@
     "changed": 2479,
     "quarantined": 0,
     "objective": 2479,
-    "seconds": 0.015454109001439065,
+    "seconds": 0.01548259200353641,
     "error": null,
-    "audit_seconds": 0.025117001991020516,
-    "verified_seconds": 0.04057111099245958,
+    "audit_seconds": 0.021462455988512374,
+    "verified_seconds": 0.036945047992048785,
     "violations": {}
   },
   {
@@ -179,10 +179,10 @@
     "changed": 2402,
     "quarantined": 0,
     "objective": 2402,
-    "seconds": 0.06202926499827299,
+    "seconds": 0.08398249599849805,
     "error": null,
-    "audit_seconds": 0.01591458299662918,
-    "verified_seconds": 0.07794384799490217,
+    "audit_seconds": 0.020874648995231837,
+    "verified_seconds": 0.10485714499372989,
     "violations": {}
   },
   {
@@ -194,10 +194,10 @@
     "changed": 2701,
     "quarantined": 0,
     "objective": 2701,
-    "seconds": 0.012079049003659748,
+    "seconds": 0.015096629998879507,
     "error": null,
-    "audit_seconds": 0.016472014001919888,
-    "verified_seconds": 0.028551063005579636,
+    "audit_seconds": 0.019599865991040133,
+    "verified_seconds": 0.03469649598991964,
     "violations": {
       "size": 2
     }
@@ -211,10 +211,10 @@
     "changed": 2422,
     "quarantined": 0,
     "objective": 2422,
-    "seconds": 0.015880300998105668,
+    "seconds": 0.015354810006101616,
     "error": null,
-    "audit_seconds": 0.022846396997920237,
-    "verified_seconds": 0.038726697996025905,
+    "audit_seconds": 0.01936284800467547,
+    "verified_seconds": 0.034717658010777086,
     "violations": {}
   },
   {
@@ -226,10 +226,10 @@
     "changed": 2479,
     "quarantined": 0,
     "objective": 2479,
-    "seconds": 0.01524548498855438,
+    "seconds": 0.02283263400022406,
     "error": null,
-    "audit_seconds": 0.021649362010066397,
-    "verified_seconds": 0.03689484699862078,
+    "audit_seconds": 0.01840253800037317,
+    "verified_seconds": 0.04123517200059723,
     "violations": {}
   },
   {
@@ -241,10 +241,10 @@
     "changed": 2435,
     "quarantined": 0,
     "objective": 2435,
-    "seconds": 0.015178974004811607,
+    "seconds": 0.018409159005386755,
     "error": null,
-    "audit_seconds": 0.020608783001080155,
-    "verified_seconds": 0.03578775700589176,
+    "audit_seconds": 0.023076170997228473,
+    "verified_seconds": 0.04148533000261523,
     "violations": {}
   },
   {
@@ -256,10 +256,10 @@
     "changed": 2719,
     "quarantined": 0,
     "objective": 2719,
-    "seconds": 0.012094332007109188,
+    "seconds": 0.014937389991246164,
     "error": null,
-    "audit_seconds": 0.01499816999421455,
-    "verified_seconds": 0.027092502001323737,
+    "audit_seconds": 0.018636512002558447,
+    "verified_seconds": 0.03357390199380461,
     "violations": {
       "size": 2
     }
@@ -273,10 +273,10 @@
     "changed": 2412,
     "quarantined": 0,
     "objective": 2412,
-    "seconds": 0.0139621080015786,
+    "seconds": 0.014390465003089048,
     "error": null,
-    "audit_seconds": 0.020499288002611138,
-    "verified_seconds": 0.03446139600418974,
+    "audit_seconds": 0.017024300002958626,
+    "verified_seconds": 0.031414765006047674,
     "violations": {}
   },
   {
@@ -288,10 +288,10 @@
     "changed": 2477,
     "quarantined": 0,
     "objective": 2477,
-    "seconds": 0.014289622995420359,
+    "seconds": 0.014397103994269855,
     "error": null,
-    "audit_seconds": 0.016648319011437707,
-    "verified_seconds": 0.030937942006858066,
+    "audit_seconds": 0.023462673998437822,
+    "verified_seconds": 0.03785977799270768,
     "violations": {}
   },
   {
@@ -303,10 +303,10 @@
     "changed": 2278,
     "quarantined": 0,
     "objective": 2278,
-    "seconds": 0.01099566399352625,
+    "seconds": 0.013642695994349197,
     "error": null,
-    "audit_seconds": 0.015553398989140987,
-    "verified_seconds": 0.026549062982667238,
+    "audit_seconds": 0.01944737500161864,
+    "verified_seconds": 0.033090070995967835,
     "violations": {}
   },
   {
@@ -318,10 +318,10 @@
     "changed": 11557,
     "quarantined": 0,
     "objective": 11557,
-    "seconds": 3.2867814589990303,
+    "seconds": 3.6764344760013046,
     "error": null,
-    "audit_seconds": 0.09542218000569846,
-    "verified_seconds": 3.3822036390047288,
+    "audit_seconds": 0.09689009400608484,
+    "verified_seconds": 3.7733245700073894,
     "violations": {
       "size": 2,
       "label": 4
@@ -336,10 +336,10 @@
     "changed": 10830,
     "quarantined": 0,
     "objective": 10830,
-    "seconds": 3.261966834004852,
+    "seconds": 3.9060473480058135,
     "error": null,
-    "audit_seconds": 0.10024625599908177,
-    "verified_seconds": 3.3622130900039338,
+    "audit_seconds": 0.14857303199823946,
+    "verified_seconds": 4.054620380004053,
     "violations": {}
   },
   {
@@ -351,10 +351,10 @@
     "changed": 10846,
     "quarantined": 0,
     "objective": 10846,
-    "seconds": 3.3828439639910357,
+    "seconds": 3.743163844002993,
     "error": null,
-    "audit_seconds": 0.23803257899999153,
-    "verified_seconds": 3.6208765429910272,
+    "audit_seconds": 0.224850697995862,
+    "verified_seconds": 3.968014541998855,
     "violations": {}
   },
   {
@@ -366,10 +366,10 @@
     "changed": 10798,
     "quarantined": 0,
     "objective": 10798,
-    "seconds": 0.08902459200180601,
+    "seconds": 0.07471344899386168,
     "error": null,
-    "audit_seconds": 0.22915600500709843,
-    "verified_seconds": 0.31818059700890444,
+    "audit_seconds": 0.22498030900896993,
+    "verified_seconds": 0.2996937580028316,
     "violations": {}
   },
   {
@@ -381,10 +381,10 @@
     "changed": 11623,
     "quarantined": 0,
     "objective": 11623,
-    "seconds": 3.2610333360062214,
+    "seconds": 3.4570082359859953,
     "error": null,
-    "audit_seconds": 0.10362291200726759,
-    "verified_seconds": 3.364656248013489,
+    "audit_seconds": 0.13457433400617447,
+    "verified_seconds": 3.5915825699921697,
     "violations": {
       "size": 2,
       "label": 4
@@ -399,10 +399,10 @@
     "changed": 10963,
     "quarantined": 0,
     "objective": 10963,
-    "seconds": 3.4585174829990137,
+    "seconds": 3.5133148250024533,
     "error": null,
-    "audit_seconds": 0.10730404600326438,
-    "verified_seconds": 3.565821529002278,
+    "audit_seconds": 0.14095826199627481,
+    "verified_seconds": 3.654273086998728,
     "violations": {
       "size": 1
     }
@@ -416,10 +416,10 @@
     "changed": 10959,
     "quarantined": 0,
     "objective": 10959,
-    "seconds": 3.462103076992207,
+    "seconds": 3.8399005659885006,
     "error": null,
-    "audit_seconds": 0.1155326579901157,
-    "verified_seconds": 3.577635734982323,
+    "audit_seconds": 0.11500185501063243,
+    "verified_seconds": 3.954902420999133,
     "violations": {}
   },
   {
@@ -431,10 +431,10 @@
     "changed": 10703,
     "quarantined": 0,
     "objective": 10703,
-    "seconds": 0.060442164991400205,
+    "seconds": 0.09883443100261502,
     "error": null,
-    "audit_seconds": 0.21811154400347732,
-    "verified_seconds": 0.2785537089948775,
+    "audit_seconds": 0.35644929099362344,
+    "verified_seconds": 0.45528372199623846,
     "violations": {}
   },
   {
@@ -446,10 +446,10 @@
     "changed": 11675,
     "quarantined": 0,
     "objective": 11675,
-    "seconds": 3.3766012209962355,
+    "seconds": 3.567487488995539,
     "error": null,
-    "audit_seconds": 0.25932699599070475,
-    "verified_seconds": 3.6359282169869402,
+    "audit_seconds": 0.23696519400982652,
+    "verified_seconds": 3.8044526830053655,
     "violations": {
       "size": 2,
       "label": 4
@@ -464,10 +464,10 @@
     "changed": 10783,
     "quarantined": 0,
     "objective": 10783,
-    "seconds": 3.6218656720011495,
+    "seconds": 3.4972706609987654,
     "error": null,
-    "audit_seconds": 0.1414261119934963,
-    "verified_seconds": 3.763291783994646,
+    "audit_seconds": 0.1688305110001238,
+    "verified_seconds": 3.666101171998889,
     "violations": {
       "size": 1
     }
@@ -481,10 +481,10 @@
     "changed": 10765,
     "quarantined": 0,
     "objective": 10765,
-    "seconds": 3.4018900789960753,
+    "seconds": 3.6147234620002564,
     "error": null,
-    "audit_seconds": 0.1321850340027595,
-    "verified_seconds": 3.534075112998835,
+    "audit_seconds": 0.13835442399431486,
+    "verified_seconds": 3.7530778859945713,
     "violations": {}
   },
   {
@@ -496,10 +496,10 @@
     "changed": 10838,
     "quarantined": 0,
     "objective": 10838,
-    "seconds": 0.07164861800265498,
+    "seconds": 0.07927067100536078,
     "error": null,
-    "audit_seconds": 0.2589868790091714,
-    "verified_seconds": 0.3306354970118264,
+    "audit_seconds": 0.3215479159989627,
+    "verified_seconds": 0.4008185870043235,
     "violations": {}
   },
   {
@@ -511,10 +511,10 @@
     "changed": 11609,
     "quarantined": 0,
     "objective": 11609,
-    "seconds": 3.159013263997622,
+    "seconds": 3.4166811870090896,
     "error": null,
-    "audit_seconds": 0.2616061489970889,
-    "verified_seconds": 3.4206194129947107,
+    "audit_seconds": 0.3089216140069766,
+    "verified_seconds": 3.7256028010160662,
     "violations": {
       "size": 2,
       "label": 4
@@ -529,10 +529,10 @@
     "changed": 10989,
     "quarantined": 0,
     "objective": 10989,
-    "seconds": 3.245519759992021,
+    "seconds": 3.466628366004443,
     "error": null,
-    "audit_seconds": 0.12834472900431138,
-    "verified_seconds": 3.3738644889963325,
+    "audit_seconds": 0.125533707003342,
+    "verified_seconds": 3.592162073007785,
     "violations": {
       "size": 1
     }
@@ -546,10 +546,10 @@
     "changed": 10973,
     "quarantined": 0,
     "objective": 10973,
-    "seconds": 3.3332269940001424,
+    "seconds": 3.7242861470003845,
     "error": null,
-    "audit_seconds": 0.12090589699801058,
-    "verified_seconds": 3.454132890998153,
+    "audit_seconds": 0.1395835010043811,
+    "verified_seconds": 3.8638696480047656,
     "violations": {}
   },
   {
@@ -561,10 +561,10 @@
     "changed": 10663,
     "quarantined": 0,
     "objective": 10663,
-    "seconds": 0.07373825099784881,
+    "seconds": 0.1424449860060122,
     "error": null,
-    "audit_seconds": 0.24113742599729449,
-    "verified_seconds": 0.3148756769951433,
+    "audit_seconds": 0.34764372601057403,
+    "verified_seconds": 0.4900887120165862,
     "violations": {}
   },
   {
@@ -576,10 +576,10 @@
     "changed": 11498,
     "quarantined": 0,
     "objective": 11498,
-    "seconds": 3.2486829000117723,
+    "seconds": 4.028371834006975,
     "error": null,
-    "audit_seconds": 0.3080367110087536,
-    "verified_seconds": 3.556719611020526,
+    "audit_seconds": 0.3837962219986366,
+    "verified_seconds": 4.412168056005612,
     "violations": {
       "size": 2,
       "label": 4
@@ -594,10 +594,10 @@
     "changed": 11006,
     "quarantined": 0,
     "objective": 11006,
-    "seconds": 3.7182502259965986,
+    "seconds": 3.7812912439985666,
     "error": null,
-    "audit_seconds": 0.19616752699948847,
-    "verified_seconds": 3.914417752996087,
+    "audit_seconds": 0.17770546999236103,
+    "verified_seconds": 3.9589967139909277,
     "violations": {
       "size": 1
     }
@@ -611,10 +611,10 @@
     "changed": 11003,
     "quarantined": 0,
     "objective": 11003,
-    "seconds": 3.702716326995869,
+    "seconds": 3.868962067004759,
     "error": null,
-    "audit_seconds": 0.14301160999457352,
-    "verified_seconds": 3.8457279369904427,
+    "audit_seconds": 0.1678834670019569,
+    "verified_seconds": 4.036845534006716,
     "violations": {}
   },
   {
@@ -626,10 +626,10 @@
     "changed": 10802,
     "quarantined": 0,
     "objective": 10802,
-    "seconds": 0.09254282200708985,
+    "seconds": 0.11196630500489846,
     "error": null,
-    "audit_seconds": 0.3388373529887758,
-    "verified_seconds": 0.4313801749958657,
+    "audit_seconds": 0.31608187299571,
+    "verified_seconds": 0.42804817800060846,
     "violations": {}
   }
 ]

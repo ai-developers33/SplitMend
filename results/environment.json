@@ -6,6 +6,6 @@
     "scipy": "1.18.1",
     "pandas": "2.3.3",
     "scikit-learn": "1.9.1",
-    "splitmend": "0.1.0"
+    "splitmend": "0.1.1"
   }
 }

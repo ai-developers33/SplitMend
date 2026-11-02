@@ -107,10 +107,15 @@ def main():
                 label=method.replace("_", " ") if i == 0 else None,
             )
         group = comparison[comparison.tolerance == tolerance]
-        axes[1].scatter([i] * len(group), group.extra_changes_greedy, color="#234e35", s=25)
+        axes[1].scatter(
+            i + (group.seed - 2) * 0.045,
+            group.extra_changes_greedy,
+            color="#234e35",
+            s=25,
+        )
     axes[0].set_ylabel("Changed encounter assignments")
     axes[0].legend(fontsize=8)
-    axes[1].set_ylabel("Extra changes: cost-aware greedy − SplitMend")
+    axes[1].set_ylabel("Extra assignment changes\n(cost-aware greedy − SplitMend)", fontsize=9)
     axes[1].axhline(0, color="gray", linewidth=0.8)
     for ax in axes:
         ax.set_xticks(range(3), labels)

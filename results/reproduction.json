@@ -1,11 +1,13 @@
 {
-  "completed_utc": "2026-11-02T16:19:59.494167+00:00",
+  "completed_utc": "2026-11-02T17:51:21.427566+00:00",
   "complete": true,
   "independent_reproduction": false,
   "description": "Full sequential rerun on the development host; all subprocesses succeeded.",
   "counts": {
     "main.json": 55,
-    "external.json": 40
+    "external.json": 40,
+    "strong_baseline_followup.json": 10,
+    "clinical/runs.json": 75
   },
   "steps": [
     {
@@ -15,56 +17,84 @@
         "pytest",
         "-q"
       ],
-      "seconds": 0.9167908349918434
+      "seconds": 0.8965115570026683
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/download_data.py"
       ],
-      "seconds": 0.19052899900998455
+      "seconds": 0.1056794140022248
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/run_experiments.py"
       ],
-      "seconds": 164.5737678000005
+      "seconds": 179.67307945199718
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/correctness.py"
       ],
-      "seconds": 6.164948347999598
+      "seconds": 7.380648014994222
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/model_evaluation.py"
       ],
-      "seconds": 9.738097373003257
+      "seconds": 10.982733087992528
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_baselines/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/external_baselines.py"
       ],
-      "seconds": 62.70377082999039
+      "seconds": 68.38185125500604
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/strong_baseline_followup.py"
+      ],
+      "seconds": 7.706952894004644
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/clinical_experiments.py"
+      ],
+      "seconds": 351.24131067600683
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/clinical_summary.py"
+      ],
+      "seconds": 1.105631826998433
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/summarize.py"
       ],
-      "seconds": 1.310363001000951
+      "seconds": 1.1417261919996236
     },
     {
       "command": [
         "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
         "/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py"
       ],
-      "seconds": 41.40222110200557
+      "seconds": 44.86639910200029
+    },
+    {
+      "command": [
+        "/workspace/scratch/6aa040e667a4/splitmend_env/bin/python",
+        "/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_clinical.py"
+      ],
+      "seconds": 104.36258580400317
     }
   ]
 }

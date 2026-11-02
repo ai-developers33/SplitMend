@@ -1,0 +1,2514 @@
+[
+  {
+    "case": "diabetes_0_tol010",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.01,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": false,
+    "changed": 7555,
+    "objective": 7555,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.3581107880017953,
+    "audit_seconds": 0.5005816260090796,
+    "verified_seconds": 0.8586924140108749
+  },
+  {
+    "case": "diabetes_0_tol010",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.01,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": false,
+    "changed": 30575,
+    "objective": 30575,
+    "quarantined": 0,
+    "violations": {
+      "label": 16
+    },
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.6301525140006561,
+    "audit_seconds": 0.6046368079987587,
+    "verified_seconds": 1.2347893219994148
+  },
+  {
+    "case": "diabetes_0_tol010",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.01,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 10735,
+    "objective": 10735,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 1.4407868530106498,
+    "audit_seconds": 0.6016238809970673,
+    "verified_seconds": 2.042410734007717,
+    "search_seconds": 0.5512161850056145,
+    "preprocessing_seconds": 0.8676291549927555,
+    "greedy_steps": 1398,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol010",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.01,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7568,
+    "objective": 7568,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 2.176224884999101,
+    "audit_seconds": 0.5331862269958947,
+    "verified_seconds": 2.7094111119949957,
+    "search_seconds": 1.112260468013119,
+    "preprocessing_seconds": 1.0466189260041574,
+    "greedy_steps": 2705,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol010",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.01,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7567,
+    "objective": 7567,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 7.25134525798785,
+    "audit_seconds": 0.5372045239928411,
+    "verified_seconds": 7.7885497819806915,
+    "status": "optimal",
+    "lower_bound": 7567.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36608,
+      "variables": 160143,
+      "constraints": 220246
+    }
+  },
+  {
+    "case": "diabetes_0_tol025",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.025,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": false,
+    "changed": 7555,
+    "objective": 7555,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.3465774099895498,
+    "audit_seconds": 0.5556719930027612,
+    "verified_seconds": 0.9022494029923109
+  },
+  {
+    "case": "diabetes_0_tol025",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.025,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": false,
+    "changed": 30575,
+    "objective": 30575,
+    "quarantined": 0,
+    "violations": {
+      "label": 4
+    },
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.7893698209954891,
+    "audit_seconds": 0.5777371729927836,
+    "verified_seconds": 1.3671069939882727
+  },
+  {
+    "case": "diabetes_0_tol025",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.025,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 9741,
+    "objective": 9741,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 1.3741358240076806,
+    "audit_seconds": 0.6467984350019833,
+    "verified_seconds": 2.020934259009664,
+    "search_seconds": 0.330128653004067,
+    "preprocessing_seconds": 1.0194472380098887,
+    "greedy_steps": 698,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol025",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.025,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7558,
+    "objective": 7558,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 1.5738518330035731,
+    "audit_seconds": 0.722524376004003,
+    "verified_seconds": 2.296376209007576,
+    "search_seconds": 0.7535310100065544,
+    "preprocessing_seconds": 0.8036512529943138,
+    "greedy_steps": 2105,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol025",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.025,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7558,
+    "objective": 7558,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 7.122667212010128,
+    "audit_seconds": 0.9112984509993112,
+    "verified_seconds": 8.03396566300944,
+    "status": "optimal",
+    "lower_bound": 7558.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36608,
+      "variables": 160143,
+      "constraints": 220246
+    }
+  },
+  {
+    "case": "diabetes_0_tol050",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.05,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": false,
+    "changed": 7555,
+    "objective": 7555,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 32
+    },
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.36446425299800467,
+    "audit_seconds": 0.5665114220028045,
+    "verified_seconds": 0.9309756750008091
+  },
+  {
+    "case": "diabetes_0_tol050",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.05,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 30575,
+    "objective": 30575,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 0.7649436009960482,
+    "audit_seconds": 0.8195399859978352,
+    "verified_seconds": 1.5844835869938834
+  },
+  {
+    "case": "diabetes_0_tol050",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.05,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 9032,
+    "objective": 9032,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 1.2630841829959536,
+    "audit_seconds": 0.6418556770076975,
+    "verified_seconds": 1.9049398600036511,
+    "search_seconds": 0.2229820079955971,
+    "preprocessing_seconds": 1.0217239460034762,
+    "greedy_steps": 318,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol050",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.05,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7555,
+    "objective": 7555,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 1.5590640430018539,
+    "audit_seconds": 0.6458668779960135,
+    "verified_seconds": 2.2049309209978674,
+    "search_seconds": 0.5016024590004236,
+    "preprocessing_seconds": 1.0405459410103504,
+    "greedy_steps": 1275,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1472,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_0_tol050",
+    "dataset": "diabetes",
+    "seed": 0,
+    "tolerance": 0.05,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20484,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20318,
+      "test": 20484,
+      "train": 60964
+    },
+    "valid": true,
+    "changed": 7555,
+    "objective": 7555,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6400
+    },
+    "seconds": 7.656195114002912,
+    "audit_seconds": 0.5689001150021795,
+    "verified_seconds": 8.225095229005092,
+    "status": "optimal",
+    "lower_bound": 7555.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36608,
+      "variables": 160143,
+      "constraints": 220246
+    }
+  },
+  {
+    "case": "diabetes_1_tol010",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.01,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": false,
+    "changed": 7556,
+    "objective": 7556,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.4261470360070234,
+    "audit_seconds": 0.5557300380023662,
+    "verified_seconds": 0.9818770740093896
+  },
+  {
+    "case": "diabetes_1_tol010",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.01,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": false,
+    "changed": 30477,
+    "objective": 30477,
+    "quarantined": 0,
+    "violations": {
+      "label": 18
+    },
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.8131894199905219,
+    "audit_seconds": 0.6262112059921492,
+    "verified_seconds": 1.439400625982671
+  },
+  {
+    "case": "diabetes_1_tol010",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.01,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 10855,
+    "objective": 10855,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 1.715415077007492,
+    "audit_seconds": 0.6478324249910656,
+    "verified_seconds": 2.3632475019985577,
+    "search_seconds": 0.588592300991877,
+    "preprocessing_seconds": 1.1023238279885845,
+    "greedy_steps": 1410,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol010",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.01,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7573,
+    "objective": 7573,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 2.226650256998255,
+    "audit_seconds": 0.6758870460034814,
+    "verified_seconds": 2.9025373030017363,
+    "search_seconds": 1.0785402699984843,
+    "preprocessing_seconds": 1.1238129400007892,
+    "greedy_steps": 2766,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol010",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.01,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7573,
+    "objective": 7573,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 8.12635713700729,
+    "audit_seconds": 0.7049272360018222,
+    "verified_seconds": 8.831284373009112,
+    "status": "optimal",
+    "lower_bound": 7573.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36578,
+      "variables": 160053,
+      "constraints": 220069
+    }
+  },
+  {
+    "case": "diabetes_1_tol025",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.025,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": false,
+    "changed": 7556,
+    "objective": 7556,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 46
+    },
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.36636076399008743,
+    "audit_seconds": 0.625181719995453,
+    "verified_seconds": 0.9915424839855405
+  },
+  {
+    "case": "diabetes_1_tol025",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.025,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": false,
+    "changed": 30477,
+    "objective": 30477,
+    "quarantined": 0,
+    "violations": {
+      "label": 4
+    },
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.7440464520041132,
+    "audit_seconds": 0.7619942589954007,
+    "verified_seconds": 1.506040710999514
+  },
+  {
+    "case": "diabetes_1_tol025",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.025,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 9792,
+    "objective": 9792,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 1.4986065520060947,
+    "audit_seconds": 0.7703167169966036,
+    "verified_seconds": 2.2689232690026984,
+    "search_seconds": 0.3860399029945256,
+    "preprocessing_seconds": 1.0934724079997977,
+    "greedy_steps": 714,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol025",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.025,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7569,
+    "objective": 7569,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 1.899167559997295,
+    "audit_seconds": 0.6917889229953289,
+    "verified_seconds": 2.590956482992624,
+    "search_seconds": 0.7836855950008612,
+    "preprocessing_seconds": 1.09635937299754,
+    "greedy_steps": 2181,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol025",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.025,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7569,
+    "objective": 7569,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 8.490239795995876,
+    "audit_seconds": 0.7316021219885442,
+    "verified_seconds": 9.22184191798442,
+    "status": "optimal",
+    "lower_bound": 7569.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36578,
+      "variables": 160053,
+      "constraints": 220069
+    }
+  },
+  {
+    "case": "diabetes_1_tol050",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.05,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": false,
+    "changed": 7556,
+    "objective": 7556,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 32
+    },
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.4496874629985541,
+    "audit_seconds": 0.9147453139885329,
+    "verified_seconds": 1.364432776987087
+  },
+  {
+    "case": "diabetes_1_tol050",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.05,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 30477,
+    "objective": 30477,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 0.8505913400003919,
+    "audit_seconds": 0.831286986998748,
+    "verified_seconds": 1.68187832699914
+  },
+  {
+    "case": "diabetes_1_tol050",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.05,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 9068,
+    "objective": 9068,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 1.1939293869945686,
+    "audit_seconds": 0.6830425429943716,
+    "verified_seconds": 1.8769719299889402,
+    "search_seconds": 0.21490794800047297,
+    "preprocessing_seconds": 0.9620616069878452,
+    "greedy_steps": 329,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol050",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.05,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7561,
+    "objective": 7561,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 1.7949681610043626,
+    "audit_seconds": 0.8362086359993555,
+    "verified_seconds": 2.631176797003718,
+    "search_seconds": 0.6442216879950138,
+    "preprocessing_seconds": 1.1193425399978878,
+    "greedy_steps": 1319,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1485,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_1_tol050",
+    "dataset": "diabetes",
+    "seed": 1,
+    "tolerance": 0.05,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20536,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20310,
+      "test": 20536,
+      "train": 60920
+    },
+    "valid": true,
+    "changed": 7561,
+    "objective": 7561,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6421
+    },
+    "seconds": 8.170903726000688,
+    "audit_seconds": 0.9293102439987706,
+    "verified_seconds": 9.100213969999459,
+    "status": "optimal",
+    "lower_bound": 7561.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36578,
+      "variables": 160053,
+      "constraints": 220069
+    }
+  },
+  {
+    "case": "diabetes_2_tol010",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.01,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": false,
+    "changed": 7584,
+    "objective": 7584,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.311284750001505,
+    "audit_seconds": 0.9492518509941874,
+    "verified_seconds": 1.2605366009956924
+  },
+  {
+    "case": "diabetes_2_tol010",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.01,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": false,
+    "changed": 30627,
+    "objective": 30627,
+    "quarantined": 0,
+    "violations": {
+      "label": 18
+    },
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.775874051003484,
+    "audit_seconds": 0.7220087949972367,
+    "verified_seconds": 1.4978828460007207
+  },
+  {
+    "case": "diabetes_2_tol010",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.01,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 10784,
+    "objective": 10784,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 1.639828283994575,
+    "audit_seconds": 0.8284296320052817,
+    "verified_seconds": 2.4682579159998568,
+    "search_seconds": 0.5701332939934218,
+    "preprocessing_seconds": 1.049229878000915,
+    "greedy_steps": 1392,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol010",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.01,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7599,
+    "objective": 7599,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 2.319001386000309,
+    "audit_seconds": 0.7170075540052494,
+    "verified_seconds": 3.0360089400055585,
+    "search_seconds": 1.175273492000997,
+    "preprocessing_seconds": 1.1268794019997586,
+    "greedy_steps": 2768,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol010",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.01,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7594,
+    "objective": 7594,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 8.797703347998322,
+    "audit_seconds": 0.5789544919971377,
+    "verified_seconds": 9.37665783999546,
+    "status": "optimal",
+    "lower_bound": 7594.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36555,
+      "variables": 159984,
+      "constraints": 219441
+    }
+  },
+  {
+    "case": "diabetes_2_tol025",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.025,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": false,
+    "changed": 7584,
+    "objective": 7584,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 46
+    },
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.5489352550066542,
+    "audit_seconds": 0.8248828799987677,
+    "verified_seconds": 1.373818135005422
+  },
+  {
+    "case": "diabetes_2_tol025",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.025,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": false,
+    "changed": 30627,
+    "objective": 30627,
+    "quarantined": 0,
+    "violations": {
+      "label": 6
+    },
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.973057629991672,
+    "audit_seconds": 0.6851656170038041,
+    "verified_seconds": 1.658223246995476
+  },
+  {
+    "case": "diabetes_2_tol025",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.025,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 9808,
+    "objective": 9808,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 1.4988037040020572,
+    "audit_seconds": 0.8312999259942444,
+    "verified_seconds": 2.3301036299963016,
+    "search_seconds": 0.29256421100581065,
+    "preprocessing_seconds": 1.1875365000014426,
+    "greedy_steps": 708,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol025",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.025,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7587,
+    "objective": 7587,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 1.9705562620074488,
+    "audit_seconds": 0.987620446991059,
+    "verified_seconds": 2.958176708998508,
+    "search_seconds": 1.0019242690032115,
+    "preprocessing_seconds": 0.9447283640038222,
+    "greedy_steps": 2223,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol025",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.025,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7587,
+    "objective": 7587,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 9.013745699005085,
+    "audit_seconds": 0.5028157829947304,
+    "verified_seconds": 9.516561481999815,
+    "status": "optimal",
+    "lower_bound": 7587.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36555,
+      "variables": 159984,
+      "constraints": 219441
+    }
+  },
+  {
+    "case": "diabetes_2_tol050",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.05,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": false,
+    "changed": 7584,
+    "objective": 7584,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 32
+    },
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.3926936369971372,
+    "audit_seconds": 0.6005835490068421,
+    "verified_seconds": 0.9932771860039793
+  },
+  {
+    "case": "diabetes_2_tol050",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.05,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 30627,
+    "objective": 30627,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 0.7952677290013526,
+    "audit_seconds": 0.8820504350005649,
+    "verified_seconds": 1.6773181640019175
+  },
+  {
+    "case": "diabetes_2_tol050",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.05,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 9138,
+    "objective": 9138,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 1.1837555020028958,
+    "audit_seconds": 0.8638210779899964,
+    "verified_seconds": 2.047576579992892,
+    "search_seconds": 0.24019339299411513,
+    "preprocessing_seconds": 0.9214669770008186,
+    "greedy_steps": 344,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol050",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.05,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7585,
+    "objective": 7585,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 1.8667895389953628,
+    "audit_seconds": 0.8387460379890399,
+    "verified_seconds": 2.7055355769844027,
+    "search_seconds": 0.6967132700083312,
+    "preprocessing_seconds": 1.1470267190015875,
+    "greedy_steps": 1297,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1487,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_2_tol050",
+    "dataset": "diabetes",
+    "seed": 2,
+    "tolerance": 0.05,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20300,
+    "joint_strata": 25,
+    "initial_counts": {
+      "validation": 20365,
+      "train": 61101,
+      "test": 20300
+    },
+    "valid": true,
+    "changed": 7585,
+    "objective": 7585,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6437
+    },
+    "seconds": 10.038818484012154,
+    "audit_seconds": 0.7351194800139638,
+    "verified_seconds": 10.773937964026118,
+    "status": "optimal",
+    "lower_bound": 7585.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36555,
+      "variables": 159984,
+      "constraints": 219441
+    }
+  },
+  {
+    "case": "diabetes_3_tol010",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.01,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.2659376530064037,
+    "audit_seconds": 0.9355490750022,
+    "verified_seconds": 1.2014867280086037
+  },
+  {
+    "case": "diabetes_3_tol010",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.01,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 30468,
+    "objective": 30468,
+    "quarantined": 0,
+    "violations": {
+      "label": 14
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.8434152450063266,
+    "audit_seconds": 0.9671624670008896,
+    "verified_seconds": 1.8105777120072162
+  },
+  {
+    "case": "diabetes_3_tol010",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.01,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 11020,
+    "objective": 11020,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 1.808118770000874,
+    "audit_seconds": 0.7934264719951898,
+    "verified_seconds": 2.601545241996064,
+    "search_seconds": 0.6308870679931715,
+    "preprocessing_seconds": 1.1547735899948748,
+    "greedy_steps": 1464,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol010",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.01,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7672,
+    "objective": 7672,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 2.41362637700513,
+    "audit_seconds": 0.9133503110060701,
+    "verified_seconds": 3.3269766880112,
+    "search_seconds": 1.2626750570052536,
+    "preprocessing_seconds": 1.1271609529940179,
+    "greedy_steps": 2796,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol010",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.01,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7670,
+    "objective": 7670,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 9.580701348997536,
+    "audit_seconds": 0.7058196419966407,
+    "verified_seconds": 10.286520990994177,
+    "status": "optimal",
+    "lower_bound": 7670.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36537,
+      "variables": 159930,
+      "constraints": 219012
+    }
+  },
+  {
+    "case": "diabetes_3_tol025",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.025,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.3888481860049069,
+    "audit_seconds": 0.6090182260086294,
+    "verified_seconds": 0.9978664120135363
+  },
+  {
+    "case": "diabetes_3_tol025",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.025,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 30468,
+    "objective": 30468,
+    "quarantined": 0,
+    "violations": {
+      "label": 6
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.9016765499982284,
+    "audit_seconds": 0.6547718990041176,
+    "verified_seconds": 1.556448449002346
+  },
+  {
+    "case": "diabetes_3_tol025",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.025,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 9900,
+    "objective": 9900,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 1.582377633996657,
+    "audit_seconds": 0.7235712849942502,
+    "verified_seconds": 2.3059489189909073,
+    "search_seconds": 0.3645497620018432,
+    "preprocessing_seconds": 1.194630629994208,
+    "greedy_steps": 756,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol025",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.025,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7664,
+    "objective": 7664,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 2.1395778469886864,
+    "audit_seconds": 0.8954590170033043,
+    "verified_seconds": 3.0350368639919907,
+    "search_seconds": 0.9131198830000358,
+    "preprocessing_seconds": 1.2083360479882685,
+    "greedy_steps": 2211,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol025",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.025,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7664,
+    "objective": 7664,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 8.54205648000061,
+    "audit_seconds": 0.9913553950027563,
+    "verified_seconds": 9.533411875003367,
+    "status": "optimal",
+    "lower_bound": 7664.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36537,
+      "variables": 159930,
+      "constraints": 219012
+    }
+  },
+  {
+    "case": "diabetes_3_tol050",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.05,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 32
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.27862315000675153,
+    "audit_seconds": 0.8562442149996059,
+    "verified_seconds": 1.1348673650063574
+  },
+  {
+    "case": "diabetes_3_tol050",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.05,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": false,
+    "changed": 30468,
+    "objective": 30468,
+    "quarantined": 0,
+    "violations": {
+      "label": 2
+    },
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 0.7613838350080187,
+    "audit_seconds": 0.8230179780075559,
+    "verified_seconds": 1.5844018130155746
+  },
+  {
+    "case": "diabetes_3_tol050",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.05,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 9163,
+    "objective": 9163,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 1.126400762994308,
+    "audit_seconds": 0.6253846330073429,
+    "verified_seconds": 1.751785396001651,
+    "search_seconds": 0.21016448999580462,
+    "preprocessing_seconds": 0.8979632810078328,
+    "greedy_steps": 340,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol050",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.05,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 1.7159528329939349,
+    "audit_seconds": 0.7358570789947407,
+    "verified_seconds": 2.4518099119886756,
+    "search_seconds": 0.5877630079921801,
+    "preprocessing_seconds": 1.1038731880107662,
+    "greedy_steps": 1310,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1484,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_3_tol050",
+    "dataset": "diabetes",
+    "seed": 3,
+    "tolerance": 0.05,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20145,
+    "joint_strata": 25,
+    "initial_counts": {
+      "test": 20145,
+      "train": 61215,
+      "validation": 20406
+    },
+    "valid": true,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6466
+    },
+    "seconds": 8.31636588499532,
+    "audit_seconds": 0.6354466890043113,
+    "verified_seconds": 8.951812573999632,
+    "status": "optimal",
+    "lower_bound": 7662.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36537,
+      "variables": 159930,
+      "constraints": 219012
+    }
+  },
+  {
+    "case": "diabetes_4_tol010",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.01,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 48
+    },
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.2374056870030472,
+    "audit_seconds": 0.7807175249909051,
+    "verified_seconds": 1.0181232119939523
+  },
+  {
+    "case": "diabetes_4_tol010",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.01,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": false,
+    "changed": 30625,
+    "objective": 30625,
+    "quarantined": 0,
+    "violations": {
+      "label": 24
+    },
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.7014485529944068,
+    "audit_seconds": 0.8047839969949564,
+    "verified_seconds": 1.5062325499893632
+  },
+  {
+    "case": "diabetes_4_tol010",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.01,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 11015,
+    "objective": 11015,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 1.5482574470079271,
+    "audit_seconds": 0.6695067950058728,
+    "verified_seconds": 2.2177642420138,
+    "search_seconds": 0.5506582260131836,
+    "preprocessing_seconds": 0.9781846050027525,
+    "greedy_steps": 1451,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol010",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.01,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7687,
+    "objective": 7687,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 2.0283567330043297,
+    "audit_seconds": 0.719409793993691,
+    "verified_seconds": 2.7477665269980207,
+    "search_seconds": 0.9777246130106505,
+    "preprocessing_seconds": 1.0329577999946196,
+    "greedy_steps": 2783,
+    "local_steps": 1,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol010",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.01,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7686,
+    "objective": 7686,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 8.634787971997866,
+    "audit_seconds": 0.6206132429942954,
+    "verified_seconds": 9.255401214992162,
+    "status": "optimal",
+    "lower_bound": 7686.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36545,
+      "variables": 159954,
+      "constraints": 219598
+    }
+  },
+  {
+    "case": "diabetes_4_tol025",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.025,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 46
+    },
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.40842475499084685,
+    "audit_seconds": 0.8621172350103734,
+    "verified_seconds": 1.2705419900012203
+  },
+  {
+    "case": "diabetes_4_tol025",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.025,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": false,
+    "changed": 30625,
+    "objective": 30625,
+    "quarantined": 0,
+    "violations": {
+      "label": 4
+    },
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.8380539030040381,
+    "audit_seconds": 0.7057512989995303,
+    "verified_seconds": 1.5438052020035684
+  },
+  {
+    "case": "diabetes_4_tol025",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.025,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 9928,
+    "objective": 9928,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 1.5272883790021297,
+    "audit_seconds": 0.6935517809906742,
+    "verified_seconds": 2.220840159992804,
+    "search_seconds": 0.31488081101269927,
+    "preprocessing_seconds": 1.1954082070005825,
+    "greedy_steps": 769,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol025",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.025,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7673,
+    "objective": 7673,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 1.7088084349961719,
+    "audit_seconds": 0.860452290988178,
+    "verified_seconds": 2.56926072598435,
+    "search_seconds": 0.8607925090036588,
+    "preprocessing_seconds": 0.8243161780119408,
+    "greedy_steps": 2219,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol025",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.025,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7673,
+    "objective": 7673,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 8.231666349005536,
+    "audit_seconds": 0.7234019669995178,
+    "verified_seconds": 8.955068316005054,
+    "status": "optimal",
+    "lower_bound": 7673.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36545,
+      "variables": 159954,
+      "constraints": 219598
+    }
+  },
+  {
+    "case": "diabetes_4_tol050",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.05,
+    "method": "majority",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": false,
+    "changed": 7662,
+    "objective": 7662,
+    "quarantined": 0,
+    "violations": {
+      "size": 2,
+      "label": 32
+    },
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.3869059610005934,
+    "audit_seconds": 0.6202849959954619,
+    "verified_seconds": 1.0071909569960553
+  },
+  {
+    "case": "diabetes_4_tol050",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.05,
+    "method": "group_resplit",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 30625,
+    "objective": 30625,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 0.790452039000229,
+    "audit_seconds": 0.7777291660022456,
+    "verified_seconds": 1.5681812050024746
+  },
+  {
+    "case": "diabetes_4_tol050",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.05,
+    "method": "violation_greedy",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 9202,
+    "objective": 9202,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 1.236631532010506,
+    "audit_seconds": 0.7268303669989109,
+    "verified_seconds": 1.9634618990094168,
+    "search_seconds": 0.21502699500706512,
+    "preprocessing_seconds": 1.0045295609888854,
+    "greedy_steps": 331,
+    "local_steps": 0,
+    "stop_reason": "feasible",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol050",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.05,
+    "method": "cost_greedy_local",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7667,
+    "objective": 7667,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 1.743591401987942,
+    "audit_seconds": 0.7797294339979999,
+    "verified_seconds": 2.523320835985942,
+    "search_seconds": 0.5865783550107153,
+    "preprocessing_seconds": 1.1332586710050236,
+    "greedy_steps": 1294,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 1477,
+    "remaining_count_violation": 0
+  },
+  {
+    "case": "diabetes_4_tol050",
+    "dataset": "diabetes",
+    "seed": 4,
+    "tolerance": 0.05,
+    "method": "splitmend",
+    "rows": 101766,
+    "patients": 71518,
+    "test_patients": 14304,
+    "locked_test_rows": 20320,
+    "joint_strata": 25,
+    "initial_counts": {
+      "train": 61082,
+      "validation": 20364,
+      "test": 20320
+    },
+    "valid": true,
+    "changed": 7667,
+    "objective": 7667,
+    "quarantined": 0,
+    "violations": {},
+    "initial_violations": {
+      "group_overlap": 6545
+    },
+    "seconds": 9.406660954002291,
+    "audit_seconds": 0.8265310090064304,
+    "verified_seconds": 10.233191963008721,
+    "status": "optimal",
+    "lower_bound": 7667.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 101766,
+      "blocks": 36545,
+      "variables": 159954,
+      "constraints": 219598
+    }
+  }
+]

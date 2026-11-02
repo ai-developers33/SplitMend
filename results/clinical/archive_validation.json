@@ -1,0 +1,15 @@
+{
+  "observed_issue": "Two truncated compressed assignment files found by post-run verification.",
+  "affected_files": [
+    "results/assignments/beijing_0_group_resplit.json.gz",
+    "results/assignments/beijing_2_group_resplit.json.gz"
+  ],
+  "response": "Use temporary compressed files, fsync and atomic replacement; rerun the complete workflow.",
+  "fix_commit": "1d9328d",
+  "complete_rerun_passed": true,
+  "all_180_scalar_outcomes_match_first_runs": true,
+  "gzip_files_read_after_completion": 240,
+  "transient_files_cleaned": 10,
+  "independent_host_reproduction": false,
+  "console_capture": "The live redirected console file retained only a prefix in this hosted session; reproduction_console_partial.log is explicitly partial. results/reproduction.json is the successful runner-generated completion record with every subprocess duration."
+}
