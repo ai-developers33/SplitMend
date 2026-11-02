@@ -8,9 +8,12 @@ build/
 dist/
 data/raw/
 data/derived/
+data/clinical_derived/
 results/assignments/
 results/solver/
 results/external/
+results/clinical/assignments/
+results/clinical/solver/
 results/*.log
 paper/rendered/
 paper/final_render/
