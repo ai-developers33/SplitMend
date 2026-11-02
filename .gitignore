@@ -13,4 +13,5 @@ results/solver/
 results/external/
 results/*.log
 paper/rendered/
+paper/final_render/
 .DS_Store

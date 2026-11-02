@@ -32,7 +32,7 @@ def main():
     normal = d.styles["Normal"]
     normal.font.name = "Times New Roman"
     normal.font.size = Pt(11)
-    normal.paragraph_format.line_spacing = 1.08
+    normal.paragraph_format.line_spacing = 1.05
     normal.paragraph_format.space_after = Pt(5)
     for name, size in [("Title", 16), ("Heading 1", 12), ("Heading 2", 11)]:
         st = d.styles[name]
@@ -178,7 +178,7 @@ def main():
     h("4 Evaluation and impact")
     d.add_heading("4.1 Datasets and protocol", level=2)
     p(
-        "The evaluation comprises retrospective workflow simulations on real observations, not discoveries of defects in official dataset protocols. HAR contributes all 10,299 feature vectors from 30 volunteers [1]. Its supplied test membership is locked; a row-stratified validation subset is initially drawn from the official training set. Repair then enforces subject separation. OULAD contributes all 32,593 student-module-presentation rows, representing 28,785 distinct student IDs [2]. Initial 60/20/20 row-stratified partitions are repaired for an unseen-student task with original test rows locked. These workflows use seeds 0-4."
+        "The evaluation comprises retrospective workflow simulations on real observations, not discoveries of defects in official dataset protocols. ChatGPT/Codex assisted implementation, experimental scripting and analysis. All numerical results were computed by executing the archived programs using the cited source datasets; no language model generated benchmark observations or performance values. HAR contributes all 10,299 feature vectors from 30 volunteers [1]. Its supplied test membership is locked; a row-stratified validation subset is initially drawn from the official training set. Repair then enforces subject separation. OULAD contributes all 32,593 student-module-presentation rows, representing 28,785 distinct student IDs [2]. Initial 60/20/20 row-stratified partitions are repaired for an unseen-student task with original test rows locked. These workflows use seeds 0-4."
     )
     p(
         "For these classification workflows, partition-size bounds allow an additive five percentage points around original proportions. Per-class bounds allow eight percentage points with at least one row of each class in every partition. The policies are supplied to all audits. Beijing contributes 420,768 hourly observations from 12 stations [3]. Twenty-four source hours and a target 24 hours ahead define 420,204 complete temporal spans. Five chronological boundary configurations test full-span containment. Boundary-crossing spans require explicit quarantine; missing pollutant values are not imputed because this experiment audits temporal dependencies rather than fitting a forecaster."

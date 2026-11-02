@@ -10,8 +10,9 @@
   "twine_check": "passed for wheel and source distribution",
   "independent_host_reproduction": false,
   "distribution_sha256": {
-    "splitmend-0.1.0-py3-none-any.whl": "40a85d0bb5499a5803e00184804d5ec2174daa4c8086508e4ea25d78fa2d79fe",
-    "splitmend-0.1.0.tar.gz": "45a2b98b9ee7357d1081d1e4d688e01e7e5b994215bf9a2507bebec997a42312"
+    "splitmend-0.1.0-py3-none-any.whl": "37dd7850cf68631a06f52d5b2b2e73e4bb730ca579242aa769b7ec77cd75473d",
+    "splitmend-0.1.0.tar.gz": "0f43d2ddbf879690b82149eaf70622a4abf9f57a9306a35690fbd6dd4d9b1dd5"
   },
-  "ruff_check": "passed"
+  "ruff_check": "passed",
+  "final_wheel_module_bytes_match_tested_source": true
 }
