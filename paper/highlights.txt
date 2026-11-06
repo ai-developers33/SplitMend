@@ -1,5 +1,0 @@
-SplitMend repairs existing dataset partitions under explicit constraints.
-Exact aggregation preserves the feasible repair problem and objective.
-Independent verification checks locks, groups, eligibility and count bounds.
-Fifteen real-data workflow cases have verified optimal repairs.
-Simple methods tie the optimum on two of the three evaluated datasets.

@@ -1,99 +1,67 @@
-# Release and submission instructions
+# Release maintenance
 
-## What is already a Python package
+## Published software
 
-This source tree is installable through pyproject.toml. The distribution name is
-splitmend, the import is `splitmend`, and the CLI is `splitmend`. A wheel and source
-distribution are built and tested locally. No Python committee approval is required.
-PyPI hosting, GitHub publication and journal acceptance are three separate processes.
+* Source repository: https://github.com/ai-developers33/SplitMend
+* Python package: https://pypi.org/project/splitmend/0.1.1/
+* Current runtime version: 0.1.1
+* Software license: MIT
+* Maintainer: Ravi Shanker Thadishetti
 
-The PyPI JSON lookup for splitmend returned HTTP 404 on 2026-11-02. This does not reserve
-the name or guarantee availability: PyPI can reject reserved/conflicting names. A
-pending publisher also does not reserve a name before the first successful upload.
+The public wheel has been installed successfully in a fresh macOS environment using
+Python 3.11.3, NumPy 2.4.6 and SciPy 1.17.1. Dependency checks passed and the command-line
+interface reported version 0.1.1. This installation check is distinct from rerunning the
+full experiment suite.
 
-## Publish the GitHub repository
+## Research materials
 
-1. Create a repository named SplitMend under your own GitHub account. The commands below
-   use the previously supplied username ravishanker39; change it if you choose another
-   account. No repository at that URL is claimed to exist yet.
-2. From the unpacked SplitMend directory, review .gitignore. Raw archives and large derived
-   manifests are intentionally excluded from Git history; retain the research bundle
-   as a release asset or DOI-backed dataset archive.
-3. Run the following after creating the empty remote repository:
+The repository contains the runtime library, tests, protocols, source-data attribution,
+dependency lock files, comparison scripts, reference run records and summary tables.
+The reproduction entry point is:
 
 ```sh
-git init -b main
-git add .
-git commit -m "Release SplitMend 0.1.1 with reproducible evaluation"
-git remote add origin https://github.com/ravishanker39/SplitMend.git
-git push -u origin main
-git tag v0.1.1
-git push origin v0.1.1
+python scripts/reproduce.py --bootstrap
 ```
 
-If using the already initialized working repository, skip `git init` and do not create
-a second initial commit. Attach the complete research bundle and checksums to the
-GitHub release. Do not upload credentials, virtual environments or private datasets.
+Use Python 3.12 on Linux with the supplied reference lock files. The harness downloads
+the original public data archives, constructs the evaluation cases, runs 180 method
+comparisons across 30 configurations, checks the saved assignments and writes the
+completion record to `results/reproduction.json`.
 
-## Register PyPI and TestPyPI accounts
+Raw archives, derived manifests, assignment files and solver logs are excluded from Git
+because of their size. Keep them with their source attribution and SHA-256 checksums in
+the research archive. A complete archival deposit should include those files, the exact
+source snapshot, environment records, protocol versions and reproduction instructions.
+Dataset licenses remain separate from the MIT software license.
 
-Create separate accounts at https://pypi.org/account/register/ and
-https://test.pypi.org/account/register/. Verify your email and configure the required
-two-factor authentication. Keep recovery codes privately. Do not send passwords or API
-tokens through chat. Account creation and authentication are owner actions; they have
-not been performed on your behalf.
+The recorded full experiment rerun was performed on the development host. Successful
+package installation or continuous-integration tests do not establish independent
+reproduction of the complete benchmark.
 
-## Trusted publishing with the supplied workflow
+## Preparing a future version
 
-1. In GitHub repository settings, create environments named `testpypi` and `pypi`.
-2. In each index's account Publishing page, add a pending GitHub publisher:
-   project `splitmend`; owner your actual GitHub username; repository `SplitMend`;
-   workflow filename `publish.yml`; environment `testpypi` or `pypi` respectively.
-3. In GitHub Actions, run **Publish Python distribution** with target `testpypi`.
-4. Check the package from a fresh environment. Install dependencies from normal PyPI,
-   then the test distribution without dependency resolution:
+1. Update the version consistently in `pyproject.toml`, `src/splitmend/__init__.py` and
+   `CITATION.cff`, and record changes in `CHANGELOG.md`.
+2. Run the source tests, build both distributions and check their metadata:
 
 ```sh
-python -m venv test-install
-# Activate test-install as appropriate for your operating system.
-python -m pip install 'numpy>=1.26,<3' 'scipy>=1.11,<2'
-python -m pip install --index-url https://test.pypi.org/simple/ --no-deps splitmend==0.1.1
-splitmend --version
+python -m pip install '.[test]' build twine
+python -m pytest -q
+python -m build
+python -m twine check --strict dist/*
 ```
 
-5. Once verified, run the workflow with target `pypi`. A successful initial upload
-   creates the PyPI project. Then users can run `python -m pip install splitmend`.
-6. Public releases cannot reuse the same uploaded filename. Fixes need a new version;
-   update pyproject.toml, __init__.py and CITATION.cff consistently.
+3. Test the wheel in a separate environment and check the source distribution's contents.
+4. Push the reviewed commit and its version tag. Confirm that the GitHub tests pass.
+5. Create the corresponding GitHub release and attach checksums and research artifacts.
+6. Publish the new version using the configured publishing workflow or an upload token.
 
-For a manual build, run `python -m build` and `python -m twine check dist/*`.
-Trusted publishing avoids maintaining a long-lived upload token in the repository.
+Version 0.1.1 is already published on PyPI. Its distribution filenames cannot be reused;
+changes to the files distributed through PyPI require a new version. Updating GitHub
+files does not replace an existing PyPI distribution.
 
-## SoftwareX submission
+## Documentation scope
 
-Use article type Original Software Publication. The manuscript follows the software
-article structure: motivation, software description, illustrative example, impact and
-conclusions, with a code metadata table. The final permanent release URL/DOI must be
-inserted after publication; a local ZIP is not represented as a registered DOI.
-
-Before submitting, the author must review and approve the methods, numerical results,
-interpretation, authorship contributions and competing-interest declaration. No funding
-was reported by the author. This does not waive a journal article publishing charge;
-check the journal open-access page and any institutional agreement before submission.
-No publication payment has been made. The package has no OpenAI API dependency or API requirement.
-Separately, ChatGPT/Codex assisted software development, analysis and manuscript drafting;
-Elsevier requires an accurate declaration for this substantive assistance. Removing the
-declaration would not make the manuscript comply with that policy.
-
-The manuscript does not claim independent-host reproduction, external adoption, new
-dataset defects, or superiority where simpler methods tie the optimum. CI files are
-prepared but remote GitHub Actions runs are not claimed until the repository is pushed.
-
-Official sources checked 2026-11-02:
-
-* https://packaging.python.org/en/latest/tutorials/packaging-projects/
-* https://docs.pypi.org/your-account/two-factor-authentication/
-* https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/
-* https://docs.pypi.org/trusted-publishers/adding-a-publisher/
-* https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals
-* https://www.sciencedirect.com/journal/softwarex/publish/guide-for-authors
+Journal manuscripts, cover letters and author declarations are maintained separately.
+This repository documents the software interface, experiments, measured results and
+release process.

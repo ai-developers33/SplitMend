@@ -3,9 +3,19 @@
 SplitMend repairs **existing** machine-learning dataset partitions under explicit constraints.
 It minimizes a weighted assignment-change objective, keeps locked records fixed, supports
 group/duplicate separation and time-window eligibility, and independently verifies every
-returned assignment. It uses SciPy's HiGHS integer optimizer; it does not call an LLM.
+returned assignment. It uses the HiGHS integer optimizer through SciPy.
 
-Version 0.1.1 is a research release. Publication on GitHub/PyPI is a separate release step.
+Version 0.1.1 is available on [PyPI](https://pypi.org/project/splitmend/0.1.1/).
+Source code is maintained at [ai-developers33/SplitMend](https://github.com/ai-developers33/SplitMend).
+
+## Install from PyPI
+
+Python 3.11 or newer is required.
+
+```sh
+python -m pip install "splitmend==0.1.1"
+splitmend --version
+```
 
 ## Install from source
 
@@ -91,14 +101,12 @@ not a substantial advantage over strong heuristics. See `docs/RESULTS_INTERPRETA
 
 ## Release
 
-See `docs/RELEASE.md` for wheel creation, TestPyPI/PyPI account setup, trusted publishing,
-GitHub release preparation and SoftwareX submission items. You do not need approval from
-the Python language developers to distribute a package. Uploading establishes a PyPI
-project subject to PyPI's name and account policies.
+See `docs/RELEASE.md` for release maintenance and research-archive contents.
+The repository contains the software, tests, experiment protocols, data-source records,
+reference results and benchmark figures. The reproduction harness downloads the public
+source datasets and rebuilds the derived assignments and result tables.
 
-The editable manuscript is in `paper/`. After running the experiments, install the
-optional `paper` dependencies and run `python scripts/make_manuscript.py` to regenerate
-its tables and DOCX. PDF conversion requires Microsoft Word or LibreOffice; the PDF
-included in the research bundle was rendered and visually checked.
+Manuscripts and submission forms are maintained separately from the software repository.
+The benchmark scripts write their figures to `paper/figures/`.
 
 License: MIT for software. Dataset licenses remain separate.

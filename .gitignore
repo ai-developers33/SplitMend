@@ -20,3 +20,13 @@ paper/final_render/
 .DS_Store
 paper/clinical_render/
 results/clinical/*.log
+
+# Manuscript and submission working files
+paper/*.docx
+paper/*.pdf
+paper/manuscript_text.txt
+paper/cover_letter_draft.txt
+paper/highlights.txt
+paper/word_count.json
+docs/AUTHOR_REVIEW.md
+scripts/make_manuscript.py
