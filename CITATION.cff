@@ -1,10 +1,14 @@
 cff-version: 1.2.0
-message: "If you use SplitMend, cite this software release. Add the archival DOI after publication."
+message: "If you use SplitMend, please cite this software release."
 type: software
 title: "SplitMend: Constraint-aware repair of machine-learning dataset splits"
-version: 0.1.1
-date-released: 2026-11-02
+version: "0.1.1"
+date-released: "2026-11-06"
+doi: "10.5281/zenodo.24021033"
+repository-code: "https://github.com/ai-developers33/SplitMend"
 authors:
   - family-names: Thadishetti
     given-names: Ravi Shanker
+    affiliation: "University of the Cumberlands"
+    orcid: "https://orcid.org/0009-0000-7088-0531"
 license: MIT
