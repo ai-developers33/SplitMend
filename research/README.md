@@ -5,6 +5,9 @@ SplitMend's core remains **0.1.1**, byte-identical to the released wheel and the
 repository source checked at commit `55e63c5a3b92cbf8c82024001d7132186d5870cc`.
 The changes add experiments, saved evidence and reproduction utilities.
 
+Start with the [reviewer reproduction guide](../docs/REPRODUCING.md) for numbered
+steps, a fixed-release checkout, expected outputs and troubleshooting.
+
 ## Rebuild the tables without installing dependencies
 
 From the repository root:
@@ -39,12 +42,16 @@ and checks their hashes. Dependencies and those downloads require internet.
 The two new suites contain their derived cohorts and smaller source inputs;
 the single-group directory also documents rebuilding from larger public inputs.
 
-The complete offline research archive is distributed separately as a release
-asset or journal supplement. It includes the original source archives, earlier
-screening packages, manuscripts and development-host rerun records omitted here.
-The earlier Zenodo software DOI `10.5281/zenodo.24021033` and research DOI
-`10.5281/zenodo.24021729` identify their original releases, not this expanded
-snapshot. No new DOI is claimed by this update.
+The complete research archive is published at
+[10.5281/zenodo.24046268](https://doi.org/10.5281/zenodo.24046268).
+It includes the original source archives, earlier screening packages,
+manuscripts and development-host rerun records omitted here. Selected large
+original sensor archives still require separate downloads for source extraction;
+installing dependencies also requires internet access.
+The expanded repository snapshot is archived at
+[10.5281/zenodo.24046217](https://doi.org/10.5281/zenodo.24046217).
+The original package DOI `10.5281/zenodo.24021033` and earlier research DOI
+`10.5281/zenodo.24021729` continue to identify their original versions.
 
 ## Scope and interpretation
 

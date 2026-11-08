@@ -25,9 +25,13 @@ remain part of the interpretation. See `research/tables/interpretation.json`.
 The GitHub subset omits large original source ZIPs, submission documents and
 duplicate historical/rerun archives. The original experiment downloader retrieves
 missing public archives and verifies their recorded hashes. The complete unified
-archive should accompany the paper as a supplement or a separately versioned
-deposit and can be attached as a GitHub release asset. Existing Zenodo DOIs do
-not identify the new extended archive; cite a new version only after it exists.
+archive is now published at
+[10.5281/zenodo.24046268](https://doi.org/10.5281/zenodo.24046268).
+The expanded repository snapshot has DOI
+[10.5281/zenodo.24046217](https://doi.org/10.5281/zenodo.24046217).
+The original software and dataset DOIs continue to identify their earlier
+versions. The [reviewer guide](REPRODUCING.md) provides the current numbered
+reproduction steps and expected reports.
 
 Package users continue to install `splitmend==0.1.1`. Publishing this research
 update does not require uploading another wheel to PyPI or moving the v0.1.1 tag.

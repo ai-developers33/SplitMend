@@ -61,9 +61,84 @@ it costs `weight * quarantine_cost`. This is a weighted trade-off, not a lexicog
 minimum of exclusions and moves. Conflicts are not claimed to be minimum-cardinality.
 Only completed deletion checks justify an irreducible explanation.
 
-## Reproduce
+## Reproduce the results and run the experiments (Tables 1–5)
 
-For the full evaluation, including the external tools in their separate environment:
+Follow the [step-by-step reviewer guide](docs/REPRODUCING.md) for prerequisites,
+fixed-version checkout, expected outputs, individual suites and troubleshooting.
+The evaluation contains **1,140 method outputs across 270 policy scenarios**:
+180 original, 800 single-group and 160 coupled OULAD outputs. The package remains
+version 0.1.1.
+
+### Step 1: Obtain the fixed research release
+
+```sh
+git clone --depth 1 --branch research-2026-11-07 https://github.com/ai-developers33/SplitMend.git SplitMend-review
+cd SplitMend-review
+git rev-parse HEAD
+```
+
+Expected commit: `f35a470b03bcc1729ce4d702a224f9ff9a01f58f`. Run the following
+commands from that repository root.
+
+### Step 2: Check integrity and regenerate the saved tables
+
+With Python 3.11 or newer, without installing research dependencies:
+
+```sh
+python3 research/scripts/verify_archive.py
+python3 research/scripts/check_core_equivalence.py
+python3 research/scripts/reproduce_all.py --mode tables
+git diff --exit-code -- research/tables
+```
+
+Both verification commands must report `all_match: true`. The table command
+reports `raw_method_outputs: 1140` and `generated_from_saved_results: true`.
+Tables are written to `research/tables/` as CSV and JSON. A successful final
+`git diff` produces no output. This regenerates tables from saved records;
+it does not rerun optimization.
+
+### Step 3: Execute fresh numerical experiments
+
+Use **Python 3.12 on Linux** and a new output directory:
+
+```sh
+python3.12 research/scripts/reproduce_all.py --mode rerun --bootstrap --output ../splitmend-rerun-001
+```
+
+The command installs pinned dependencies into separate environments, runs all
+three suites, checks assignments and compares results. Missing original source
+archives are downloaded; the extension suites use their included derived
+cohorts. Internet access is needed for installation and missing source data.
+
+### Step 4: Inspect completion and fresh results
+
+```sh
+python3 -m json.tool ../splitmend-rerun-001/unified_reproduction.json
+```
+
+Require a successful exit and `mode: rerun`, `complete: true`, with all three
+suites present. Fresh Tables 1–5 are in `../splitmend-rerun-001/fresh_tables/`;
+stage logs and comparison reports are in the same run directory. See the
+[expected reports](docs/REPRODUCING.md#5-check-that-the-numerical-run-completed)
+for the exact checks, including bridge movement/quarantine differences.
+
+Reference runs used Python 3.12.14 on x86-64 Linux. Full pinned numerical
+reproduction has not been independently validated on macOS or Windows.
+Timings and equally optimal assignments may differ; retain failed cases and
+unresolved statuses. Existing evidence records development-host checks.
+
+The [expanded repository snapshot](https://doi.org/10.5281/zenodo.24046217) and
+[complete research archive](https://doi.org/10.5281/zenodo.24046268) are public.
+The complete archive includes the original source ZIPs and additional provenance
+omitted from Git. Its commands start with `scripts/`, not `research/scripts/`;
+see the [archive instructions](docs/REPRODUCING.md#alternative-start-from-the-complete-zenodo-archive).
+The [research README](research/README.md) describes the benchmark scope and
+validity denominators.
+
+## Original study only (Tables 1–3)
+
+The original 180-comparison workflow remains available, including external tools
+in their separate environment. Use the unified command above for all five tables:
 
 ```sh
 python scripts/reproduce.py --bootstrap
@@ -98,25 +173,6 @@ lower than violation-first greedy, but only 0.008% lower than cost-aware greedy 
 local exchanges (nine fewer changes in total; four wins and eleven ties). The latter
 was faster. These results support constraint enforcement and optimality certification,
 not a substantial advantage over strong heuristics. See `docs/RESULTS_INTERPRETATION.md`.
-
-## Expanded research evaluation (Tables 1–5)
-
-The [research directory](research/README.md) adds the five-dataset single-group
-sweep and coupled OULAD bridge-quarantine benchmark, with their protocols,
-derived cohorts, comparators, saved assignments and all attempted outcomes.
-The original HAR, OULAD, clinical and temporal experiments are retained.
-
-```sh
-python3 research/scripts/verify_archive.py
-python3 research/scripts/reproduce_all.py --mode tables
-```
-
-The table command aggregates 1,140 saved method outputs; it does not rerun the
-optimizers. For a fresh numerical run, use the pinned Python 3.12 workflow in
-[research/README.md](research/README.md). See
-[the update notes](docs/RESEARCH_UPDATE.md) for scope, validity denominators and
-the distinction between the GitHub subset and the complete research archive.
-The Python package and PyPI version remain 0.1.1.
 
 ## Release
 
