@@ -1,0 +1,184 @@
+{
+  "cases": 15,
+  "rows": 75,
+  "summaries": [
+    {
+      "tolerance": 0.01,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7619.8,
+      "median_verified_seconds": 2.9025373030017363,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "group_resplit",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.49788284600072,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.018123211993952,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7618.0,
+      "median_verified_seconds": 9.255401214992162,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.01,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 10881.8,
+      "median_verified_seconds": 2.363247501998557,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7610.2,
+      "median_verified_seconds": 2.590956482992624,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "group_resplit",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.543805202003568,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 0.9978664120135361,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7610.2,
+      "median_verified_seconds": 9.22184191798442,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.025,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 9833.8,
+      "median_verified_seconds": 2.268923269002698,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7606.0,
+      "median_verified_seconds": 2.523320835985942,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "group_resplit",
+      "valid": 4,
+      "runs": 5,
+      "mean_changed_valid": 30576.0,
+      "median_verified_seconds": 1.584483586993883,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.007190956996055,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7606.0,
+      "median_verified_seconds": 9.100213969999459,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.05,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 9120.6,
+      "median_verified_seconds": 1.9049398600036511,
+      "optimal": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "majority",
+      "paired_valid_cases": 0,
+      "splitmend_better": 0,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 0,
+      "aggregate_reduction_percent": null,
+      "largest_per_case_reduction": null
+    },
+    {
+      "baseline": "group_resplit",
+      "paired_valid_cases": 4,
+      "splitmend_better": 4,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 91936,
+      "aggregate_reduction_percent": 75.17006802721089,
+      "largest_per_case_reduction": 23042
+    },
+    {
+      "baseline": "violation_greedy",
+      "paired_valid_cases": 15,
+      "splitmend_better": 15,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 35010,
+      "aggregate_reduction_percent": 23.468136022683854,
+      "largest_per_case_reduction": 3350
+    },
+    {
+      "baseline": "cost_greedy_local",
+      "paired_valid_cases": 15,
+      "splitmend_better": 4,
+      "ties": 11,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 9,
+      "aggregate_reduction_percent": 0.007882291119285338,
+      "largest_per_case_reduction": 5
+    }
+  ],
+  "note": "Paired costs use cases where both methods return valid assignments. All invalid results remain in all_runs.csv."
+}

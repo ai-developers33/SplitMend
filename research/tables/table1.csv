@@ -1,0 +1,7 @@
+method,har_mean_changes,oulad_mean_changes
+SplitMend,2009.8,2140.6
+Original greedy repair,2113.8,2140.6
+Cost-aware greedy + exchanges,2043.8,2140.6
+Group re-split,2478.8,10717.8
+DataSAIL I1,2482.2,10909.2
+dataset-splitter,2399.6,10760.8

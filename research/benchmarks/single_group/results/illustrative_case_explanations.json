@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "har70",
+    "case": "seed0_test2_val1",
+    "selection": "Post-hoc individual illustration; not a dataset-wide estimate.",
+    "greedy_movement": 1854,
+    "splitmend_movement": 954,
+    "reduction_percent": 48.54368932038835,
+    "free_participants": 14,
+    "allocations_enumerated": 16384,
+    "valid_allocations": 190,
+    "best_feasible_cost_at_each_distance_from_greedy": {
+      "0": 1854,
+      "1": 2275,
+      "2": 1855,
+      "3": 1496,
+      "4": 1051,
+      "5": 1517,
+      "6": 954,
+      "7": 1488,
+      "8": 1993
+    },
+    "minimum_participants_that_must_change_together_for_strict_improvement": 3,
+    "no_improving_single_or_pair_move": true
+  },
+  {
+    "dataset": "sleeptelemetry",
+    "case": "seed0_test2_val1",
+    "selection": "Post-hoc individual illustration; not a dataset-wide estimate.",
+    "greedy_movement": 5431,
+    "splitmend_movement": 4035,
+    "reduction_percent": 25.704290185969434,
+    "free_participants": 18,
+    "allocations_enumerated": 262144,
+    "valid_allocations": 1177,
+    "best_feasible_cost_at_each_distance_from_greedy": {
+      "0": 5431,
+      "2": 5561,
+      "3": 7532,
+      "4": 5413,
+      "5": 4035,
+      "6": 5674,
+      "7": 7533,
+      "8": 9632,
+      "9": 11297
+    },
+    "minimum_participants_that_must_change_together_for_strict_improvement": 4,
+    "no_improving_single_or_pair_move": true
+  }
+]

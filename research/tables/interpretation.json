@@ -1,0 +1,49 @@
+{
+  "scope": "Repeated policy scenarios, not independent cohorts. No classifier metrics in Tables 4-5.",
+  "table4_comparator": "Best valid of three internal greedy methods, chosen without the MILP answer.",
+  "pamap2": {
+    "feasible": 12,
+    "infeasible": 28,
+    "greedy_valid_feasible": 6,
+    "greedy_failed_feasible": 6
+  },
+  "har70_tail_case": {
+    "dataset": "har70",
+    "case": "seed0_test2_val1",
+    "selection": "Post-hoc individual illustration; not a dataset-wide estimate.",
+    "greedy_movement": 1854,
+    "splitmend_movement": 954,
+    "reduction_percent": 48.54368932038835,
+    "free_participants": 14,
+    "allocations_enumerated": 16384,
+    "valid_allocations": 190,
+    "best_feasible_cost_at_each_distance_from_greedy": {
+      "0": 1854,
+      "1": 2275,
+      "2": 1855,
+      "3": 1496,
+      "4": 1051,
+      "5": 1517,
+      "6": 954,
+      "7": 1488,
+      "8": 1993
+    },
+    "minimum_participants_that_must_change_together_for_strict_improvement": 3,
+    "no_improving_single_or_pair_move": true,
+    "regret_relative_to_optimum_percent": 94.33962264150944
+  },
+  "bridge": {
+    "feasible": 36,
+    "infeasible": 4,
+    "offering_component_sizes": [
+      17,
+      2,
+      2,
+      1
+    ],
+    "maximum_repair_call_seconds": 5.81088515099691,
+    "median_repair_call_seconds": 1.2291681519964186,
+    "no_quarantine_control": "Modified policy: all 40 scenarios solver-proven infeasible. Not an external splitter comparison.",
+    "infeasibility_explanation": "Separate count audit: 262 free Withdrawn rows minus 44 forced exclusions = 218, below required 219."
+  }
+}

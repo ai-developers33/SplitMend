@@ -1,0 +1,32 @@
+[
+  {
+    "method": "SplitMend",
+    "har_mean_changes": 2009.8,
+    "oulad_mean_changes": 2140.6
+  },
+  {
+    "method": "Original greedy repair",
+    "har_mean_changes": 2113.8,
+    "oulad_mean_changes": 2140.6
+  },
+  {
+    "method": "Cost-aware greedy + exchanges",
+    "har_mean_changes": 2043.8,
+    "oulad_mean_changes": 2140.6
+  },
+  {
+    "method": "Group re-split",
+    "har_mean_changes": 2478.8,
+    "oulad_mean_changes": 10717.8
+  },
+  {
+    "method": "DataSAIL I1",
+    "har_mean_changes": 2482.2,
+    "oulad_mean_changes": 10909.2
+  },
+  {
+    "method": "dataset-splitter",
+    "har_mean_changes": 2399.6,
+    "oulad_mean_changes": 10760.8
+  }
+]

@@ -1,0 +1,6 @@
+dataset,name,observations,participants,strata,attempted,optimal,infeasible,unresolved,paired_valid,nonzero_paired_cases,wins,ties,splitmend_paired_total,greedy_paired_total,total_saved,aggregate_reduction_percent,largest_individual_case_percent,qualifies
+har70,HAR70+,9191,18,7,40,40,0,0,39,32,2,37,25799,26956,1157,4.292179848642232,48.54368932038835,False
+pamap2,PAMAP2,5749,9,13,40,12,28,0,6,6,0,6,9622,9622,0,0.0,0.0,False
+unimib,UniMiB SHAR,11771,30,17,40,40,0,0,40,26,0,40,9926,9926,0,0.0,0.0,False
+sleeptelemetry,Sleep-EDF Telemetry,42696,22,12,40,40,0,0,40,37,2,38,112778,114340,1562,1.3661011019765612,25.704290185969434,False
+extrasensory_revision,ExtraSensory (policy revision),377346,60,8,40,40,0,0,40,34,4,36,378804,379730,926,0.24385747768151056,6.642143983184446,False

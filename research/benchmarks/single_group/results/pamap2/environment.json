@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1"
+  },
+  "protocol_sha256": "00701b22d036708c4354ac152baff2b06fe1646c38d8c2ecc2827fe305e6933f",
+  "runner_sha256": "b7d84c96f27df243f94920a787baad69cf05f8ddb17b4be99703c41fc8149c33",
+  "cohort_sha256": "a6a0edc48a277b34dfda58133f5298ec99d41b4bb91b4791fe2ae06bb8018964"
+}

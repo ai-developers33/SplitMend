@@ -1,0 +1,26 @@
+[
+  {
+    "method": "violation_first_bridge",
+    "cases": 36,
+    "valid": 20,
+    "quarantined": 2839,
+    "retained_moved": 1284,
+    "objective": 29674
+  },
+  {
+    "method": "cost_aware_bridge_exchanges",
+    "cases": 36,
+    "valid": 23,
+    "quarantined": 2539,
+    "retained_moved": 2711,
+    "objective": 28101
+  },
+  {
+    "method": "all_pair_bridge",
+    "cases": 36,
+    "valid": 36,
+    "quarantined": 2160,
+    "retained_moved": 5641,
+    "objective": 27241
+  }
+]

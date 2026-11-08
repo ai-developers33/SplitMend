@@ -1,0 +1,49 @@
+{
+  "study": "Predefined three-dataset search for a 20% minimum-disruption advantage",
+  "frozen_utc": "2026-11-07T00:56:05.486066+00:00",
+  "selection_status": "Datasets selected from source descriptions; no optimization outcomes on any of these three datasets have been observed. Previous HARTH and ExtraSensory results are known.",
+  "datasets": [
+    "har70",
+    "pamap2",
+    "unimib"
+  ],
+  "preprocessing": {
+    "har70": "All subjects and all seven source activities; modal activity per nonempty non-overlapping 5-second recorded-time bin. Retain partial bins and all observations.",
+    "pamap2": "All Protocol files, all nine participants, all labels including transient code 0; modal label per nonempty non-overlapping 5-second recorded-time bin. Optional activities excluded because they are a distinct non-uniform optional protocol, not because of results.",
+    "unimib": "Official processed segments and all 17 activity/fall labels, all 30 subjects, no resampling or invented groups."
+  },
+  "fold_seeds": [
+    0,
+    20261107
+  ],
+  "fold_design": "For each seed, permute sorted participant IDs with NumPy default_rng(seed), use array_split into five folds, test every ordered pair of distinct test and validation fold. Total 40 cases per dataset.",
+  "original_memberships": "Test fold wholly locked; all observations from validation fold start in validation; all remaining participants start in train. Group-consistent original assignments.",
+  "free_partition_targets": {
+    "train": 0.75,
+    "validation": 0.25
+  },
+  "size_tolerance_pp": 5,
+  "label_tolerance_pp": 8,
+  "weight": 1,
+  "quarantine": false,
+  "methods": [
+    "violation_greedy",
+    "cost_greedy_local",
+    "all_pair_greedy",
+    "splitmend"
+  ],
+  "comparison": "Best independently valid output of all three greedy methods on the identical instance. Cases without a valid greedy answer count as failures, not movement savings. Report every attempted case.",
+  "solver_seconds": 60,
+  "greedy_search_seconds": 60,
+  "greedy_pair_candidate_pool": 256,
+  "qualification": {
+    "metric": "100 * sum(greedy_changed - splitmend_changed) / sum(greedy_changed) over ALL paired valid cases from BOTH fixed fold seeds",
+    "minimum_aggregate_reduction_percent": 20,
+    "minimum_paired_valid_cases_total": 20,
+    "minimum_paired_valid_cases_per_fold_seed": 5,
+    "must_have_positive_aggregate_reduction_for_each_fold_seed": true,
+    "all_feasible_solutions_must_pass_independent_record_audit": true
+  },
+  "optimality": "Exhaustive participant allocation enumeration for at most 18 free groups; otherwise require solver-reported zero optimality gap and independent row audit. Preserve any time limits.",
+  "reporting": "Exploratory dataset selection, not a universal or independently validated 20% claim. Preserve previous clinical evidence and the complete candidate screening. GitHub/main changes conditional on verified qualifying evidence and write availability."
+}

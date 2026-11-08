@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 827,
+    "seconds": 0.12065289999736706,
+    "external_audit_seconds": 0.017232498998055235,
+    "status": "optimal",
+    "lower_bound": 827.0,
+    "gap": 0.0,
+    "violations": {},
+    "dataset": "har70",
+    "case": "seed0_test4_val1",
+    "fold_seed": 0,
+    "test_fold": 4,
+    "validation_fold": 1
+  },
+  "problem_sha256": "9b4243b02da37e7b8e9003042cc1b9fd9227b17fdeaaf9a6c4bfb758d312444f",
+  "group_assignments": {
+    "participant:501": "validation",
+    "participant:502": "test",
+    "participant:503": "validation",
+    "participant:504": "train",
+    "participant:505": "train",
+    "participant:506": "validation",
+    "participant:507": "train",
+    "participant:508": "validation",
+    "participant:509": "test",
+    "participant:510": "train",
+    "participant:511": "train",
+    "participant:512": "train",
+    "participant:513": "train",
+    "participant:514": "train",
+    "participant:515": "train",
+    "participant:516": "test",
+    "participant:517": "train",
+    "participant:518": "train"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "9b4243b02da37e7b8e9003042cc1b9fd9227b17fdeaaf9a6c4bfb758d312444f",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 5791,
+        "validation": 1806,
+        "test": 1594,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "label": 2
+      },
+      "violations": [
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "train",
+          "count": 115,
+          "bounds": [
+            86,
+            108
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "validation",
+          "count": 14,
+          "bounds": [
+            21,
+            43
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 5668,
+        "validation": 1929,
+        "test": 1594,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 827,
+      "quarantined": 0,
+      "objective": 827
+    },
+    "conflict": null,
+    "objective": 827,
+    "lower_bound": 827.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 9191,
+      "blocks": 109,
+      "variables": 381,
+      "constraints": 647
+    },
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "status": "optimal",
+    "reason": "solver",
+    "seconds": 0.12045270800444996
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 5668,
+      "validation": 1929,
+      "test": 1594,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 827,
+    "quarantined": 0,
+    "objective": 827
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 827,
+    "violations": {},
+    "sizes": {
+      "validation": 1929,
+      "test": 1594,
+      "train": 5668
+    },
+    "labels": {
+      "activity_06": {
+        "validation": 279,
+        "test": 312,
+        "train": 1165
+      },
+      "activity_01": {
+        "validation": 1068,
+        "test": 812,
+        "train": 2545
+      },
+      "activity_07": {
+        "validation": 333,
+        "test": 289,
+        "train": 1348
+      },
+      "activity_08": {
+        "validation": 208,
+        "test": 129,
+        "train": 488
+      },
+      "activity_03": {
+        "validation": 30,
+        "test": 43,
+        "train": 99
+      },
+      "activity_05": {
+        "validation": 7,
+        "test": 4,
+        "train": 12
+      },
+      "activity_04": {
+        "train": 11,
+        "validation": 4,
+        "test": 5
+      }
+    }
+  }
+}

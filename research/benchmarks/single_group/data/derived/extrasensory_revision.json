@@ -1,0 +1,41 @@
+{
+  "dataset": "extrasensory_revision",
+  "observations": 377346,
+  "participants": 60,
+  "labels": 8,
+  "records_per_participant": {
+    "count": 60.0,
+    "mean": 6289.1,
+    "std": 2482.9096838800006,
+    "min": 1600.0,
+    "25%": 3947.75,
+    "50%": 6312.5,
+    "75%": 8177.75,
+    "max": 11996.0
+  },
+  "label_counts": {
+    "SITTING": 136356,
+    "LYING_DOWN": 104210,
+    "UNREPORTED_MAIN_ACTIVITY": 70126,
+    "STANDING_AND_MOVING": 29754,
+    "WALKING": 22517,
+    "STANDING_IN_PLACE": 8028,
+    "BICYCLING": 5020,
+    "RUNNING": 1335
+  },
+  "participants_per_label": {
+    "BICYCLING": 25,
+    "LYING_DOWN": 58,
+    "RUNNING": 28,
+    "SITTING": 60,
+    "STANDING_AND_MOVING": 58,
+    "STANDING_IN_PLACE": 59,
+    "UNREPORTED_MAIN_ACTIVITY": 60,
+    "WALKING": 60
+  },
+  "cohort_sha256": "a1020b7889d1dadcfdddfb34aee006f1cabea33dc1f018a619479d2dc2284175",
+  "preprocessing_sha256": "fc0e16e9f97b59a6470c391bf8c02216542fb8a476fb525a5067d118b0896d5c",
+  "notes": "Exact full cohort from the earlier ExtraSensory pilot, without outcome-based row filtering; policy revision starts from whole-participant folds, unlike the earlier row-leakage repair task.",
+  "source_sha256": "7c017f75cbf3ca6d157a6ecfd8aacb1173493d9864772ab648ba27ac81373e79",
+  "source_paper_doi": "10.1109/MPRV.2017.3971131"
+}

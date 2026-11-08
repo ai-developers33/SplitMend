@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-11-07T03:41:31.940266+00:00",
+  "files": {
+    "protocol.json": "36ffcf5ad39dc62025e807f490492eeec4d4a99427e37a6e6d40e912a0da7e5d",
+    "experiment.py": "82b4eb1c94dd3c55682abfe432f67c6a69360f42bed991d2539844e9114fdba8",
+    "bridge_greedy.py": "974f71b1eb852ffee2f07a29f0b65e587e1552188d7ef346bb6c822e2d99df0a",
+    "test_bridge.py": "0d8eb31051299f7408dbc27df8159d63cfdbc25a17cef3bd9e1acfa2a257d879"
+  },
+  "note": "Source subset and all policies fixed before any optimization outcomes for this cohort."
+}

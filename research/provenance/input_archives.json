@@ -1,0 +1,82 @@
+[
+  {
+    "name": "SplitMend_Activity_Candidate_Pilots.zip",
+    "bytes": 2934670,
+    "sha256": "652659966d5f1cb070d16cb9e9b801d9b5acc1391461231f5a4b1b5675f92b40"
+  },
+  {
+    "name": "SplitMend_Additional_Dataset_Results.zip",
+    "bytes": 23635963,
+    "sha256": "ceece3dfd224107e7b2e6d0d6737f66b8a6e4a91194d1adbf0da3198ff27d8ac"
+  },
+  {
+    "name": "SplitMend_Bridge_Quarantine_Benchmark.zip",
+    "bytes": 1307225,
+    "sha256": "92add02fbefe81c91139d25a8c01aa1ccabfae2f0f1bab980bb8fab8dcf8a515"
+  },
+  {
+    "name": "SplitMend_Classifier_Metrics.zip",
+    "bytes": 465857,
+    "sha256": "e6eb482b002801afb8841b3b7ca2f672aeb1b418e759a7c1ec909b043e5bef15"
+  },
+  {
+    "name": "SplitMend_Dataset_Search_Results.zip",
+    "bytes": 4477713,
+    "sha256": "4c63bef7b397a824e16d58ad2bb428bafbb180e93b92230316c96e3cde1dfa24"
+  },
+  {
+    "name": "SplitMend_Dataset_Structure_Comparison.zip",
+    "bytes": 2101704,
+    "sha256": "37418cc91e42687dc0582c720d3d483e5e47479b33be4d7b5e7c0acffe6209c0"
+  },
+  {
+    "name": "SplitMend_Experiment_Audit.zip",
+    "bytes": 2091909,
+    "sha256": "2a8c9a6787a0acf6f7d052077c0c6a65fcf092a252d777479e92ac7e22edad34"
+  },
+  {
+    "name": "SplitMend_PAAWS_SoleHARmony_Results.zip",
+    "bytes": 8445407,
+    "sha256": "daa3605bf65b5506ee0ecc78b653f81696eaa22e86ee4bf6fff9d1bec52d49a5"
+  },
+  {
+    "name": "SplitMend_Performance_Pilot.zip",
+    "bytes": 944214,
+    "sha256": "7a94b7dbe774a1d2605cc5a9bb969ad59990e9c979d186ccb02e398b5515e308"
+  },
+  {
+    "name": "SplitMend_PyPI_Release_0.1.1.zip",
+    "bytes": 82324,
+    "sha256": "fc3aad7a5f30aa11b79eb22de77d58e2b9bdf5bb9f6be6f5908d5bf90590df75"
+  },
+  {
+    "name": "SplitMend_Research_Archive_0.1.1.zip",
+    "bytes": 236399867,
+    "sha256": "25411093fb0c53f99264d6aa0896abfdaf2abfce49fdf643ab5b6a33969f4237"
+  },
+  {
+    "name": "SplitMend_Research_Archive_0.1.1_SHA256.txt",
+    "bytes": 103,
+    "sha256": "19d823cd274a3600a368fc84228086fbef6a5f975f58955bb4ea3d0348fbb91a"
+  },
+  {
+    "name": "SplitMend_Review_Package.zip",
+    "bytes": 561427,
+    "sha256": "26d90b747654a931471fbfa5fddbdb1c6a5af01adf5d0faf614bf6885759b416"
+  },
+  {
+    "name": "SplitMend_Second_Clinical_Experiment.zip",
+    "bytes": 44239996,
+    "sha256": "67bffe2d9110882e6cab454c7aaf875949df3f115e1bdf86f9b9ca73caa88335"
+  },
+  {
+    "name": "SplitMend_SoftwareX_Manuscript.docx",
+    "bytes": 466311,
+    "sha256": "8908d3c55c45dc2a4e588443f99f2f01b609fdb6c0586d8f45892bd4ad049bb0"
+  },
+  {
+    "name": "SplitMend_SoftwareX_Manuscript.pdf",
+    "bytes": 665126,
+    "sha256": "0068e3d59ac1fda1bca9c3c6768aaaa85e50a3b6056bf38afedddb5502509484"
+  }
+]

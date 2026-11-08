@@ -1,0 +1,10 @@
+# Environments, caches and new local outputs
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+rerun*/
+# This versioned wheel is an intentional reproducibility input.
+!package/dist/
+!package/dist/*.whl
+!package/dist/*.tar.gz

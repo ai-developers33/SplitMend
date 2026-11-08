@@ -1,0 +1,47 @@
+{
+  "study": "Phase 2: Sleep Telemetry and ExtraSensory policy-revision screening",
+  "frozen_utc": "2026-11-07T01:08:49.840826+00:00",
+  "selection_status": "Exploratory amendment after all phase-1 results were observed: HAR70+ 4.292179848642232%, PAMAP2 0%, UniMiB 0%. No optimization outcomes for Sleep Telemetry or ExtraSensory group-coherent policy revision have been observed. The earlier ExtraSensory row-leakage-repair results are known.",
+  "datasets": [
+    "sleeptelemetry",
+    "extrasensory_revision"
+  ],
+  "preprocessing": {
+    "sleeptelemetry": "All 22 participants and all 44 original Sleep Telemetry hypnograms. Each scored 30-second epoch is one unit-cost record. Original R&K stages W,1,2,3,4,R retained separately; unscored (?) and movement annotations excluded by the definition of sleep-stage prediction. Group by participant across both nights. Strata are original sleep stage crossed with placebo/temazepam condition from ST-subjects.xls. No trimming of scored wake time, no subsampling or synthetic groups.",
+    "extrasensory_revision": "All 377346 original observations and all 60 participants, using the already frozen previous activity labels, including unreported activity. Same cohort as the earlier pilot; the newly tested workflow starts with whole participants assigned to folds and revises a group-coherent split under balance constraints."
+  },
+  "fold_seeds": [
+    0,
+    20261107
+  ],
+  "fold_design": "For each seed, permute sorted participant IDs with NumPy default_rng(seed), use array_split into five folds, test every ordered pair of distinct test and validation fold. Total 40 cases per dataset.",
+  "original_memberships": "Test fold wholly locked; all observations from validation fold start in validation; all remaining participants start in train. Group-consistent original assignments.",
+  "free_partition_targets": {
+    "train": 0.75,
+    "validation": 0.25
+  },
+  "size_tolerance_pp": 5,
+  "label_tolerance_pp": 8,
+  "weight": 1,
+  "quarantine": false,
+  "methods": [
+    "violation_greedy",
+    "cost_greedy_local",
+    "all_pair_greedy",
+    "splitmend"
+  ],
+  "comparison": "Best independently valid output of all three greedy methods on the identical instance. Cases without a valid greedy answer count as failures, not movement savings. Report every attempted case.",
+  "solver_seconds": 60,
+  "greedy_search_seconds": 60,
+  "greedy_pair_candidate_pool": 256,
+  "qualification": {
+    "metric": "100 * sum(greedy_changed - splitmend_changed) / sum(greedy_changed) over ALL paired valid cases from BOTH fixed fold seeds",
+    "minimum_aggregate_reduction_percent": 20,
+    "minimum_paired_valid_cases_total": 20,
+    "minimum_paired_valid_cases_per_fold_seed": 5,
+    "must_have_positive_aggregate_reduction_for_each_fold_seed": true,
+    "all_feasible_solutions_must_pass_independent_record_audit": true
+  },
+  "optimality": "Exhaustive participant allocation enumeration for at most 18 free groups; otherwise require solver-reported zero optimality gap and independent row audit. Preserve any time limits.",
+  "reporting": "Exploratory dataset selection, not a universal or independently validated 20% claim. Preserve previous clinical evidence and the complete candidate screening. GitHub/main changes conditional on verified qualifying evidence and write availability."
+}

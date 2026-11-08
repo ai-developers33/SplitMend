@@ -1,0 +1,72 @@
+[
+  {
+    "dataset": "HAR70+",
+    "attempted": 40,
+    "optimal": 40,
+    "infeasible": 0,
+    "unresolved": 0,
+    "valid_pairs": 39,
+    "greedy_failures_on_feasible": 1,
+    "greedy_moved": 26956,
+    "splitmend_moved": 25799,
+    "aggregate_reduction_percent": 4.292179848642232,
+    "wins": 2,
+    "ties": 37
+  },
+  {
+    "dataset": "PAMAP2",
+    "attempted": 40,
+    "optimal": 12,
+    "infeasible": 28,
+    "unresolved": 0,
+    "valid_pairs": 6,
+    "greedy_failures_on_feasible": 6,
+    "greedy_moved": 9622,
+    "splitmend_moved": 9622,
+    "aggregate_reduction_percent": 0.0,
+    "wins": 0,
+    "ties": 6
+  },
+  {
+    "dataset": "UniMiB SHAR",
+    "attempted": 40,
+    "optimal": 40,
+    "infeasible": 0,
+    "unresolved": 0,
+    "valid_pairs": 40,
+    "greedy_failures_on_feasible": 0,
+    "greedy_moved": 9926,
+    "splitmend_moved": 9926,
+    "aggregate_reduction_percent": 0.0,
+    "wins": 0,
+    "ties": 40
+  },
+  {
+    "dataset": "Sleep-EDF Telemetry",
+    "attempted": 40,
+    "optimal": 40,
+    "infeasible": 0,
+    "unresolved": 0,
+    "valid_pairs": 40,
+    "greedy_failures_on_feasible": 0,
+    "greedy_moved": 114340,
+    "splitmend_moved": 112778,
+    "aggregate_reduction_percent": 1.3661011019765612,
+    "wins": 2,
+    "ties": 38
+  },
+  {
+    "dataset": "ExtraSensory",
+    "attempted": 40,
+    "optimal": 40,
+    "infeasible": 0,
+    "unresolved": 0,
+    "valid_pairs": 40,
+    "greedy_failures_on_feasible": 0,
+    "greedy_moved": 379730,
+    "splitmend_moved": 378804,
+    "aggregate_reduction_percent": 0.24385747768151056,
+    "wins": 4,
+    "ties": 36
+  }
+]

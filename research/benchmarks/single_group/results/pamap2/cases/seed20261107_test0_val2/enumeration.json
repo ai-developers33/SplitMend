@@ -1,0 +1,18 @@
+{
+  "free_participants": 7,
+  "allocations_checked": 128,
+  "valid_allocations": 0,
+  "optimal_movement": null,
+  "number_of_minimizers": 0,
+  "best_mask": null,
+  "participant_order": [
+    "participant:subject101",
+    "participant:subject102",
+    "participant:subject104",
+    "participant:subject106",
+    "participant:subject107",
+    "participant:subject108",
+    "participant:subject109"
+  ],
+  "seconds": 0.001975207000214141
+}

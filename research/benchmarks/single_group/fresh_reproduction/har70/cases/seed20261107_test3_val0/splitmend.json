@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 0,
+    "seconds": 0.07891880100214621,
+    "external_audit_seconds": 0.015265538997482508,
+    "status": "optimal",
+    "lower_bound": 0,
+    "gap": 0,
+    "violations": {},
+    "dataset": "har70",
+    "case": "seed20261107_test3_val0",
+    "fold_seed": 20261107,
+    "test_fold": 3,
+    "validation_fold": 0
+  },
+  "problem_sha256": "f7fdfebe416e01a21187001827e6b071152b9d9d6230a8a97a0f621732881a60",
+  "group_assignments": {
+    "participant:501": "train",
+    "participant:502": "test",
+    "participant:503": "train",
+    "participant:504": "test",
+    "participant:505": "validation",
+    "participant:506": "validation",
+    "participant:507": "train",
+    "participant:508": "train",
+    "participant:509": "validation",
+    "participant:510": "validation",
+    "participant:511": "train",
+    "participant:512": "train",
+    "participant:513": "train",
+    "participant:514": "test",
+    "participant:515": "train",
+    "participant:516": "train",
+    "participant:517": "train",
+    "participant:518": "train"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "f7fdfebe416e01a21187001827e6b071152b9d9d6230a8a97a0f621732881a60",
+    "before": {
+      "valid": true,
+      "counts": {
+        "train": 5784,
+        "validation": 1847,
+        "test": 1560,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 5784,
+        "validation": 1847,
+        "test": 1560,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "conflict": null,
+    "objective": 0,
+    "lower_bound": 0,
+    "gap": 0,
+    "status": "optimal",
+    "reason": "unchanged_zero_cost",
+    "model": {
+      "rows": 9191,
+      "blocks": 0,
+      "variables": 0
+    },
+    "seconds": 0.07888672799890628
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 5784,
+      "validation": 1847,
+      "test": 1560,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 0,
+    "quarantined": 0,
+    "objective": 0
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 0,
+    "violations": {},
+    "sizes": {
+      "train": 5784,
+      "test": 1560,
+      "validation": 1847
+    },
+    "labels": {
+      "activity_06": {
+        "train": 1049,
+        "test": 375,
+        "validation": 332
+      },
+      "activity_01": {
+        "train": 2849,
+        "test": 743,
+        "validation": 833
+      },
+      "activity_07": {
+        "train": 1216,
+        "test": 306,
+        "validation": 448
+      },
+      "activity_08": {
+        "train": 521,
+        "test": 102,
+        "validation": 202
+      },
+      "activity_03": {
+        "train": 118,
+        "test": 31,
+        "validation": 23
+      },
+      "activity_05": {
+        "train": 18,
+        "test": 1,
+        "validation": 4
+      },
+      "activity_04": {
+        "test": 2,
+        "validation": 5,
+        "train": 13
+      }
+    }
+  }
+}

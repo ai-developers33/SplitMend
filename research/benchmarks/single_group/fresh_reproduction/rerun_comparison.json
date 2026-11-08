@@ -1,0 +1,12 @@
+[
+  {
+    "dataset": "har70",
+    "cases": 40,
+    "all_status_validity_and_movement_results_match": true
+  },
+  {
+    "dataset": "sleeptelemetry",
+    "cases": 40,
+    "all_status_validity_and_movement_results_match": true
+  }
+]

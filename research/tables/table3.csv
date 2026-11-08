@@ -1,0 +1,4 @@
+dataset,rows,compressed_variables,row_variables,objective,variable_reduction_percent
+HAR,1904,234,5730,396,95.91623036649214
+OULAD,1999,8634,8778,1008,1.6404647983595353
+BEIJING,2000,132,8000,10000,98.35

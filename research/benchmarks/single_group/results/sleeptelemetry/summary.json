@@ -1,0 +1,52 @@
+{
+  "cases": 40,
+  "optimal": 40,
+  "infeasible": 0,
+  "unknown_or_feasible_unproven": 0,
+  "greedy_valid": 40,
+  "paired": 40,
+  "paired_nonzero_greedy": 37,
+  "wins": 2,
+  "ties": 38,
+  "losses": 0,
+  "paired_splitmend_total": 112778,
+  "paired_greedy_total": 114340,
+  "paired_saved_total": 1562,
+  "aggregate_reduction_percent": 1.3661011019765612,
+  "by_fold_seed": {
+    "0": {
+      "cases": 20,
+      "optimal": 20,
+      "infeasible": 0,
+      "unknown_or_feasible_unproven": 0,
+      "greedy_valid": 20,
+      "paired": 20,
+      "paired_nonzero_greedy": 20,
+      "wins": 1,
+      "ties": 19,
+      "losses": 0,
+      "paired_splitmend_total": 62172,
+      "paired_greedy_total": 63568,
+      "paired_saved_total": 1396,
+      "aggregate_reduction_percent": 2.196073496098666
+    },
+    "20261107": {
+      "cases": 20,
+      "optimal": 20,
+      "infeasible": 0,
+      "unknown_or_feasible_unproven": 0,
+      "greedy_valid": 20,
+      "paired": 20,
+      "paired_nonzero_greedy": 17,
+      "wins": 1,
+      "ties": 19,
+      "losses": 0,
+      "paired_splitmend_total": 50606,
+      "paired_greedy_total": 50772,
+      "paired_saved_total": 166,
+      "aggregate_reduction_percent": 0.3269518632317025
+    }
+  },
+  "complete": true,
+  "qualifies_for_20_percent_claim": false
+}

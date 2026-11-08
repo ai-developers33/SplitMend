@@ -1,0 +1,11 @@
+{"case": "seed0_test3_val2", "method": "all_pair_bridge", "status": "heuristic", "valid": true, "objective": 26115, "retained_moved": 2405, "quarantined": 2371, "seconds": 1.7632458309963113, "gap": null}
+{"case": "seed0_test3_val2", "method": "splitmend", "status": "feasible", "valid": true, "objective": 26595, "retained_moved": 4505, "quarantined": 2209, "seconds": 66.75985282799957, "gap": 0.07715736040609138}
+{"case": "seed0_test3_val2", "method": "violation_first_bridge", "status": "heuristic", "valid": false, "objective": 28720, "retained_moved": 1470, "quarantined": 2725, "seconds": 0.5396027489987318, "gap": null}
+{"case": "seed0_test3_val2", "method": "cost_aware_bridge_exchanges", "status": "heuristic", "valid": false, "objective": 27559, "retained_moved": 1179, "quarantined": 2638, "seconds": 3.089985426995554, "gap": null}
+{"case": "seed0_test3_val4", "method": "splitmend", "status": "feasible", "valid": true, "objective": 26248, "retained_moved": 4158, "quarantined": 2209, "seconds": 64.0619708009981, "gap": 0.07970131057604389}
+{"case": "seed0_test3_val4", "method": "violation_first_bridge", "status": "heuristic", "valid": false, "objective": 26748, "retained_moved": 928, "quarantined": 2582, "seconds": 1.6379883580011665, "gap": null}
+{"case": "seed0_test3_val4", "method": "cost_aware_bridge_exchanges", "status": "heuristic", "valid": false, "objective": 25598, "retained_moved": 1198, "quarantined": 2440, "seconds": 0.26780283200059785, "gap": null}
+{"case": "seed0_test3_val4", "method": "all_pair_bridge", "status": "heuristic", "valid": false, "objective": 30573, "retained_moved": 7393, "quarantined": 2318, "seconds": 3.3078070640040096, "gap": null}
+{"case": "seed0_test4_val0", "method": "violation_first_bridge", "status": "heuristic", "valid": true, "objective": 20941, "retained_moved": 951, "quarantined": 1999, "seconds": 0.2125353970041033, "gap": null}
+{"case": "seed0_test4_val0", "method": "cost_aware_bridge_exchanges", "status": "heuristic", "valid": true, "objective": 20411, "retained_moved": 3311, "quarantined": 1710, "seconds": 1.5990862699982245, "gap": null}
+{"case": "seed0_test4_val0", "method": "all_pair_bridge", "status": "heuristic", "valid": true, "objective": 19299, "retained_moved": 5549, "quarantined": 1375, "seconds": 2.694897877998301, "gap": null}

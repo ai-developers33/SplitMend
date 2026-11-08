@@ -99,6 +99,25 @@ local exchanges (nine fewer changes in total; four wins and eleven ties). The la
 was faster. These results support constraint enforcement and optimality certification,
 not a substantial advantage over strong heuristics. See `docs/RESULTS_INTERPRETATION.md`.
 
+## Expanded research evaluation (Tables 1–5)
+
+The [research directory](research/README.md) adds the five-dataset single-group
+sweep and coupled OULAD bridge-quarantine benchmark, with their protocols,
+derived cohorts, comparators, saved assignments and all attempted outcomes.
+The original HAR, OULAD, clinical and temporal experiments are retained.
+
+```sh
+python3 research/scripts/verify_archive.py
+python3 research/scripts/reproduce_all.py --mode tables
+```
+
+The table command aggregates 1,140 saved method outputs; it does not rerun the
+optimizers. For a fresh numerical run, use the pinned Python 3.12 workflow in
+[research/README.md](research/README.md). See
+[the update notes](docs/RESEARCH_UPDATE.md) for scope, validity denominators and
+the distinction between the GitHub subset and the complete research archive.
+The Python package and PyPI version remain 0.1.1.
+
 ## Release
 
 See `docs/RELEASE.md` for release maintenance and research-archive contents.

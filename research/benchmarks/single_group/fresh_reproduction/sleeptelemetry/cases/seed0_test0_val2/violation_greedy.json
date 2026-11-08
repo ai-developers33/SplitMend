@@ -1,0 +1,205 @@
+{
+  "summary": {
+    "method": "violation_greedy",
+    "valid": false,
+    "changed": 0,
+    "seconds": 0.019044829001359176,
+    "external_audit_seconds": 0.08345033799560042,
+    "status": null,
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "label_bounds": 6
+    },
+    "dataset": "sleeptelemetry",
+    "case": "seed0_test0_val2",
+    "fold_seed": 0,
+    "test_fold": 0,
+    "validation_fold": 2
+  },
+  "problem_sha256": "3d0bf5066e9824b50ca0142da15f44483dcf7540b0a3f85715be03ca45cc77aa",
+  "group_assignments": {
+    "participant:ST01": "validation",
+    "participant:ST02": "train",
+    "participant:ST04": "test",
+    "participant:ST05": "train",
+    "participant:ST06": "test",
+    "participant:ST07": "train",
+    "participant:ST08": "train",
+    "participant:ST09": "train",
+    "participant:ST10": "validation",
+    "participant:ST11": "train",
+    "participant:ST12": "test",
+    "participant:ST13": "train",
+    "participant:ST14": "train",
+    "participant:ST15": "validation",
+    "participant:ST16": "train",
+    "participant:ST17": "train",
+    "participant:ST18": "test",
+    "participant:ST19": "train",
+    "participant:ST20": "validation",
+    "participant:ST21": "test",
+    "participant:ST22": "train",
+    "participant:ST24": "train"
+  },
+  "raw": {
+    "search_seconds": 0.0035251619992777705,
+    "preprocessing_seconds": 0.015316925004299264,
+    "greedy_steps": 0,
+    "local_steps": 0,
+    "stop_reason": "no_improving_violation_move",
+    "profiles": 17,
+    "remaining_count_violation": 35
+  },
+  "library_audit": {
+    "valid": false,
+    "counts": {
+      "train": 24699,
+      "validation": 7916,
+      "test": 10081,
+      "__quarantine__": 0
+    },
+    "violation_counts": {
+      "label": 6
+    },
+    "violations": [
+      {
+        "kind": "label",
+        "label": "stage_1:temazepam",
+        "partition": "train",
+        "count": 1043,
+        "bounds": [
+          837,
+          1038
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "stage_1:temazepam",
+        "partition": "validation",
+        "count": 207,
+        "bounds": [
+          212,
+          413
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "stage_3:placebo",
+        "partition": "train",
+        "count": 923,
+        "bounds": [
+          940,
+          1165
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "stage_3:placebo",
+        "partition": "validation",
+        "count": 480,
+        "bounds": [
+          238,
+          463
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "stage_W:temazepam",
+        "partition": "train",
+        "count": 1224,
+        "bounds": [
+          977,
+          1211
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "stage_W:temazepam",
+        "partition": "validation",
+        "count": 235,
+        "bounds": [
+          248,
+          482
+        ]
+      }
+    ],
+    "changed": 0,
+    "quarantined": 0,
+    "objective": 0
+  },
+  "independent_audit": {
+    "valid": false,
+    "changed": 0,
+    "violations": {
+      "label_bounds": 6
+    },
+    "sizes": {
+      "validation": 7916,
+      "train": 24699,
+      "test": 10081
+    },
+    "labels": {
+      "stage_W:placebo": {
+        "validation": 456,
+        "train": 1606,
+        "test": 375
+      },
+      "stage_1:placebo": {
+        "validation": 320,
+        "train": 1327,
+        "test": 397
+      },
+      "stage_2:placebo": {
+        "validation": 1746,
+        "train": 5267,
+        "test": 2480
+      },
+      "stage_3:placebo": {
+        "validation": 480,
+        "train": 923,
+        "test": 302
+      },
+      "stage_R:placebo": {
+        "validation": 630,
+        "train": 2350,
+        "test": 1151
+      },
+      "stage_4:placebo": {
+        "validation": 321,
+        "train": 806,
+        "test": 313
+      },
+      "stage_W:temazepam": {
+        "validation": 235,
+        "train": 1224,
+        "test": 532
+      },
+      "stage_1:temazepam": {
+        "validation": 207,
+        "train": 1043,
+        "test": 359
+      },
+      "stage_2:temazepam": {
+        "validation": 1916,
+        "train": 5652,
+        "test": 2790
+      },
+      "stage_3:temazepam": {
+        "validation": 318,
+        "train": 1105,
+        "test": 270
+      },
+      "stage_R:temazepam": {
+        "validation": 897,
+        "train": 2423,
+        "test": 898
+      },
+      "stage_4:temazepam": {
+        "validation": 390,
+        "train": 973,
+        "test": 214
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+comparator,valid_pairs,feasible_cases,comparator_quarantined,splitmend_quarantined,comparator_retained_moved,splitmend_retained_moved,comparator_objective,splitmend_objective,objective_reduction_percent,wins,ties,losses
+violation_first_bridge,20,36,1470,1089,756,2535,15456,13425,13.14052795031056,18,2,0
+cost_aware_bridge_exchanges,23,36,1481,1345,2300,2692,17110,16142,5.657510227936879,14,9,0
+all_pair_bridge,36,36,2160,2105,5641,4840,27241,25890,4.959436144047575,24,12,0
+best_valid_greedy_per_case,36,36,2164,2105,5250,4840,26890,25890,3.718854592785422,23,13,0

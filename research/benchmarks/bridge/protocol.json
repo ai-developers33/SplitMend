@@ -1,0 +1,42 @@
+{
+  "study": "Fixed random complete-student subset: certified bridge-quarantine repair",
+  "frozen_utc": "2026-11-07T03:40:41.090761+00:00",
+  "dataset": "1000 students sampled without replacement from all 28785 OULAD students, using NumPy default_rng(314159). Retain every original enrolment for selected students; all four final_result strata; do not select by solver outcomes, repeated-enrolment status or course. Source CSV and original row IDs retained.",
+  "source_doi": "10.6084/m9.figshare.5081998.v1",
+  "source_archive_sha256": "90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec",
+  "source_csv_sha256": "7e6f3e474a5eee00639d2a414a6c7e928745823c2d2c2563ca1780145f99b0d6",
+  "groups": [
+    "student:id_student",
+    "offering:code_module:code_presentation"
+  ],
+  "motivation": "A deployment policy requiring both students and module-presentations to be disjoint across retained partitions. This is stronger than ordinary student-only generalization and is evaluated as a policy stress test, not an inferred leakage definition.",
+  "fold_seeds": [
+    0,
+    20261107
+  ],
+  "folds": 5,
+  "scenarios": "Same two seeds and all20 ordered test/validation offering-fold pairs each, 40 total. Test rows locked, remaining rows eligible for train/validation/quarantine. All other targets and budgets unchanged from full-cohort diagnostic.",
+  "free_partition_targets": {
+    "train": 0.75,
+    "validation": 0.25
+  },
+  "size_tolerance_pp": 5,
+  "label_tolerance_pp": 8,
+  "allow_quarantine": true,
+  "quarantine_cost": 10,
+  "unit_weights": true,
+  "objective": "retained_rows_moved + 10 * newly_quarantined_rows; changed_rows includes both, reported separately",
+  "methods": [
+    "violation_first_bridge",
+    "cost_aware_bridge_exchanges",
+    "all_pair_bridge",
+    "splitmend"
+  ],
+  "budgets_seconds": 60,
+  "comparison": "Validity/status out of all40. Objective/movement reduction only for paired valid cases where SplitMend status is optimal and its lower bound equals objective. Report all feasible-unproven, infeasible, unknown or interrupted outcomes separately; no percentage benefit attributed to optimality when uncertified.",
+  "interpretation": "Exploratory new task; no percentage target selected or guaranteed, no replacement of prior results, no automatic repository changes. Greedy algorithms are new multi-group/quarantine extensions, not unchanged single-group adapters.",
+  "runtime": "Total preprocessing plus execution recorded; solver/search budget reported separately. Concurrent jobs share a host, so wall time is descriptive only.",
+  "cohort_student_count": 1000,
+  "cohort_seed": 314159,
+  "singleton_preprocessing": "Count usage across the full selected cohort, remove exactly group tokens with usage1 before passing samples to the solver. This is redundant with the unmodified v0.1.1 solver active-group filtering; equivalence checked explicitly."
+}

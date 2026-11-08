@@ -1,0 +1,650 @@
+{
+  "cases": 40,
+  "all_equivalent": true,
+  "rows": 1134,
+  "students": 1000,
+  "singleton_tokens": 874,
+  "scope": "Matrix equivalence of the released v0.1.1 internal filtering and explicit preprocessing; no new optimizer change.",
+  "checks": [
+    {
+      "case": "seed0_test0_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test0_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test0_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test0_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test1_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test1_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test1_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test1_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test2_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test2_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test2_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test2_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test3_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test3_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test3_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test3_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test4_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test4_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test4_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed0_test4_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test0_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test0_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test0_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test0_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test1_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test1_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test1_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test3_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test3_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test3_val4",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test4_val0",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test4_val1",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test4_val2",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    },
+    {
+      "case": "seed20261107_test4_val3",
+      "equal": {
+        "block_members": true,
+        "destinations": true,
+        "matrix": true,
+        "constraint_names": true,
+        "costs": true,
+        "upper": true,
+        "lower_rows": true,
+        "upper_rows": true
+      },
+      "blocks": 345,
+      "variables": 1824,
+      "singleton_tokens_removed": 874
+    }
+  ]
+}

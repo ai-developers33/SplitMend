@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "HAR",
+    "rows": 1904,
+    "compressed_variables": 234,
+    "row_variables": 5730,
+    "objective": 396,
+    "variable_reduction_percent": 95.91623036649214
+  },
+  {
+    "dataset": "OULAD",
+    "rows": 1999,
+    "compressed_variables": 8634,
+    "row_variables": 8778,
+    "objective": 1008,
+    "variable_reduction_percent": 1.6404647983595353
+  },
+  {
+    "dataset": "BEIJING",
+    "rows": 2000,
+    "compressed_variables": 132,
+    "row_variables": 8000,
+    "objective": 10000,
+    "variable_reduction_percent": 98.35
+  }
+]

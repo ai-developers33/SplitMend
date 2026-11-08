@@ -1,0 +1,150 @@
+===============================================================================
+                                     CVXPY                                     
+                                     v1.7.5                                    
+===============================================================================
+Your problem has 42 variables, 35 constraints, and 0 parameters.
+It is compliant with the following grammars: DCP, DQCP
+(If you need to solve this problem multiple times, but with different data, consider using parameters.)
+CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+Your problem is compiled with the CPP canonicalization backend.
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+Compiling problem (target solver=SCIP).
+Reduction chain: Dcp2Cone -> CvxAttr2Constr -> ConeMatrixStuffing -> SCIP
+Applying reduction Dcp2Cone
+Applying reduction CvxAttr2Constr
+Applying reduction ConeMatrixStuffing
+Applying reduction SCIP
+Finished problem compilation (took 3.725e-03 seconds).
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+Invoking solver SCIP  to obtain a solution.
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+Problem status: optimal
+Optimal value: 1.000e+00
+Compilation took 3.725e-03 seconds
+Solver (including time spent in interface) took 6.013e-03 seconds
+===============================================================================
+                                     CVXPY                                     
+                                     v1.7.5                                    
+===============================================================================
+Your problem has 42 variables, 35 constraints, and 0 parameters.
+It is compliant with the following grammars: DCP, DQCP
+(If you need to solve this problem multiple times, but with different data, consider using parameters.)
+CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+Your problem is compiled with the CPP canonicalization backend.
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+Compiling problem (target solver=SCIP).
+Reduction chain: Dcp2Cone -> CvxAttr2Constr -> ConeMatrixStuffing -> SCIP
+Applying reduction Dcp2Cone
+Applying reduction CvxAttr2Constr
+Applying reduction ConeMatrixStuffing
+Applying reduction SCIP
+Finished problem compilation (took 3.184e-03 seconds).
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+Invoking solver SCIP  to obtain a solution.
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+Problem status: optimal
+Optimal value: 1.000e+00
+Compilation took 3.184e-03 seconds
+Solver (including time spent in interface) took 4.494e-03 seconds
+===============================================================================
+                                     CVXPY                                     
+                                     v1.7.5                                    
+===============================================================================
+Your problem has 42 variables, 35 constraints, and 0 parameters.
+It is compliant with the following grammars: DCP, DQCP
+(If you need to solve this problem multiple times, but with different data, consider using parameters.)
+CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+Your problem is compiled with the CPP canonicalization backend.
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+Compiling problem (target solver=SCIP).
+Reduction chain: Dcp2Cone -> CvxAttr2Constr -> ConeMatrixStuffing -> SCIP
+Applying reduction Dcp2Cone
+Applying reduction CvxAttr2Constr
+Applying reduction ConeMatrixStuffing
+Applying reduction SCIP
+Finished problem compilation (took 4.020e-03 seconds).
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+Invoking solver SCIP  to obtain a solution.
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+Problem status: optimal
+Optimal value: 1.000e+00
+Compilation took 4.020e-03 seconds
+Solver (including time spent in interface) took 7.226e-03 seconds
+===============================================================================
+                                     CVXPY                                     
+                                     v1.7.5                                    
+===============================================================================
+Your problem has 42 variables, 35 constraints, and 0 parameters.
+It is compliant with the following grammars: DCP, DQCP
+(If you need to solve this problem multiple times, but with different data, consider using parameters.)
+CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+Your problem is compiled with the CPP canonicalization backend.
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+Compiling problem (target solver=SCIP).
+Reduction chain: Dcp2Cone -> CvxAttr2Constr -> ConeMatrixStuffing -> SCIP
+Applying reduction Dcp2Cone
+Applying reduction CvxAttr2Constr
+Applying reduction ConeMatrixStuffing
+Applying reduction SCIP
+Finished problem compilation (took 4.779e-03 seconds).
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+Invoking solver SCIP  to obtain a solution.
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+Problem status: optimal
+Optimal value: 1.000e+00
+Compilation took 4.779e-03 seconds
+Solver (including time spent in interface) took 5.566e-03 seconds
+===============================================================================
+                                     CVXPY                                     
+                                     v1.7.5                                    
+===============================================================================
+Your problem has 42 variables, 35 constraints, and 0 parameters.
+It is compliant with the following grammars: DCP, DQCP
+(If you need to solve this problem multiple times, but with different data, consider using parameters.)
+CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+Your problem is compiled with the CPP canonicalization backend.
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+Compiling problem (target solver=SCIP).
+Reduction chain: Dcp2Cone -> CvxAttr2Constr -> ConeMatrixStuffing -> SCIP
+Applying reduction Dcp2Cone
+Applying reduction CvxAttr2Constr
+Applying reduction ConeMatrixStuffing
+Applying reduction SCIP
+Finished problem compilation (took 4.269e-03 seconds).
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+Invoking solver SCIP  to obtain a solution.
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+Problem status: optimal
+Optimal value: 1.000e+00
+Compilation took 4.269e-03 seconds
+Solver (including time spent in interface) took 6.318e-03 seconds

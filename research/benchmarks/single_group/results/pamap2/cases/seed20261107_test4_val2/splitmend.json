@@ -1,0 +1,369 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 523,
+    "seconds": 0.07375059599871747,
+    "external_audit_seconds": 0.009245193999959156,
+    "status": "optimal",
+    "lower_bound": 523.0,
+    "gap": 0.0,
+    "violations": {},
+    "dataset": "pamap2",
+    "case": "seed20261107_test4_val2",
+    "fold_seed": 20261107,
+    "test_fold": 4,
+    "validation_fold": 2
+  },
+  "problem_sha256": "f950095d1d743e6e1cc3f5fb7b174058caee18b0062640f91f64d113c9cc5fe0",
+  "group_assignments": {
+    "participant:subject101": "train",
+    "participant:subject102": "test",
+    "participant:subject103": "validation",
+    "participant:subject104": "train",
+    "participant:subject105": "train",
+    "participant:subject106": "train",
+    "participant:subject107": "train",
+    "participant:subject108": "validation",
+    "participant:subject109": "train"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "f950095d1d743e6e1cc3f5fb7b174058caee18b0062640f91f64d113c9cc5fe0",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 4021,
+        "validation": 834,
+        "test": 894,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "size": 2,
+        "label": 18
+      },
+      "violations": [
+        {
+          "kind": "size",
+          "partition": "train",
+          "count": 4021,
+          "bounds": [
+            3398,
+            3884
+          ]
+        },
+        {
+          "kind": "size",
+          "partition": "validation",
+          "count": 834,
+          "bounds": [
+            971,
+            1457
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "train",
+          "count": 289,
+          "bounds": [
+            226,
+            281
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "validation",
+          "count": 49,
+          "bounds": [
+            57,
+            112
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_02",
+          "partition": "train",
+          "count": 280,
+          "bounds": [
+            218,
+            271
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_02",
+          "partition": "validation",
+          "count": 46,
+          "bounds": [
+            55,
+            108
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "train",
+          "count": 278,
+          "bounds": [
+            219,
+            273
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "validation",
+          "count": 50,
+          "bounds": [
+            55,
+            109
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "train",
+          "count": 349,
+          "bounds": [
+            276,
+            342
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "validation",
+          "count": 63,
+          "bounds": [
+            70,
+            136
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "train",
+          "count": 176,
+          "bounds": [
+            133,
+            166
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "validation",
+          "count": 23,
+          "bounds": [
+            33,
+            66
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_13",
+          "partition": "train",
+          "count": 160,
+          "bounds": [
+            119,
+            149
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_13",
+          "partition": "validation",
+          "count": 19,
+          "bounds": [
+            30,
+            60
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_16",
+          "partition": "train",
+          "count": 260,
+          "bounds": [
+            207,
+            257
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_16",
+          "partition": "validation",
+          "count": 49,
+          "bounds": [
+            52,
+            102
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_17",
+          "partition": "train",
+          "count": 354,
+          "bounds": [
+            281,
+            349
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_17",
+          "partition": "validation",
+          "count": 66,
+          "bounds": [
+            71,
+            139
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "train",
+          "count": 43,
+          "bounds": [
+            49,
+            62
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "validation",
+          "count": 31,
+          "bounds": [
+            12,
+            25
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 3532,
+        "validation": 1323,
+        "test": 894,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 523,
+      "quarantined": 0,
+      "objective": 523
+    },
+    "conflict": null,
+    "objective": 523,
+    "lower_bound": 523.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 5749,
+      "blocks": 99,
+      "variables": 324,
+      "constraints": 585
+    },
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "status": "optimal",
+    "reason": "solver",
+    "seconds": 0.07368098000006285
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 3532,
+      "validation": 1323,
+      "test": 894,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 523,
+    "quarantined": 0,
+    "objective": 523
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 523,
+    "violations": {},
+    "sizes": {
+      "train": 3532,
+      "test": 894,
+      "validation": 1323
+    },
+    "labels": {
+      "activity_00": {
+        "train": 1047,
+        "test": 366,
+        "validation": 448
+      },
+      "activity_01": {
+        "train": 245,
+        "test": 47,
+        "validation": 93
+      },
+      "activity_02": {
+        "train": 222,
+        "test": 45,
+        "validation": 104
+      },
+      "activity_03": {
+        "train": 237,
+        "test": 51,
+        "validation": 91
+      },
+      "activity_17": {
+        "train": 298,
+        "test": 58,
+        "validation": 122
+      },
+      "activity_16": {
+        "train": 219,
+        "test": 42,
+        "validation": 90
+      },
+      "activity_12": {
+        "train": 155,
+        "test": 34,
+        "validation": 44
+      },
+      "activity_13": {
+        "train": 130,
+        "test": 31,
+        "validation": 49
+      },
+      "activity_04": {
+        "train": 290,
+        "test": 65,
+        "validation": 122
+      },
+      "activity_07": {
+        "train": 259,
+        "test": 59,
+        "validation": 58
+      },
+      "activity_06": {
+        "train": 228,
+        "test": 51,
+        "validation": 51
+      },
+      "activity_05": {
+        "train": 146,
+        "test": 18,
+        "validation": 33
+      },
+      "activity_24": {
+        "train": 56,
+        "test": 27,
+        "validation": 18
+      }
+    }
+  }
+}

@@ -1,0 +1,1173 @@
+{
+  "stopped_utc": "2026-11-07T03:40:41.238372+00:00",
+  "reason": "User requested stopping full-cohort runs and proceeding on smaller cases with certified optimality. Completed results retained, unfinished solver jobs interrupted.",
+  "completed_method_outputs": 58,
+  "completed_solver_outputs": 12,
+  "records": [
+    {
+      "case": "seed0_test0_val1",
+      "changed": 5480,
+      "counts": {
+        "__quarantine__": 1590,
+        "test": 7843,
+        "train": 17738,
+        "validation": 5422
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 19790,
+      "quarantined": 1590,
+      "retained": 31003,
+      "retained_moved": 3890,
+      "seconds": 0.702103427000111,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val1",
+      "changed": 7834,
+      "counts": {
+        "__quarantine__": 1089,
+        "test": 7843,
+        "train": 18498,
+        "validation": 5163
+      },
+      "method": "all_pair_bridge",
+      "objective": 17635,
+      "quarantined": 1089,
+      "retained": 31504,
+      "retained_moved": 6745,
+      "seconds": 1.6077049620071193,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val1",
+      "changed": 3779,
+      "counts": {
+        "__quarantine__": 1880,
+        "test": 7843,
+        "train": 17375,
+        "validation": 5495
+      },
+      "method": "violation_first_bridge",
+      "objective": 20699,
+      "quarantined": 1880,
+      "retained": 30713,
+      "retained_moved": 1899,
+      "seconds": 0.1627298579987837,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test3_val2",
+      "changed": 3817,
+      "counts": {
+        "__quarantine__": 2638,
+        "test": 7039,
+        "train": 17887,
+        "validation": 5029
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 27559,
+      "quarantined": 2638,
+      "retained": 29955,
+      "retained_moved": 1179,
+      "seconds": 3.089985426995554,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "size": 1
+      }
+    },
+    {
+      "case": "seed0_test3_val2",
+      "changed": 4776,
+      "counts": {
+        "__quarantine__": 2371,
+        "test": 7039,
+        "train": 17914,
+        "validation": 5269
+      },
+      "method": "all_pair_bridge",
+      "objective": 26115,
+      "quarantined": 2371,
+      "retained": 30222,
+      "retained_moved": 2405,
+      "seconds": 1.7632458309963113,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test3_val2",
+      "changed": 6714,
+      "counts": {
+        "__quarantine__": 2209,
+        "test": 7039,
+        "train": 18153,
+        "validation": 5192
+      },
+      "gap": 0.07715736040609138,
+      "lower_bound": 24543.0,
+      "method": "splitmend",
+      "objective": 26595,
+      "quarantined": 2209,
+      "retained": 30384,
+      "retained_moved": 4505,
+      "seconds": 66.75985282799957,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test3_val2",
+      "changed": 4195,
+      "counts": {
+        "__quarantine__": 2725,
+        "test": 7039,
+        "train": 17708,
+        "validation": 5121
+      },
+      "method": "violation_first_bridge",
+      "objective": 28720,
+      "quarantined": 2725,
+      "retained": 29868,
+      "retained_moved": 1470,
+      "seconds": 0.5396027489987318,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "size": 1
+      }
+    },
+    {
+      "case": "seed0_test4_val0",
+      "changed": 5021,
+      "counts": {
+        "__quarantine__": 1710,
+        "test": 5105,
+        "train": 19641,
+        "validation": 6137
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 20411,
+      "quarantined": 1710,
+      "retained": 30883,
+      "retained_moved": 3311,
+      "seconds": 1.5990862699982245,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test4_val0",
+      "changed": 6924,
+      "counts": {
+        "__quarantine__": 1375,
+        "test": 5105,
+        "train": 19695,
+        "validation": 6418
+      },
+      "method": "all_pair_bridge",
+      "objective": 19299,
+      "quarantined": 1375,
+      "retained": 31218,
+      "retained_moved": 5549,
+      "seconds": 2.694897877998301,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test4_val0",
+      "changed": 2950,
+      "counts": {
+        "__quarantine__": 1999,
+        "test": 5105,
+        "train": 19520,
+        "validation": 5969
+      },
+      "method": "violation_first_bridge",
+      "objective": 20941,
+      "quarantined": 1999,
+      "retained": 30594,
+      "retained_moved": 951,
+      "seconds": 0.2125353970041033,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test3_val4",
+      "changed": 3638,
+      "counts": {
+        "__quarantine__": 2440,
+        "test": 7039,
+        "train": 17875,
+        "validation": 5239
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 25598,
+      "quarantined": 2440,
+      "retained": 30153,
+      "retained_moved": 1198,
+      "seconds": 0.26780283200059785,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 2,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed0_test3_val4",
+      "changed": 9711,
+      "counts": {
+        "__quarantine__": 2318,
+        "test": 7039,
+        "train": 17926,
+        "validation": 5310
+      },
+      "method": "all_pair_bridge",
+      "objective": 30573,
+      "quarantined": 2318,
+      "retained": 30275,
+      "retained_moved": 7393,
+      "seconds": 3.3078070640040096,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1
+      }
+    },
+    {
+      "case": "seed0_test3_val4",
+      "changed": 6367,
+      "counts": {
+        "__quarantine__": 2209,
+        "test": 7039,
+        "train": 18139,
+        "validation": 5206
+      },
+      "gap": 0.07970131057604389,
+      "lower_bound": 24156.0,
+      "method": "splitmend",
+      "objective": 26248,
+      "quarantined": 2209,
+      "retained": 30384,
+      "retained_moved": 4158,
+      "seconds": 64.0619708009981,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test3_val4",
+      "changed": 3510,
+      "counts": {
+        "__quarantine__": 2582,
+        "test": 7039,
+        "train": 17887,
+        "validation": 5085
+      },
+      "method": "violation_first_bridge",
+      "objective": 26748,
+      "quarantined": 2582,
+      "retained": 30011,
+      "retained_moved": 928,
+      "seconds": 1.6379883580011665,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "size": 1
+      }
+    },
+    {
+      "case": "seed0_test0_val2",
+      "changed": 4152,
+      "counts": {
+        "__quarantine__": 1535,
+        "test": 7843,
+        "train": 17867,
+        "validation": 5348
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 17967,
+      "quarantined": 1535,
+      "retained": 31058,
+      "retained_moved": 2617,
+      "seconds": 0.46962059299403336,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val2",
+      "changed": 6746,
+      "counts": {
+        "__quarantine__": 1409,
+        "test": 7843,
+        "train": 17547,
+        "validation": 5794
+      },
+      "method": "all_pair_bridge",
+      "objective": 19427,
+      "quarantined": 1409,
+      "retained": 31184,
+      "retained_moved": 5337,
+      "seconds": 1.8558729940050398,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val2",
+      "changed": 6553,
+      "counts": {
+        "__quarantine__": 2475,
+        "test": 7843,
+        "train": 17325,
+        "validation": 4950
+      },
+      "gap": 0.42094491466629663,
+      "lower_bound": 16693.0,
+      "method": "splitmend",
+      "objective": 28828,
+      "quarantined": 2475,
+      "retained": 30118,
+      "retained_moved": 4078,
+      "seconds": 62.91813468899636,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val2",
+      "changed": 3542,
+      "counts": {
+        "__quarantine__": 2067,
+        "test": 7843,
+        "train": 17542,
+        "validation": 5141
+      },
+      "method": "violation_first_bridge",
+      "objective": 22145,
+      "quarantined": 2067,
+      "retained": 30526,
+      "retained_moved": 1475,
+      "seconds": 0.10413923199666897,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val0",
+      "changed": 4154,
+      "counts": {
+        "__quarantine__": 2141,
+        "test": 7861,
+        "train": 17481,
+        "validation": 5110
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 23423,
+      "quarantined": 2141,
+      "retained": 30452,
+      "retained_moved": 2013,
+      "seconds": 0.23560428000200773,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val0",
+      "changed": 7961,
+      "counts": {
+        "__quarantine__": 1961,
+        "test": 7861,
+        "train": 17748,
+        "validation": 5023
+      },
+      "method": "all_pair_bridge",
+      "objective": 25610,
+      "quarantined": 1961,
+      "retained": 30632,
+      "retained_moved": 6000,
+      "seconds": 2.0246209659962915,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val0",
+      "changed": 4277,
+      "counts": {
+        "__quarantine__": 2086,
+        "test": 7861,
+        "train": 17620,
+        "validation": 5026
+      },
+      "gap": 0.0,
+      "lower_bound": 23051.0,
+      "method": "splitmend",
+      "objective": 23051,
+      "quarantined": 2086,
+      "retained": 30507,
+      "retained_moved": 2191,
+      "seconds": 8.94157001300482,
+      "status": "optimal",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val0",
+      "changed": 4653,
+      "counts": {
+        "__quarantine__": 2126,
+        "test": 7861,
+        "train": 17305,
+        "validation": 5301
+      },
+      "method": "violation_first_bridge",
+      "objective": 23787,
+      "quarantined": 2126,
+      "retained": 30467,
+      "retained_moved": 2527,
+      "seconds": 0.3403750330035109,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed0_test0_val4",
+      "changed": 5134,
+      "counts": {
+        "__quarantine__": 1717,
+        "test": 7843,
+        "train": 17517,
+        "validation": 5516
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 20587,
+      "quarantined": 1717,
+      "retained": 30876,
+      "retained_moved": 3417,
+      "seconds": 2.51067670500197,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val4",
+      "changed": 5343,
+      "counts": {
+        "__quarantine__": 1691,
+        "test": 7843,
+        "train": 17381,
+        "validation": 5678
+      },
+      "method": "all_pair_bridge",
+      "objective": 20562,
+      "quarantined": 1691,
+      "retained": 30902,
+      "retained_moved": 3652,
+      "seconds": 1.711355644998548,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val4",
+      "changed": 8203,
+      "counts": {
+        "__quarantine__": 1890,
+        "test": 7843,
+        "train": 17542,
+        "validation": 5318
+      },
+      "gap": 0.3375242930234403,
+      "lower_bound": 16703.0,
+      "method": "splitmend",
+      "objective": 25213,
+      "quarantined": 1890,
+      "retained": 30703,
+      "retained_moved": 6313,
+      "seconds": 60.91876394599967,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val4",
+      "changed": 3203,
+      "counts": {
+        "__quarantine__": 2087,
+        "test": 7843,
+        "train": 17452,
+        "validation": 5211
+      },
+      "method": "violation_first_bridge",
+      "objective": 21986,
+      "quarantined": 2087,
+      "retained": 30506,
+      "retained_moved": 1116,
+      "seconds": 0.29780548800044926,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val3",
+      "changed": 3560,
+      "counts": {
+        "__quarantine__": 2467,
+        "test": 7843,
+        "train": 17333,
+        "validation": 4950
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 25763,
+      "quarantined": 2467,
+      "retained": 30126,
+      "retained_moved": 1093,
+      "seconds": 0.7339411669963738,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1
+      }
+    },
+    {
+      "case": "seed0_test0_val3",
+      "changed": 6922,
+      "counts": {
+        "__quarantine__": 1094,
+        "test": 7843,
+        "train": 18578,
+        "validation": 5078
+      },
+      "method": "all_pair_bridge",
+      "objective": 16768,
+      "quarantined": 1094,
+      "retained": 31499,
+      "retained_moved": 5828,
+      "seconds": 2.077586245999555,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val3",
+      "changed": 5113,
+      "counts": {
+        "__quarantine__": 1429,
+        "test": 7843,
+        "train": 17505,
+        "validation": 5816
+      },
+      "gap": 0.09530432847446312,
+      "lower_bound": 16261.0,
+      "method": "splitmend",
+      "objective": 17974,
+      "quarantined": 1429,
+      "retained": 31164,
+      "retained_moved": 3684,
+      "seconds": 61.10262269100349,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test0_val3",
+      "changed": 3560,
+      "counts": {
+        "__quarantine__": 2467,
+        "test": 7843,
+        "train": 17333,
+        "validation": 4950
+      },
+      "method": "violation_first_bridge",
+      "objective": 25763,
+      "quarantined": 2467,
+      "retained": 30126,
+      "retained_moved": 1093,
+      "seconds": 0.7211934349979856,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1
+      }
+    },
+    {
+      "case": "seed0_test1_val2",
+      "changed": 3455,
+      "counts": {
+        "__quarantine__": 2348,
+        "test": 7861,
+        "train": 17438,
+        "validation": 4946
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 24587,
+      "quarantined": 2348,
+      "retained": 30245,
+      "retained_moved": 1107,
+      "seconds": 2.2508008910008357,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val2",
+      "changed": 6309,
+      "counts": {
+        "__quarantine__": 2160,
+        "test": 7861,
+        "train": 17598,
+        "validation": 4974
+      },
+      "method": "all_pair_bridge",
+      "objective": 25749,
+      "quarantined": 2160,
+      "retained": 30433,
+      "retained_moved": 4149,
+      "seconds": 3.244183337999857,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val2",
+      "changed": 3455,
+      "counts": {
+        "__quarantine__": 2348,
+        "test": 7861,
+        "train": 17353,
+        "validation": 5031
+      },
+      "gap": 0.02769756375320291,
+      "lower_bound": 23906.0,
+      "method": "splitmend",
+      "objective": 24587,
+      "quarantined": 2348,
+      "retained": 30245,
+      "retained_moved": 1107,
+      "seconds": 60.93946149200201,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed0_test1_val2",
+      "changed": 3740,
+      "counts": {
+        "__quarantine__": 2523,
+        "test": 7861,
+        "train": 17280,
+        "validation": 4929
+      },
+      "method": "violation_first_bridge",
+      "objective": 26447,
+      "quarantined": 2523,
+      "retained": 30070,
+      "retained_moved": 1217,
+      "seconds": 0.11164303399709752,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1,
+        "size": 2
+      }
+    },
+    {
+      "case": "seed0_test1_val3",
+      "changed": 7748,
+      "counts": {
+        "__quarantine__": 1830,
+        "test": 7861,
+        "train": 17478,
+        "validation": 5424
+      },
+      "method": "all_pair_bridge",
+      "objective": 24218,
+      "quarantined": 1830,
+      "retained": 30763,
+      "retained_moved": 5918,
+      "seconds": 1.367880720004905,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "changed": 4118,
+      "counts": {
+        "__quarantine__": 2634,
+        "test": 5851,
+        "train": 18532,
+        "validation": 5576
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 27824,
+      "quarantined": 2634,
+      "retained": 29959,
+      "retained_moved": 1484,
+      "seconds": 0.6288596560043516,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 2,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "changed": 6170,
+      "counts": {
+        "__quarantine__": 2211,
+        "test": 5851,
+        "train": 19102,
+        "validation": 5429
+      },
+      "method": "all_pair_bridge",
+      "objective": 26069,
+      "quarantined": 2211,
+      "retained": 30382,
+      "retained_moved": 3959,
+      "seconds": 1.9821381240035407,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "changed": 5994,
+      "counts": {
+        "__quarantine__": 2212,
+        "test": 5851,
+        "train": 19033,
+        "validation": 5497
+      },
+      "gap": 0.037834916222685505,
+      "lower_bound": 24922.0,
+      "method": "splitmend",
+      "objective": 25902,
+      "quarantined": 2212,
+      "retained": 30381,
+      "retained_moved": 3782,
+      "seconds": 61.27232019400253,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "changed": 3896,
+      "counts": {
+        "__quarantine__": 2767,
+        "test": 5851,
+        "train": 18719,
+        "validation": 5256
+      },
+      "method": "violation_first_bridge",
+      "objective": 28799,
+      "quarantined": 2767,
+      "retained": 29826,
+      "retained_moved": 1129,
+      "seconds": 3.00351499899989,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "changed": 4249,
+      "counts": {
+        "__quarantine__": 1395,
+        "test": 6761,
+        "train": 18539,
+        "validation": 5898
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 16804,
+      "quarantined": 1395,
+      "retained": 31198,
+      "retained_moved": 2854,
+      "seconds": 0.6059170849985094,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "changed": 6375,
+      "counts": {
+        "__quarantine__": 1118,
+        "test": 6761,
+        "train": 19029,
+        "validation": 5685
+      },
+      "method": "all_pair_bridge",
+      "objective": 16437,
+      "quarantined": 1118,
+      "retained": 31475,
+      "retained_moved": 5257,
+      "seconds": 1.995749251000234,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "changed": 6840,
+      "counts": {
+        "__quarantine__": 1943,
+        "test": 6761,
+        "train": 18411,
+        "validation": 5478
+      },
+      "gap": 0.36510872692892593,
+      "lower_bound": 15445.0,
+      "method": "splitmend",
+      "objective": 24327,
+      "quarantined": 1943,
+      "retained": 30650,
+      "retained_moved": 4897,
+      "seconds": 63.09118231799948,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "changed": 3689,
+      "counts": {
+        "__quarantine__": 1504,
+        "test": 6761,
+        "train": 18573,
+        "validation": 5755
+      },
+      "method": "violation_first_bridge",
+      "objective": 17225,
+      "quarantined": 1504,
+      "retained": 31089,
+      "retained_moved": 2185,
+      "seconds": 0.23126730199874146,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "changed": 2680,
+      "counts": {
+        "__quarantine__": 2680,
+        "test": 6198,
+        "train": 18436,
+        "validation": 5279
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 26800,
+      "quarantined": 2680,
+      "retained": 29913,
+      "retained_moved": 0,
+      "seconds": 0.4402826629957417,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 2,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "changed": 8324,
+      "counts": {
+        "__quarantine__": 2350,
+        "test": 6198,
+        "train": 18592,
+        "validation": 5453
+      },
+      "method": "all_pair_bridge",
+      "objective": 29474,
+      "quarantined": 2350,
+      "retained": 30243,
+      "retained_moved": 5974,
+      "seconds": 3.19239812700107,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "changed": 2680,
+      "counts": {
+        "__quarantine__": 2680,
+        "test": 6198,
+        "train": 18436,
+        "validation": 5279
+      },
+      "method": "violation_first_bridge",
+      "objective": 26800,
+      "quarantined": 2680,
+      "retained": 29913,
+      "retained_moved": 0,
+      "seconds": 0.44332364299771143,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 2,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "changed": 2809,
+      "counts": {
+        "__quarantine__": 2480,
+        "test": 5851,
+        "train": 18684,
+        "validation": 5578
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 25129,
+      "quarantined": 2480,
+      "retained": 30113,
+      "retained_moved": 329,
+      "seconds": 0.16822220500034746,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "changed": 8243,
+      "counts": {
+        "__quarantine__": 1978,
+        "test": 5851,
+        "train": 19334,
+        "validation": 5430
+      },
+      "method": "all_pair_bridge",
+      "objective": 26045,
+      "quarantined": 1978,
+      "retained": 30615,
+      "retained_moved": 6265,
+      "seconds": 3.7559659799953806,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "changed": 2707,
+      "counts": {
+        "__quarantine__": 2337,
+        "test": 5851,
+        "train": 19057,
+        "validation": 5348
+      },
+      "gap": 0.02240943555181129,
+      "lower_bound": 23208.0,
+      "method": "splitmend",
+      "objective": 23740,
+      "quarantined": 2337,
+      "retained": 30256,
+      "retained_moved": 370,
+      "seconds": 61.62546619099885,
+      "status": "feasible",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "changed": 2809,
+      "counts": {
+        "__quarantine__": 2480,
+        "test": 5851,
+        "train": 18684,
+        "validation": 5578
+      },
+      "method": "violation_first_bridge",
+      "objective": 25129,
+      "quarantined": 2480,
+      "retained": 30113,
+      "retained_moved": 329,
+      "seconds": 0.16120853000029456,
+      "status": "heuristic",
+      "valid": false,
+      "violations": {
+        "label": 1,
+        "size": 1
+      }
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "changed": 4308,
+      "counts": {
+        "__quarantine__": 2196,
+        "test": 5851,
+        "train": 18788,
+        "validation": 5758
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 24072,
+      "quarantined": 2196,
+      "retained": 30397,
+      "retained_moved": 2112,
+      "seconds": 0.33109205300570466,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "changed": 4308,
+      "counts": {
+        "__quarantine__": 2196,
+        "test": 5851,
+        "train": 18788,
+        "validation": 5758
+      },
+      "method": "all_pair_bridge",
+      "objective": 24072,
+      "quarantined": 2196,
+      "retained": 30397,
+      "retained_moved": 2112,
+      "seconds": 1.5736215869983425,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "changed": 3925,
+      "counts": {
+        "__quarantine__": 2231,
+        "test": 5851,
+        "train": 18924,
+        "validation": 5587
+      },
+      "gap": 0.0,
+      "lower_bound": 24004.0,
+      "method": "splitmend",
+      "objective": 24004,
+      "quarantined": 2231,
+      "retained": 30362,
+      "retained_moved": 1694,
+      "seconds": 58.306449046001944,
+      "status": "optimal",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "changed": 4341,
+      "counts": {
+        "__quarantine__": 2353,
+        "test": 5851,
+        "train": 18750,
+        "validation": 5639
+      },
+      "method": "violation_first_bridge",
+      "objective": 25518,
+      "quarantined": 2353,
+      "retained": 30240,
+      "retained_moved": 1988,
+      "seconds": 0.15820993200031808,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "changed": 4422,
+      "counts": {
+        "__quarantine__": 1965,
+        "test": 5851,
+        "train": 19058,
+        "validation": 5719
+      },
+      "method": "cost_aware_bridge_exchanges",
+      "objective": 22107,
+      "quarantined": 1965,
+      "retained": 30628,
+      "retained_moved": 2457,
+      "seconds": 0.4269076439959463,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "changed": 3531,
+      "counts": {
+        "__quarantine__": 1998,
+        "test": 5851,
+        "train": 19260,
+        "validation": 5484
+      },
+      "method": "all_pair_bridge",
+      "objective": 21513,
+      "quarantined": 1998,
+      "retained": 30595,
+      "retained_moved": 1533,
+      "seconds": 0.9209653500001878,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "changed": 3531,
+      "counts": {
+        "__quarantine__": 1998,
+        "test": 5851,
+        "train": 19055,
+        "validation": 5689
+      },
+      "gap": 0.0,
+      "lower_bound": 21512.999999999996,
+      "method": "splitmend",
+      "objective": 21513,
+      "quarantined": 1998,
+      "retained": 30595,
+      "retained_moved": 1533,
+      "seconds": 11.449386884996784,
+      "status": "optimal",
+      "valid": true,
+      "violations": {}
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "changed": 2682,
+      "counts": {
+        "__quarantine__": 2317,
+        "test": 5851,
+        "train": 18857,
+        "validation": 5568
+      },
+      "method": "violation_first_bridge",
+      "objective": 23535,
+      "quarantined": 2317,
+      "retained": 30276,
+      "retained_moved": 365,
+      "seconds": 0.1404005469958065,
+      "status": "heuristic",
+      "valid": true,
+      "violations": {}
+    }
+  ]
+}

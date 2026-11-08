@@ -1,0 +1,278 @@
+{
+  "case": "seed20261107_test4_val3",
+  "dataset": "sleeptelemetry",
+  "fold_seed": 20261107,
+  "test_fold": 4,
+  "validation_fold": 3,
+  "problem_sha256": "123fcfacd96bfca2b24227b5c92b8d51a185a1485b6219598ed5db668f619266",
+  "before": {
+    "valid": false,
+    "changed": 0,
+    "violations": {
+      "label_bounds": 4
+    },
+    "sizes": {
+      "validation": 7905,
+      "train": 27171,
+      "test": 7620
+    },
+    "labels": {
+      "stage_W:placebo": {
+        "validation": 576,
+        "train": 1443,
+        "test": 418
+      },
+      "stage_1:placebo": {
+        "validation": 458,
+        "train": 1215,
+        "test": 371
+      },
+      "stage_2:placebo": {
+        "validation": 1871,
+        "train": 6003,
+        "test": 1619
+      },
+      "stage_3:placebo": {
+        "validation": 259,
+        "train": 1112,
+        "test": 334
+      },
+      "stage_R:placebo": {
+        "validation": 560,
+        "train": 2768,
+        "test": 803
+      },
+      "stage_4:placebo": {
+        "validation": 223,
+        "train": 980,
+        "test": 237
+      },
+      "stage_W:temazepam": {
+        "validation": 436,
+        "train": 1251,
+        "test": 304
+      },
+      "stage_1:temazepam": {
+        "validation": 247,
+        "train": 951,
+        "test": 411
+      },
+      "stage_2:temazepam": {
+        "validation": 2213,
+        "train": 6502,
+        "test": 1643
+      },
+      "stage_3:temazepam": {
+        "validation": 302,
+        "train": 990,
+        "test": 401
+      },
+      "stage_R:temazepam": {
+        "validation": 696,
+        "train": 2787,
+        "test": 735
+      },
+      "stage_4:temazepam": {
+        "validation": 64,
+        "train": 1169,
+        "test": 344
+      }
+    }
+  },
+  "size_bounds": {
+    "train": [
+      24553,
+      28061
+    ],
+    "validation": [
+      7015,
+      10523
+    ],
+    "test": [
+      7620,
+      7620
+    ]
+  },
+  "label_bounds": {
+    "stage_1:placebo": {
+      "train": [
+        1120,
+        1389
+      ],
+      "validation": [
+        284,
+        553
+      ],
+      "test": [
+        371,
+        371
+      ]
+    },
+    "stage_1:temazepam": {
+      "train": [
+        802,
+        995
+      ],
+      "validation": [
+        203,
+        396
+      ],
+      "test": [
+        411,
+        411
+      ]
+    },
+    "stage_2:placebo": {
+      "train": [
+        5275,
+        6536
+      ],
+      "validation": [
+        1338,
+        2599
+      ],
+      "test": [
+        1619,
+        1619
+      ]
+    },
+    "stage_2:temazepam": {
+      "train": [
+        5839,
+        7234
+      ],
+      "validation": [
+        1481,
+        2876
+      ],
+      "test": [
+        1643,
+        1643
+      ]
+    },
+    "stage_3:placebo": {
+      "train": [
+        918,
+        1138
+      ],
+      "validation": [
+        233,
+        453
+      ],
+      "test": [
+        334,
+        334
+      ]
+    },
+    "stage_3:temazepam": {
+      "train": [
+        865,
+        1073
+      ],
+      "validation": [
+        219,
+        427
+      ],
+      "test": [
+        401,
+        401
+      ]
+    },
+    "stage_4:placebo": {
+      "train": [
+        806,
+        999
+      ],
+      "validation": [
+        204,
+        397
+      ],
+      "test": [
+        237,
+        237
+      ]
+    },
+    "stage_4:temazepam": {
+      "train": [
+        826,
+        1024
+      ],
+      "validation": [
+        209,
+        407
+      ],
+      "test": [
+        344,
+        344
+      ]
+    },
+    "stage_R:placebo": {
+      "train": [
+        2229,
+        2763
+      ],
+      "validation": [
+        565,
+        1099
+      ],
+      "test": [
+        803,
+        803
+      ]
+    },
+    "stage_R:temazepam": {
+      "train": [
+        2333,
+        2891
+      ],
+      "validation": [
+        592,
+        1150
+      ],
+      "test": [
+        735,
+        735
+      ]
+    },
+    "stage_W:placebo": {
+      "train": [
+        1352,
+        1676
+      ],
+      "validation": [
+        343,
+        667
+      ],
+      "test": [
+        418,
+        418
+      ]
+    },
+    "stage_W:temazepam": {
+      "train": [
+        1130,
+        1401
+      ],
+      "validation": [
+        286,
+        557
+      ],
+      "test": [
+        304,
+        304
+      ]
+    }
+  },
+  "test_participants": [
+    "ST05",
+    "ST13",
+    "ST17",
+    "ST19"
+  ],
+  "original_validation_participants": [
+    "ST01",
+    "ST09",
+    "ST20",
+    "ST21"
+  ]
+}

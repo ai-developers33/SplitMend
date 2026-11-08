@@ -1,0 +1,5 @@
+comparator,valid,total,paired_valid,greedy_objective,splitmend_objective,objective_reduction_percent,greedy_retained_moved,splitmend_retained_moved,retained_moved_reduction_percent,greedy_quarantined,splitmend_quarantined,quarantined_reduction_percent,greedy_changed,splitmend_changed,changed_reduction_percent,objective_wins,objective_ties,objective_losses
+violation_first_bridge,20,40,20,15456,13425,13.14052795031056,756,2535,-235.31746031746033,1470,1089,25.918367346938776,2226,3624,-62.80323450134771,18,2,0
+cost_aware_bridge_exchanges,23,40,23,17110,16142,5.657510227936879,2300,2692,-17.043478260869566,1481,1345,9.182984469952734,3781,4037,-6.770695583179053,14,9,0
+all_pair_bridge,36,40,36,27241,25890,4.959436144047575,5641,4840,14.199609998227265,2160,2105,2.5462962962962963,7801,6945,10.97295218561723,24,12,0
+best_valid_greedy_portfolio,36,40,36,26890,25890,3.718854592785422,5250,4840,7.809523809523809,2164,2105,2.7264325323475047,7414,6945,6.3258699757216075,23,13,0

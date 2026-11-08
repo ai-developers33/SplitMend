@@ -1,0 +1,146 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": false,
+    "changed": null,
+    "seconds": 0.057887396003934555,
+    "external_audit_seconds": 1.7300044419243932e-07,
+    "status": "infeasible",
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "missing_assignment": 1
+    },
+    "dataset": "pamap2",
+    "case": "seed0_test3_val1",
+    "fold_seed": 0,
+    "test_fold": 3,
+    "validation_fold": 1
+  },
+  "problem_sha256": "23e8235957d8a0f0e7d6df7726e3ca0294375074e79bc710eadaab0177cdce0d",
+  "group_assignments": {},
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "23e8235957d8a0f0e7d6df7726e3ca0294375074e79bc710eadaab0177cdce0d",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 3045,
+        "validation": 1134,
+        "test": 1570,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "label": 8
+      },
+      "violations": [
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "train",
+          "count": 187,
+          "bounds": [
+            188,
+            235
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "validation",
+          "count": 95,
+          "bounds": [
+            47,
+            94
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "train",
+          "count": 244,
+          "bounds": [
+            247,
+            308
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "validation",
+          "count": 126,
+          "bounds": [
+            62,
+            123
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "train",
+          "count": 113,
+          "bounds": [
+            81,
+            101
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "validation",
+          "count": 8,
+          "bounds": [
+            20,
+            40
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "train",
+          "count": 57,
+          "bounds": [
+            38,
+            48
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "validation",
+          "count": 0,
+          "bounds": [
+            9,
+            19
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": null,
+    "conflict": null,
+    "objective": null,
+    "lower_bound": null,
+    "gap": null,
+    "model": {
+      "rows": 5749,
+      "blocks": 99,
+      "variables": 324,
+      "constraints": 624
+    },
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible",
+    "reason": "solver_proved_infeasible",
+    "seconds": 0.057649447000585496
+  },
+  "library_audit": null,
+  "independent_audit": {
+    "valid": false,
+    "changed": null,
+    "violations": {
+      "missing_assignment": 1
+    }
+  }
+}

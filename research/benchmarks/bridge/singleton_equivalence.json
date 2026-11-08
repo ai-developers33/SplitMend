@@ -1,0 +1,12 @@
+{
+  "blocks_after_explicit_strip": 345,
+  "blocks_before_explicit_strip": 345,
+  "equivalent": true,
+  "offerings": 22,
+  "reason": "v0.1.1 already removes usage-one tokens before forming block keys. Matrices, costs, variable bounds and constraint bounds match exactly.",
+  "rows": 1134,
+  "singleton_tokens_removed": 874,
+  "students": 1000,
+  "variables_after_explicit_strip": 1824,
+  "variables_before_explicit_strip": 1824
+}

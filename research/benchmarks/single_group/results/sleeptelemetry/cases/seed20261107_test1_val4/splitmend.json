@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 0,
+    "seconds": 0.5018793080016621,
+    "external_audit_seconds": 0.09409533599682618,
+    "status": "optimal",
+    "lower_bound": 0,
+    "gap": 0,
+    "violations": {},
+    "dataset": "sleeptelemetry",
+    "case": "seed20261107_test1_val4",
+    "fold_seed": 20261107,
+    "test_fold": 1,
+    "validation_fold": 4
+  },
+  "problem_sha256": "4c207e5d11fdc545057c0affe95b5dcd9c4638b1c71dd75addbbd6772d032331",
+  "group_assignments": {
+    "participant:ST01": "train",
+    "participant:ST02": "test",
+    "participant:ST04": "train",
+    "participant:ST05": "validation",
+    "participant:ST06": "test",
+    "participant:ST07": "test",
+    "participant:ST08": "train",
+    "participant:ST09": "train",
+    "participant:ST10": "test",
+    "participant:ST11": "train",
+    "participant:ST12": "train",
+    "participant:ST13": "validation",
+    "participant:ST14": "train",
+    "participant:ST15": "train",
+    "participant:ST16": "test",
+    "participant:ST17": "validation",
+    "participant:ST18": "train",
+    "participant:ST19": "validation",
+    "participant:ST20": "train",
+    "participant:ST21": "train",
+    "participant:ST22": "train",
+    "participant:ST24": "train"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "4c207e5d11fdc545057c0affe95b5dcd9c4638b1c71dd75addbbd6772d032331",
+    "before": {
+      "valid": true,
+      "counts": {
+        "train": 25449,
+        "validation": 7620,
+        "test": 9627,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 25449,
+        "validation": 7620,
+        "test": 9627,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "conflict": null,
+    "objective": 0,
+    "lower_bound": 0,
+    "gap": 0,
+    "status": "optimal",
+    "reason": "unchanged_zero_cost",
+    "model": {
+      "rows": 42696,
+      "blocks": 0,
+      "variables": 0
+    },
+    "seconds": 0.5016392139950767
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 25449,
+      "validation": 7620,
+      "test": 9627,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 0,
+    "quarantined": 0,
+    "objective": 0
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 0,
+    "violations": {},
+    "sizes": {
+      "train": 25449,
+      "test": 9627,
+      "validation": 7620
+    },
+    "labels": {
+      "stage_W:placebo": {
+        "train": 1275,
+        "test": 744,
+        "validation": 418
+      },
+      "stage_1:placebo": {
+        "train": 1248,
+        "test": 425,
+        "validation": 371
+      },
+      "stage_2:placebo": {
+        "train": 5998,
+        "test": 1876,
+        "validation": 1619
+      },
+      "stage_3:placebo": {
+        "train": 877,
+        "test": 494,
+        "validation": 334
+      },
+      "stage_R:placebo": {
+        "train": 2519,
+        "test": 809,
+        "validation": 803
+      },
+      "stage_4:placebo": {
+        "train": 748,
+        "test": 455,
+        "validation": 237
+      },
+      "stage_W:temazepam": {
+        "train": 1146,
+        "test": 541,
+        "validation": 304
+      },
+      "stage_1:temazepam": {
+        "train": 928,
+        "test": 270,
+        "validation": 411
+      },
+      "stage_2:temazepam": {
+        "train": 6674,
+        "test": 2041,
+        "validation": 1643
+      },
+      "stage_3:temazepam": {
+        "train": 886,
+        "test": 406,
+        "validation": 401
+      },
+      "stage_R:temazepam": {
+        "train": 2414,
+        "test": 1069,
+        "validation": 735
+      },
+      "stage_4:temazepam": {
+        "train": 736,
+        "test": 497,
+        "validation": 344
+      }
+    }
+  }
+}

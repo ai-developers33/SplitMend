@@ -1,0 +1,967 @@
+{
+  "all_match": true,
+  "checks": [
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val1",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val2",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val4",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test0_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val0",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val0",
+      "method": "all_pair_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val0",
+      "method": "splitmend",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val2",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val2",
+      "method": "all_pair_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val2",
+      "method": "splitmend",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val3",
+      "method": "all_pair_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val3",
+      "method": "splitmend",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val4",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val4",
+      "method": "all_pair_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test1_val4",
+      "method": "splitmend",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val0",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val1",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val4",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test2_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val0",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val1",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val2",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val4",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test3_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val0",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val1",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val2",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val3",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed0_test4_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val1",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val2",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val4",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test0_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val0",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val2",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val3",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val4",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test1_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val0",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val1",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val3",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val4",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test2_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val0",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val1",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val2",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val4",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val4",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val4",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test3_val4",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val0",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val0",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val0",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val0",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val1",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val1",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val1",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val1",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val2",
+      "method": "violation_first_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val2",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val2",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val2",
+      "method": "splitmend",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val3",
+      "method": "violation_first_bridge",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val3",
+      "method": "cost_aware_bridge_exchanges",
+      "valid": false
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val3",
+      "method": "all_pair_bridge",
+      "valid": true
+    },
+    {
+      "audit_matches": true,
+      "case": "seed20261107_test4_val3",
+      "method": "splitmend",
+      "valid": true
+    }
+  ],
+  "outputs_checked": 160,
+  "rows_per_output": 1134
+}

@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 461,
+    "seconds": 0.1719300699987798,
+    "external_audit_seconds": 0.020636218003346585,
+    "status": "optimal",
+    "lower_bound": 461.0,
+    "gap": 0.0,
+    "violations": {},
+    "dataset": "unimib",
+    "case": "seed20261107_test2_val4",
+    "fold_seed": 20261107,
+    "test_fold": 2,
+    "validation_fold": 4
+  },
+  "problem_sha256": "f9b48b5154e740b5f52b73aece45d8e123d807ddf7e93930cdd5ec32923974d8",
+  "group_assignments": {
+    "participant:subject001": "train",
+    "participant:subject002": "train",
+    "participant:subject003": "test",
+    "participant:subject005": "test",
+    "participant:subject006": "train",
+    "participant:subject008": "test",
+    "participant:subject009": "train",
+    "participant:subject011": "train",
+    "participant:subject012": "validation",
+    "participant:subject013": "test",
+    "participant:subject014": "train",
+    "participant:subject015": "train",
+    "participant:subject016": "validation",
+    "participant:subject017": "train",
+    "participant:subject018": "validation",
+    "participant:subject019": "train",
+    "participant:subject020": "train",
+    "participant:subject021": "train",
+    "participant:subject022": "train",
+    "participant:subject023": "train",
+    "participant:subject024": "train",
+    "participant:subject025": "train",
+    "participant:subject026": "test",
+    "participant:subject029": "validation",
+    "participant:subject004": "validation",
+    "participant:subject007": "train",
+    "participant:subject027": "train",
+    "participant:subject028": "test",
+    "participant:subject030": "train",
+    "participant:subject010": "train"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "f9b48b5154e740b5f52b73aece45d8e123d807ddf7e93930cdd5ec32923974d8",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 7198,
+        "validation": 2545,
+        "test": 2028,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "label": 2
+      },
+      "violations": [
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "train",
+          "count": 1025,
+          "bounds": [
+            1033,
+            1280
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "validation",
+          "count": 517,
+          "bounds": [
+            262,
+            509
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 7659,
+        "validation": 2084,
+        "test": 2028,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 461,
+      "quarantined": 0,
+      "objective": 461
+    },
+    "conflict": null,
+    "objective": 461,
+    "lower_bound": 461.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 11771,
+      "blocks": 498,
+      "variables": 1584,
+      "constraints": 2868
+    },
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "status": "optimal",
+    "reason": "solver",
+    "seconds": 0.17171593999955803
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 7659,
+      "validation": 2084,
+      "test": 2028,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 461,
+    "quarantined": 0,
+    "objective": 461
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 461,
+    "violations": {},
+    "sizes": {
+      "train": 7659,
+      "test": 2028,
+      "validation": 2084
+    },
+    "labels": {
+      "activity_01": {
+        "train": 105,
+        "test": 19,
+        "validation": 29
+      },
+      "activity_02": {
+        "train": 147,
+        "test": 24,
+        "validation": 45
+      },
+      "activity_03": {
+        "train": 1181,
+        "test": 196,
+        "validation": 361
+      },
+      "activity_04": {
+        "train": 1277,
+        "test": 379,
+        "validation": 329
+      },
+      "activity_05": {
+        "train": 583,
+        "test": 175,
+        "validation": 163
+      },
+      "activity_06": {
+        "train": 462,
+        "test": 147,
+        "validation": 137
+      },
+      "activity_07": {
+        "train": 880,
+        "test": 252,
+        "validation": 192
+      },
+      "activity_08": {
+        "train": 181,
+        "test": 58,
+        "validation": 57
+      },
+      "activity_09": {
+        "train": 142,
+        "test": 20,
+        "validation": 38
+      },
+      "activity_10": {
+        "train": 331,
+        "test": 112,
+        "validation": 86
+      },
+      "activity_11": {
+        "train": 319,
+        "test": 93,
+        "validation": 99
+      },
+      "activity_12": {
+        "train": 336,
+        "test": 102,
+        "validation": 88
+      },
+      "activity_13": {
+        "train": 426,
+        "test": 127,
+        "validation": 108
+      },
+      "activity_14": {
+        "train": 325,
+        "test": 69,
+        "validation": 90
+      },
+      "activity_15": {
+        "train": 302,
+        "test": 67,
+        "validation": 65
+      },
+      "activity_16": {
+        "train": 340,
+        "test": 88,
+        "validation": 85
+      },
+      "activity_17": {
+        "train": 322,
+        "test": 100,
+        "validation": 112
+      }
+    }
+  }
+}

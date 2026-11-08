@@ -1,0 +1,186 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": false,
+    "changed": null,
+    "seconds": 0.06170831400231691,
+    "external_audit_seconds": 3.759996616281569e-07,
+    "status": "infeasible",
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "missing_assignment": 1
+    },
+    "dataset": "pamap2",
+    "case": "seed20261107_test0_val3",
+    "fold_seed": 20261107,
+    "test_fold": 0,
+    "validation_fold": 3
+  },
+  "problem_sha256": "1cc61695dcff66fb942feda78a8d9a0946bc3065dd69f2ba78b6131f19f01875",
+  "group_assignments": {},
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "1cc61695dcff66fb942feda78a8d9a0946bc3065dd69f2ba78b6131f19f01875",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 3205,
+        "validation": 1288,
+        "test": 1256,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "label": 12
+      },
+      "violations": [
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "train",
+          "count": 193,
+          "bounds": [
+            196,
+            245
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "validation",
+          "count": 101,
+          "bounds": [
+            49,
+            98
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "train",
+          "count": 223,
+          "bounds": [
+            237,
+            294
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "validation",
+          "count": 131,
+          "bounds": [
+            60,
+            117
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "train",
+          "count": 140,
+          "bounds": [
+            99,
+            123
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "validation",
+          "count": 8,
+          "bounds": [
+            25,
+            49
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_07",
+          "partition": "train",
+          "count": 211,
+          "bounds": [
+            216,
+            269
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_07",
+          "partition": "validation",
+          "count": 112,
+          "bounds": [
+            54,
+            107
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "train",
+          "count": 115,
+          "bounds": [
+            123,
+            153
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "validation",
+          "count": 69,
+          "bounds": [
+            31,
+            61
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "train",
+          "count": 85,
+          "bounds": [
+            56,
+            71
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "validation",
+          "count": 0,
+          "bounds": [
+            14,
+            29
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": null,
+    "conflict": null,
+    "objective": null,
+    "lower_bound": null,
+    "gap": null,
+    "model": {
+      "rows": 5749,
+      "blocks": 99,
+      "variables": 324,
+      "constraints": 612
+    },
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible",
+    "reason": "solver_proved_infeasible",
+    "seconds": 0.06152378800470615
+  },
+  "library_audit": null,
+  "independent_audit": {
+    "valid": false,
+    "changed": null,
+    "violations": {
+      "missing_assignment": 1
+    }
+  }
+}

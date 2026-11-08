@@ -1,0 +1,9 @@
+{
+  "heuristics_sha256": "974f71b1eb852ffee2f07a29f0b65e587e1552188d7ef346bb6c822e2d99df0a",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "protocol_sha256": "a40b23279066d2ad58303f4662d5e80c23c96d6ede0370a4d827bcd25d492c81",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runner_sha256": "fc5bc300df376d47a70b6e7d1b70209aa675c3827cd847daa417f297b7bbe112"
+}

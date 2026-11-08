@@ -1,0 +1,62 @@
+[
+  {
+    "comparator": "violation_first_bridge",
+    "valid_pairs": 20,
+    "feasible_cases": 36,
+    "comparator_quarantined": 1470,
+    "splitmend_quarantined": 1089,
+    "comparator_retained_moved": 756,
+    "splitmend_retained_moved": 2535,
+    "comparator_objective": 15456,
+    "splitmend_objective": 13425,
+    "objective_reduction_percent": 13.14052795031056,
+    "wins": 18,
+    "ties": 2,
+    "losses": 0
+  },
+  {
+    "comparator": "cost_aware_bridge_exchanges",
+    "valid_pairs": 23,
+    "feasible_cases": 36,
+    "comparator_quarantined": 1481,
+    "splitmend_quarantined": 1345,
+    "comparator_retained_moved": 2300,
+    "splitmend_retained_moved": 2692,
+    "comparator_objective": 17110,
+    "splitmend_objective": 16142,
+    "objective_reduction_percent": 5.657510227936879,
+    "wins": 14,
+    "ties": 9,
+    "losses": 0
+  },
+  {
+    "comparator": "all_pair_bridge",
+    "valid_pairs": 36,
+    "feasible_cases": 36,
+    "comparator_quarantined": 2160,
+    "splitmend_quarantined": 2105,
+    "comparator_retained_moved": 5641,
+    "splitmend_retained_moved": 4840,
+    "comparator_objective": 27241,
+    "splitmend_objective": 25890,
+    "objective_reduction_percent": 4.959436144047575,
+    "wins": 24,
+    "ties": 12,
+    "losses": 0
+  },
+  {
+    "comparator": "best_valid_greedy_per_case",
+    "valid_pairs": 36,
+    "feasible_cases": 36,
+    "comparator_quarantined": 2164,
+    "splitmend_quarantined": 2105,
+    "comparator_retained_moved": 5250,
+    "splitmend_retained_moved": 4840,
+    "comparator_objective": 26890,
+    "splitmend_objective": 25890,
+    "objective_reduction_percent": 3.718854592785422,
+    "wins": 23,
+    "ties": 13,
+    "losses": 0
+  }
+]

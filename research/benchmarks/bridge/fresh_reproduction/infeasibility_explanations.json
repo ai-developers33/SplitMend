@@ -1,0 +1,54 @@
+[
+  {
+    "case": "seed0_test1_val0",
+    "direct_count_contradictions": [
+      {
+        "forced_quarantine": 44,
+        "free_rows": 262,
+        "label": "Withdrawn",
+        "maximum_retained": 218,
+        "required_retained_minimum": 219
+      }
+    ],
+    "forced_quarantine_total": 71
+  },
+  {
+    "case": "seed0_test1_val2",
+    "direct_count_contradictions": [
+      {
+        "forced_quarantine": 44,
+        "free_rows": 262,
+        "label": "Withdrawn",
+        "maximum_retained": 218,
+        "required_retained_minimum": 219
+      }
+    ],
+    "forced_quarantine_total": 71
+  },
+  {
+    "case": "seed0_test1_val3",
+    "direct_count_contradictions": [
+      {
+        "forced_quarantine": 44,
+        "free_rows": 262,
+        "label": "Withdrawn",
+        "maximum_retained": 218,
+        "required_retained_minimum": 219
+      }
+    ],
+    "forced_quarantine_total": 71
+  },
+  {
+    "case": "seed0_test1_val4",
+    "direct_count_contradictions": [
+      {
+        "forced_quarantine": 44,
+        "free_rows": 262,
+        "label": "Withdrawn",
+        "maximum_retained": 218,
+        "required_retained_minimum": 219
+      }
+    ],
+    "forced_quarantine_total": 71
+  }
+]

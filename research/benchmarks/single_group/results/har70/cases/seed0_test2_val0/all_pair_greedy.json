@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "method": "all_pair_greedy",
+    "valid": true,
+    "changed": 1401,
+    "seconds": 0.004790031001903117,
+    "external_audit_seconds": 0.01759980499628,
+    "status": null,
+    "lower_bound": null,
+    "gap": null,
+    "violations": {},
+    "dataset": "har70",
+    "case": "seed0_test2_val0",
+    "fold_seed": 0,
+    "test_fold": 2,
+    "validation_fold": 0
+  },
+  "problem_sha256": "0cce675f6d29881996f9240413a80a2cfb5fde2c5106f59442573b9d66696219",
+  "group_assignments": {
+    "participant:501": "validation",
+    "participant:502": "train",
+    "participant:503": "train",
+    "participant:504": "validation",
+    "participant:505": "train",
+    "participant:506": "train",
+    "participant:507": "train",
+    "participant:508": "train",
+    "participant:509": "train",
+    "participant:510": "train",
+    "participant:511": "validation",
+    "participant:512": "test",
+    "participant:513": "train",
+    "participant:514": "test",
+    "participant:515": "test",
+    "participant:516": "train",
+    "participant:517": "test",
+    "participant:518": "train"
+  },
+  "raw": {
+    "preprocessing_seconds": 0.00327376199857099,
+    "search_seconds": 0.0014514270005747676,
+    "feasibility_steps": 2,
+    "cost_steps": 0,
+    "candidates_evaluated": 315,
+    "stop_reason": "feasible_one_and_two_person_local_minimum",
+    "remaining_violation": 0
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 5521,
+      "validation": 1554,
+      "test": 2116,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 1401,
+    "quarantined": 0,
+    "objective": 1401
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 1401,
+    "violations": {},
+    "sizes": {
+      "validation": 1554,
+      "train": 5521,
+      "test": 2116
+    },
+    "labels": {
+      "activity_06": {
+        "validation": 320,
+        "train": 980,
+        "test": 456
+      },
+      "activity_01": {
+        "validation": 759,
+        "train": 2719,
+        "test": 947
+      },
+      "activity_07": {
+        "validation": 287,
+        "train": 1198,
+        "test": 485
+      },
+      "activity_08": {
+        "validation": 134,
+        "train": 503,
+        "test": 188
+      },
+      "activity_03": {
+        "validation": 47,
+        "train": 97,
+        "test": 28
+      },
+      "activity_05": {
+        "validation": 4,
+        "train": 13,
+        "test": 6
+      },
+      "activity_04": {
+        "validation": 3,
+        "train": 11,
+        "test": 6
+      }
+    }
+  }
+}

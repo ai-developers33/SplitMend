@@ -1,0 +1,258 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": true,
+    "changed": 2022,
+    "seconds": 1.1847439970006235,
+    "external_audit_seconds": 0.206554568001593,
+    "status": "optimal",
+    "lower_bound": 2022.0,
+    "gap": 0.0,
+    "violations": {},
+    "dataset": "sleeptelemetry",
+    "case": "seed20261107_test2_val1",
+    "fold_seed": 20261107,
+    "test_fold": 2,
+    "validation_fold": 1
+  },
+  "problem_sha256": "1b6ae923caa5f1d569174bb6549c3e4c5025181c0e7e0c8010c23fd78609d2ff",
+  "group_assignments": {
+    "participant:ST01": "train",
+    "participant:ST02": "validation",
+    "participant:ST04": "train",
+    "participant:ST05": "train",
+    "participant:ST06": "validation",
+    "participant:ST07": "validation",
+    "participant:ST08": "test",
+    "participant:ST09": "train",
+    "participant:ST10": "train",
+    "participant:ST11": "test",
+    "participant:ST12": "test",
+    "participant:ST13": "train",
+    "participant:ST14": "train",
+    "participant:ST15": "train",
+    "participant:ST16": "validation",
+    "participant:ST17": "train",
+    "participant:ST18": "train",
+    "participant:ST19": "train",
+    "participant:ST20": "train",
+    "participant:ST21": "train",
+    "participant:ST22": "train",
+    "participant:ST24": "test"
+  },
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "1b6ae923caa5f1d569174bb6549c3e4c5025181c0e7e0c8010c23fd78609d2ff",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 25245,
+        "validation": 9627,
+        "test": 7824,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "label": 8
+      },
+      "violations": [
+        {
+          "kind": "label",
+          "label": "stage_3:placebo",
+          "partition": "train",
+          "count": 944,
+          "bounds": [
+            963,
+            1194
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_3:placebo",
+          "partition": "validation",
+          "count": 494,
+          "bounds": [
+            244,
+            475
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_4:placebo",
+          "partition": "train",
+          "count": 748,
+          "bounds": [
+            806,
+            999
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_4:placebo",
+          "partition": "validation",
+          "count": 455,
+          "bounds": [
+            204,
+            397
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_4:temazepam",
+          "partition": "train",
+          "count": 731,
+          "bounds": [
+            822,
+            1020
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_4:temazepam",
+          "partition": "validation",
+          "count": 497,
+          "bounds": [
+            208,
+            406
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_W:placebo",
+          "partition": "train",
+          "count": 1393,
+          "bounds": [
+            1431,
+            1774
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "stage_W:placebo",
+          "partition": "validation",
+          "count": 744,
+          "bounds": [
+            363,
+            706
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": {
+      "valid": true,
+      "counts": {
+        "train": 27267,
+        "validation": 7605,
+        "test": 7824,
+        "__quarantine__": 0
+      },
+      "violation_counts": {},
+      "violations": [],
+      "changed": 2022,
+      "quarantined": 0,
+      "objective": 2022
+    },
+    "conflict": null,
+    "objective": 2022,
+    "lower_bound": 2022.0,
+    "gap": 0.0,
+    "model": {
+      "rows": 42696,
+      "blocks": 253,
+      "variables": 825,
+      "constraints": 1464
+    },
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "status": "optimal",
+    "reason": "solver",
+    "seconds": 1.1840921320035704
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 27267,
+      "validation": 7605,
+      "test": 7824,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 2022,
+    "quarantined": 0,
+    "objective": 2022
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 2022,
+    "violations": {},
+    "sizes": {
+      "train": 27267,
+      "validation": 7605,
+      "test": 7824
+    },
+    "labels": {
+      "stage_W:placebo": {
+        "train": 1524,
+        "validation": 613,
+        "test": 300
+      },
+      "stage_1:placebo": {
+        "train": 1407,
+        "validation": 353,
+        "test": 284
+      },
+      "stage_2:placebo": {
+        "train": 5960,
+        "validation": 1573,
+        "test": 1960
+      },
+      "stage_3:placebo": {
+        "train": 1123,
+        "validation": 315,
+        "test": 267
+      },
+      "stage_R:placebo": {
+        "train": 2645,
+        "validation": 578,
+        "test": 908
+      },
+      "stage_4:placebo": {
+        "train": 874,
+        "validation": 329,
+        "test": 237
+      },
+      "stage_W:temazepam": {
+        "train": 1189,
+        "validation": 486,
+        "test": 316
+      },
+      "stage_1:temazepam": {
+        "train": 1170,
+        "validation": 240,
+        "test": 199
+      },
+      "stage_2:temazepam": {
+        "train": 6628,
+        "validation": 1783,
+        "test": 1947
+      },
+      "stage_3:temazepam": {
+        "train": 1032,
+        "validation": 321,
+        "test": 340
+      },
+      "stage_R:temazepam": {
+        "train": 2775,
+        "validation": 726,
+        "test": 717
+      },
+      "stage_4:temazepam": {
+        "train": 940,
+        "validation": 288,
+        "test": 349
+      }
+    }
+  }
+}

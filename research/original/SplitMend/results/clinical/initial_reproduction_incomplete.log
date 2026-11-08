@@ -1,0 +1,473 @@
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python -m pytest -q
+......................................................................   [100%]
+70 passed in 0.71s
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/download_data.py
+beijing 8192212 b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4
+oulad 46750706 90dda45037939953f979072fa70a809ebe07e90ec783c408762af7698a3825ec
+har 61005872 c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/run_experiments.py
+{"dataset": "har", "seed": 0, "method": "splitmend", "n": 10299, "valid": true, "changed": 2006, "quarantined": 0, "objective": 2006, "seconds": 0.10270345000026282, "audit_seconds": 0.012606028001755476, "verified_seconds": 0.1153094780020183, "violations": {}, "status": "optimal", "lower_bound": 2006.0, "gap": 0.0, "model": {"rows": 10299, "blocks": 306, "variables": 1008, "constraints": 1383}}
+{"dataset": "har", "seed": 0, "method": "majority", "n": 10299, "valid": false, "changed": 1471, "quarantined": 0, "objective": 1471, "seconds": 0.004217935987981036, "audit_seconds": 0.012409360992023721, "verified_seconds": 0.016627296980004758, "violations": {"size": 2, "label": 12}}
+{"dataset": "har", "seed": 0, "method": "group_resplit", "n": 10299, "valid": true, "changed": 2449, "quarantined": 0, "objective": 2449, "seconds": 0.006493812004919164, "audit_seconds": 0.012737106997519732, "verified_seconds": 0.019230919002438895, "violations": {}}
+{"dataset": "har", "seed": 0, "method": "greedy", "n": 10299, "valid": true, "changed": 2129, "quarantined": 0, "objective": 2129, "seconds": 0.013891258990042843, "audit_seconds": 0.01198779400147032, "verified_seconds": 0.025879052991513163, "violations": {}}
+{"dataset": "har", "seed": 1, "method": "splitmend", "n": 10299, "valid": true, "changed": 2028, "quarantined": 0, "objective": 2028, "seconds": 0.2346990049991291, "audit_seconds": 0.023547024000436068, "verified_seconds": 0.25824602899956517, "violations": {}, "status": "optimal", "lower_bound": 2028.0, "gap": 0.0, "model": {"rows": 10299, "blocks": 306, "variables": 1008, "constraints": 1383}}
+{"dataset": "har", "seed": 1, "method": "majority", "n": 10299, "valid": false, "changed": 1471, "quarantined": 0, "objective": 1471, "seconds": 0.0035803050122922286, "audit_seconds": 0.01147192600183189, "verified_seconds": 0.015052231014124118, "violations": {"size": 2, "label": 12}}
+{"dataset": "har", "seed": 1, "method": "group_resplit", "n": 10299, "valid": true, "changed": 2466, "quarantined": 0, "objective": 2466, "seconds": 0.0059684589941753075, "audit_seconds": 0.012421399995218962, "verified_seconds": 0.01838985898939427, "violations": {}}
+{"dataset": "har", "seed": 1, "method": "greedy", "n": 10299, "valid": true, "changed": 2058, "quarantined": 0, "objective": 2058, "seconds": 0.013536262005800381, "audit_seconds": 0.021875370992347598, "verified_seconds": 0.03541163299814798, "violations": {}}
+{"dataset": "har", "seed": 2, "method": "splitmend", "n": 10299, "valid": true, "changed": 2004, "quarantined": 0, "objective": 2004, "seconds": 0.2037497230048757, "audit_seconds": 0.022939325994229876, "verified_seconds": 0.22668904899910558, "violations": {}, "status": "optimal", "lower_bound": 2004.000000000004, "gap": 0.0, "model": {"rows": 10299, "blocks": 306, "variables": 1008, "constraints": 1383}}
+{"dataset": "har", "seed": 2, "method": "majority", "n": 10299, "valid": false, "changed": 1471, "quarantined": 0, "objective": 1471, "seconds": 0.0038288389914669096, "audit_seconds": 0.012772989997756667, "verified_seconds": 0.016601828989223577, "violations": {"size": 2, "label": 12}}
+{"dataset": "har", "seed": 2, "method": "group_resplit", "n": 10299, "valid": true, "changed": 2539, "quarantined": 0, "objective": 2539, "seconds": 0.007058135000988841, "audit_seconds": 0.013247235998278484, "verified_seconds": 0.020305370999267325, "violations": {}}
+{"dataset": "har", "seed": 2, "method": "greedy", "n": 10299, "valid": true, "changed": 2125, "quarantined": 0, "objective": 2125, "seconds": 0.0173252219974529, "audit_seconds": 0.01601855899207294, "verified_seconds": 0.03334378098952584, "violations": {}}
+{"dataset": "har", "seed": 3, "method": "splitmend", "n": 10299, "valid": true, "changed": 2011, "quarantined": 0, "objective": 2011, "seconds": 0.2211134880053578, "audit_seconds": 0.017397731004166417, "verified_seconds": 0.2385112190095242, "violations": {}, "status": "optimal", "lower_bound": 2011.0, "gap": 0.0, "model": {"rows": 10299, "blocks": 306, "variables": 1008, "constraints": 1383}}
+{"dataset": "har", "seed": 3, "method": "majority", "n": 10299, "valid": false, "changed": 1471, "quarantined": 0, "objective": 1471, "seconds": 0.004082441999344155, "audit_seconds": 0.025367381997057237, "verified_seconds": 0.029449823996401392, "violations": {"size": 2, "label": 12}}
+{"dataset": "har", "seed": 3, "method": "group_resplit", "n": 10299, "valid": true, "changed": 2415, "quarantined": 0, "objective": 2415, "seconds": 0.01253957799053751, "audit_seconds": 0.013089908999972977, "verified_seconds": 0.025629486990510486, "violations": {}}
+{"dataset": "har", "seed": 3, "method": "greedy", "n": 10299, "valid": true, "changed": 2162, "quarantined": 0, "objective": 2162, "seconds": 0.017196838001837023, "audit_seconds": 0.015008184986072592, "verified_seconds": 0.032205022987909615, "violations": {}}
+{"dataset": "har", "seed": 4, "method": "splitmend", "n": 10299, "valid": true, "changed": 2000, "quarantined": 0, "objective": 2000, "seconds": 0.21025933799683116, "audit_seconds": 0.02418554799805861, "verified_seconds": 0.23444488599488977, "violations": {}, "status": "optimal", "lower_bound": 2000.0, "gap": 0.0, "model": {"rows": 10299, "blocks": 306, "variables": 1008, "constraints": 1383}}
+{"dataset": "har", "seed": 4, "method": "majority", "n": 10299, "valid": false, "changed": 1471, "quarantined": 0, "objective": 1471, "seconds": 0.003979707005782984, "audit_seconds": 0.015532696997979656, "verified_seconds": 0.01951240400376264, "violations": {"size": 2, "label": 12}}
+{"dataset": "har", "seed": 4, "method": "group_resplit", "n": 10299, "valid": true, "changed": 2525, "quarantined": 0, "objective": 2525, "seconds": 0.007470726995961741, "audit_seconds": 0.014036637003300712, "verified_seconds": 0.021507363999262452, "violations": {}}
+{"dataset": "har", "seed": 4, "method": "greedy", "n": 10299, "valid": true, "changed": 2095, "quarantined": 0, "objective": 2095, "seconds": 0.019866788992658257, "audit_seconds": 0.017846748989541084, "verified_seconds": 0.03771353798219934, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "splitmend", "n": 32593, "valid": true, "changed": 2097, "quarantined": 0, "objective": 2097, "seconds": 4.748432317996048, "audit_seconds": 0.20261183301045094, "verified_seconds": 4.951044151006499, "violations": {}, "status": "optimal", "lower_bound": 2097.0, "gap": 0.0, "model": {"rows": 32593, "blocks": 6504, "variables": 30126, "constraints": 32265}}
+{"dataset": "oulad", "seed": 0, "method": "majority", "n": 32593, "valid": true, "changed": 2097, "quarantined": 0, "objective": 2097, "seconds": 0.1737659810023615, "audit_seconds": 0.11811991500144359, "verified_seconds": 0.2918858960038051, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "group_resplit", "n": 32593, "valid": true, "changed": 10642, "quarantined": 0, "objective": 10642, "seconds": 0.04673684299632441, "audit_seconds": 0.2005423289956525, "verified_seconds": 0.2472791719919769, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "greedy", "n": 32593, "valid": true, "changed": 2097, "quarantined": 0, "objective": 2097, "seconds": 0.6607333639985882, "audit_seconds": 0.2030312029964989, "verified_seconds": 0.8637645669950871, "violations": {}}
+{"dataset": "oulad", "seed": 1, "method": "splitmend", "n": 32593, "valid": true, "changed": 2142, "quarantined": 0, "objective": 2142, "seconds": 4.279871541002649, "audit_seconds": 0.17474322899943218, "verified_seconds": 4.454614770002081, "violations": {}, "status": "optimal", "lower_bound": 2142.0, "gap": 0.0, "model": {"rows": 32593, "blocks": 6523, "variables": 30183, "constraints": 32393}}
+{"dataset": "oulad", "seed": 1, "method": "majority", "n": 32593, "valid": true, "changed": 2142, "quarantined": 0, "objective": 2142, "seconds": 0.07907361700199544, "audit_seconds": 0.19255725499533582, "verified_seconds": 0.27163087199733127, "violations": {}}
+{"dataset": "oulad", "seed": 1, "method": "group_resplit", "n": 32593, "valid": true, "changed": 10787, "quarantined": 0, "objective": 10787, "seconds": 0.054849302003276534, "audit_seconds": 0.16240749500866514, "verified_seconds": 0.21725679701194167, "violations": {}}
+{"dataset": "oulad", "seed": 1, "method": "greedy", "n": 32593, "valid": true, "changed": 2142, "quarantined": 0, "objective": 2142, "seconds": 0.5532906149892369, "audit_seconds": 0.20899001599173062, "verified_seconds": 0.7622806309809675, "violations": {}}
+{"dataset": "oulad", "seed": 2, "method": "splitmend", "n": 32593, "valid": true, "changed": 2196, "quarantined": 0, "objective": 2196, "seconds": 3.574292596997111, "audit_seconds": 0.087774265994085, "verified_seconds": 3.662066862991196, "violations": {}, "status": "optimal", "lower_bound": 2196.0, "gap": 0.0, "model": {"rows": 32593, "blocks": 6554, "variables": 30276, "constraints": 32561}}
+{"dataset": "oulad", "seed": 2, "method": "majority", "n": 32593, "valid": true, "changed": 2196, "quarantined": 0, "objective": 2196, "seconds": 0.07548008600133471, "audit_seconds": 0.18949856600374915, "verified_seconds": 0.26497865200508386, "violations": {}}
+{"dataset": "oulad", "seed": 2, "method": "group_resplit", "n": 32593, "valid": true, "changed": 10716, "quarantined": 0, "objective": 10716, "seconds": 0.05139931300072931, "audit_seconds": 0.18245090800337493, "verified_seconds": 0.23385022100410424, "violations": {}}
+{"dataset": "oulad", "seed": 2, "method": "greedy", "n": 32593, "valid": true, "changed": 2196, "quarantined": 0, "objective": 2196, "seconds": 0.560164905997226, "audit_seconds": 0.17254865399445407, "verified_seconds": 0.7327135599916801, "violations": {}}
+{"dataset": "oulad", "seed": 3, "method": "splitmend", "n": 32593, "valid": true, "changed": 2160, "quarantined": 0, "objective": 2160, "seconds": 4.59692944100243, "audit_seconds": 0.10054684200440533, "verified_seconds": 4.697476283006836, "violations": {}, "status": "optimal", "lower_bound": 2160.0, "gap": 0.0, "model": {"rows": 32593, "blocks": 6529, "variables": 30201, "constraints": 32433}}
+{"dataset": "oulad", "seed": 3, "method": "majority", "n": 32593, "valid": true, "changed": 2160, "quarantined": 0, "objective": 2160, "seconds": 0.09330802399199456, "audit_seconds": 0.21022547800384928, "verified_seconds": 0.30353350199584384, "violations": {}}
+{"dataset": "oulad", "seed": 3, "method": "group_resplit", "n": 32593, "valid": true, "changed": 10772, "quarantined": 0, "objective": 10772, "seconds": 0.058034116998896934, "audit_seconds": 0.20940580999013036, "verified_seconds": 0.2674399269890273, "violations": {}}
+{"dataset": "oulad", "seed": 3, "method": "greedy", "n": 32593, "valid": true, "changed": 2160, "quarantined": 0, "objective": 2160, "seconds": 0.6725359150004806, "audit_seconds": 0.21402523601136636, "verified_seconds": 0.886561151011847, "violations": {}}
+{"dataset": "oulad", "seed": 4, "method": "splitmend", "n": 32593, "valid": true, "changed": 2108, "quarantined": 0, "objective": 2108, "seconds": 3.8744307039887644, "audit_seconds": 0.08616226199956145, "verified_seconds": 3.960592965988326, "violations": {}, "status": "optimal", "lower_bound": 2108.0, "gap": 0.0, "model": {"rows": 32593, "blocks": 6504, "variables": 30126, "constraints": 32285}}
+{"dataset": "oulad", "seed": 4, "method": "majority", "n": 32593, "valid": true, "changed": 2108, "quarantined": 0, "objective": 2108, "seconds": 0.09036025901150424, "audit_seconds": 0.22423606499796733, "verified_seconds": 0.3145963240094716, "violations": {}}
+{"dataset": "oulad", "seed": 4, "method": "group_resplit", "n": 32593, "valid": true, "changed": 10672, "quarantined": 0, "objective": 10672, "seconds": 0.07361899499665014, "audit_seconds": 0.22956298000644892, "verified_seconds": 0.30318197500309907, "violations": {}}
+{"dataset": "oulad", "seed": 4, "method": "greedy", "n": 32593, "valid": true, "changed": 2108, "quarantined": 0, "objective": 2108, "seconds": 0.6377814500010572, "audit_seconds": 0.20828384799824562, "verified_seconds": 0.8460652979993029, "violations": {}}
+{"dataset": "beijing", "seed": 0, "method": "splitmend", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 5.31066874100361, "audit_seconds": 0.8729720250121318, "verified_seconds": 6.183640766015742, "violations": {}, "status": "optimal", "lower_bound": 11280.0, "gap": 0.0, "model": {"rows": 420204, "blocks": 72, "variables": 288, "constraints": 255}, "cut1_hour": 21038, "cut2_hour": 28051, "source_hours": 24, "forecast_horizon_hours": 24}
+{"dataset": "beijing", "seed": 0, "method": "majority", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.385072411998408, "audit_seconds": 0.9597391599963885, "verified_seconds": 2.3448115719947964, "violations": {}}
+{"dataset": "beijing", "seed": 0, "method": "group_resplit", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 0.7739798109978437, "audit_seconds": 1.0661161390016787, "verified_seconds": 1.8400959499995224, "violations": {}}
+{"dataset": "beijing", "seed": 1, "method": "splitmend", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 5.395303315992351, "audit_seconds": 0.917801067000255, "verified_seconds": 6.313104382992606, "violations": {}, "status": "optimal", "lower_bound": 11280.0, "gap": 0.0, "model": {"rows": 420204, "blocks": 72, "variables": 288, "constraints": 255}, "cut1_hour": 22791, "cut2_hour": 28927, "source_hours": 24, "forecast_horizon_hours": 24}
+{"dataset": "beijing", "seed": 1, "method": "majority", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.5248059120058315, "audit_seconds": 1.022770704003051, "verified_seconds": 2.5475766160088824, "violations": {}}
+{"dataset": "beijing", "seed": 1, "method": "group_resplit", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 0.649115944004734, "audit_seconds": 1.0267140849900898, "verified_seconds": 1.6758300289948238, "violations": {}}
+{"dataset": "beijing", "seed": 2, "method": "splitmend", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 5.207298262001132, "audit_seconds": 0.9670432800048729, "verified_seconds": 6.174341542006005, "violations": {}, "status": "optimal", "lower_bound": 11280.0, "gap": 0.0, "model": {"rows": 420204, "blocks": 72, "variables": 288, "constraints": 255}, "cut1_hour": 24544, "cut2_hour": 29804, "source_hours": 24, "forecast_horizon_hours": 24}
+{"dataset": "beijing", "seed": 2, "method": "majority", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.7762776689924067, "audit_seconds": 1.1039709670003504, "verified_seconds": 2.880248635992757, "violations": {}}
+{"dataset": "beijing", "seed": 2, "method": "group_resplit", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 0.7585577499994542, "audit_seconds": 1.0847087959991768, "verified_seconds": 1.843266545998631, "violations": {}}
+{"dataset": "beijing", "seed": 3, "method": "splitmend", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 6.418032446003053, "audit_seconds": 1.0196969300013734, "verified_seconds": 7.437729376004427, "violations": {}, "status": "optimal", "lower_bound": 11280.0, "gap": 0.0, "model": {"rows": 420204, "blocks": 72, "variables": 288, "constraints": 255}, "cut1_hour": 26298, "cut2_hour": 30681, "source_hours": 24, "forecast_horizon_hours": 24}
+{"dataset": "beijing", "seed": 3, "method": "majority", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.5219824600062566, "audit_seconds": 0.8826026330061723, "verified_seconds": 2.404585093012429, "violations": {}}
+{"dataset": "beijing", "seed": 3, "method": "group_resplit", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 0.7237860900058877, "audit_seconds": 0.8917306319926865, "verified_seconds": 1.6155167219985742, "violations": {}}
+{"dataset": "beijing", "seed": 4, "method": "splitmend", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 5.36287641900708, "audit_seconds": 0.8596276019961806, "verified_seconds": 6.22250402100326, "violations": {}, "status": "optimal", "lower_bound": 11280.0, "gap": 0.0, "model": {"rows": 420204, "blocks": 72, "variables": 288, "constraints": 255}, "cut1_hour": 28051, "cut2_hour": 31557, "source_hours": 24, "forecast_horizon_hours": 24}
+{"dataset": "beijing", "seed": 4, "method": "majority", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.368371564996778, "audit_seconds": 0.942562784999609, "verified_seconds": 2.310934349996387, "violations": {}}
+{"dataset": "beijing", "seed": 4, "method": "group_resplit", "n": 420204, "valid": true, "changed": 1128, "quarantined": 1128, "objective": 11280, "seconds": 1.0093368609959725, "audit_seconds": 1.05870362900896, "verified_seconds": 2.0680404900049325, "violations": {}}
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/correctness.py
+100 exhaustive cases, 3 aggregation comparisons, 3 conflict controls passed
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/model_evaluation.py
+har 0 original
+har 0 splitmend
+har 0 greedy
+har 0 group_resplit
+har 1 original
+har 1 splitmend
+har 1 greedy
+har 1 group_resplit
+har 2 original
+har 2 splitmend
+har 2 greedy
+har 2 group_resplit
+har 3 original
+har 3 splitmend
+har 3 greedy
+har 3 group_resplit
+har 4 original
+har 4 splitmend
+har 4 greedy
+har 4 group_resplit
+oulad 0 original
+oulad 0 splitmend
+oulad 0 greedy
+oulad 0 group_resplit
+oulad 1 original
+oulad 1 splitmend
+oulad 1 greedy
+oulad 1 group_resplit
+oulad 2 original
+oulad 2 splitmend
+oulad 2 greedy
+oulad 2 group_resplit
+oulad 3 original
+oulad 3 splitmend
+oulad 3 greedy
+oulad 3 group_resplit
+oulad 4 original
+oulad 4 splitmend
+oulad 4 greedy
+oulad 4 group_resplit
+Running: /workspace/scratch/6aa040e667a4/splitmend_baselines/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/external_baselines.py
+{"dataset": "har", "seed": 0, "method": "datasail_i1", "n": 10299, "valid": false, "changed": 2707, "quarantined": 0, "objective": 2707, "seconds": 0.03695811300713103, "error": null, "audit_seconds": 0.015950040993629955, "verified_seconds": 0.05290815400076099, "violations": {"size": 2}}
+{"dataset": "har", "seed": 0, "method": "datasail_i1_tight", "n": 10299, "valid": true, "changed": 2386, "quarantined": 0, "objective": 2386, "seconds": 0.012844413999118842, "error": null, "audit_seconds": 0.01362002399400808, "verified_seconds": 0.02646443799312692, "violations": {}}
+{"dataset": "har", "seed": 0, "method": "datasail_i1_aligned", "n": 10299, "valid": true, "changed": 2475, "quarantined": 0, "objective": 2475, "seconds": 0.013620475001516752, "error": null, "audit_seconds": 0.01573554599599447, "verified_seconds": 0.029356020997511223, "violations": {}}
+{"dataset": "har", "seed": 0, "method": "dataset_splitter", "n": 10299, "valid": true, "changed": 2380, "quarantined": 0, "objective": 2380, "seconds": 0.017016079000313766, "error": null, "audit_seconds": 0.016485587999341078, "verified_seconds": 0.033501666999654844, "violations": {}}
+{"dataset": "har", "seed": 1, "method": "datasail_i1", "n": 10299, "valid": false, "changed": 2729, "quarantined": 0, "objective": 2729, "seconds": 0.012548086990136653, "error": null, "audit_seconds": 0.013859596001566388, "verified_seconds": 0.02640768299170304, "violations": {"size": 2}}
+{"dataset": "har", "seed": 1, "method": "datasail_i1_tight", "n": 10299, "valid": true, "changed": 2424, "quarantined": 0, "objective": 2424, "seconds": 0.021687058004317805, "error": null, "audit_seconds": 0.018231343012303114, "verified_seconds": 0.03991840101662092, "violations": {}}
+{"dataset": "har", "seed": 1, "method": "datasail_i1_aligned", "n": 10299, "valid": true, "changed": 2501, "quarantined": 0, "objective": 2501, "seconds": 0.013166320000891574, "error": null, "audit_seconds": 0.01518176100216806, "verified_seconds": 0.028348081003059633, "violations": {}}
+{"dataset": "har", "seed": 1, "method": "dataset_splitter", "n": 10299, "valid": true, "changed": 2503, "quarantined": 0, "objective": 2503, "seconds": 0.013093980000121519, "error": null, "audit_seconds": 0.017929027002537623, "verified_seconds": 0.031023007002659142, "violations": {}}
+{"dataset": "har", "seed": 2, "method": "datasail_i1", "n": 10299, "valid": false, "changed": 2699, "quarantined": 0, "objective": 2699, "seconds": 0.048887351993471384, "error": null, "audit_seconds": 0.029736004988080822, "verified_seconds": 0.0786233569815522, "violations": {"size": 2}}
+{"dataset": "har", "seed": 2, "method": "datasail_i1_tight", "n": 10299, "valid": true, "changed": 2436, "quarantined": 0, "objective": 2436, "seconds": 0.015238166000926867, "error": null, "audit_seconds": 0.017982597986701876, "verified_seconds": 0.03322076398762874, "violations": {}}
+{"dataset": "har", "seed": 2, "method": "datasail_i1_aligned", "n": 10299, "valid": true, "changed": 2479, "quarantined": 0, "objective": 2479, "seconds": 0.015233718993840739, "error": null, "audit_seconds": 0.020073441992281005, "verified_seconds": 0.035307160986121744, "violations": {}}
+{"dataset": "har", "seed": 2, "method": "dataset_splitter", "n": 10299, "valid": true, "changed": 2402, "quarantined": 0, "objective": 2402, "seconds": 0.08242538799822796, "error": null, "audit_seconds": 0.017304975001025014, "verified_seconds": 0.09973036299925297, "violations": {}}
+{"dataset": "har", "seed": 3, "method": "datasail_i1", "n": 10299, "valid": false, "changed": 2701, "quarantined": 0, "objective": 2701, "seconds": 0.014595877000829205, "error": null, "audit_seconds": 0.019007204013178125, "verified_seconds": 0.03360308101400733, "violations": {"size": 2}}
+{"dataset": "har", "seed": 3, "method": "datasail_i1_tight", "n": 10299, "valid": true, "changed": 2422, "quarantined": 0, "objective": 2422, "seconds": 0.013716579996980727, "error": null, "audit_seconds": 0.016162075000465848, "verified_seconds": 0.029878654997446574, "violations": {}}
+{"dataset": "har", "seed": 3, "method": "datasail_i1_aligned", "n": 10299, "valid": true, "changed": 2479, "quarantined": 0, "objective": 2479, "seconds": 0.010971708004944958, "error": null, "audit_seconds": 0.014693283999804407, "verified_seconds": 0.025664992004749365, "violations": {}}
+{"dataset": "har", "seed": 3, "method": "dataset_splitter", "n": 10299, "valid": true, "changed": 2435, "quarantined": 0, "objective": 2435, "seconds": 0.017299296989222057, "error": null, "audit_seconds": 0.020009667001431808, "verified_seconds": 0.037308963990653865, "violations": {}}
+{"dataset": "har", "seed": 4, "method": "datasail_i1", "n": 10299, "valid": false, "changed": 2719, "quarantined": 0, "objective": 2719, "seconds": 0.01675974299723748, "error": null, "audit_seconds": 0.02128922799602151, "verified_seconds": 0.03804897099325899, "violations": {"size": 2}}
+{"dataset": "har", "seed": 4, "method": "datasail_i1_tight", "n": 10299, "valid": true, "changed": 2412, "quarantined": 0, "objective": 2412, "seconds": 0.015198866007267497, "error": null, "audit_seconds": 0.021323358989320695, "verified_seconds": 0.03652222499658819, "violations": {}}
+{"dataset": "har", "seed": 4, "method": "datasail_i1_aligned", "n": 10299, "valid": true, "changed": 2477, "quarantined": 0, "objective": 2477, "seconds": 0.015376945011666976, "error": null, "audit_seconds": 0.017581893000169657, "verified_seconds": 0.03295883801183663, "violations": {}}
+{"dataset": "har", "seed": 4, "method": "dataset_splitter", "n": 10299, "valid": true, "changed": 2278, "quarantined": 0, "objective": 2278, "seconds": 0.012757573000271805, "error": null, "audit_seconds": 0.023385881999274716, "verified_seconds": 0.03614345499954652, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "datasail_i1", "n": 32593, "valid": false, "changed": 11557, "quarantined": 0, "objective": 11557, "seconds": 3.6411962940037483, "error": null, "audit_seconds": 0.09103885600052308, "verified_seconds": 3.7322351500042714, "violations": {"size": 2, "label": 4}}
+{"dataset": "oulad", "seed": 0, "method": "datasail_i1_tight", "n": 32593, "valid": true, "changed": 10830, "quarantined": 0, "objective": 10830, "seconds": 3.4595860690023983, "error": null, "audit_seconds": 0.10058506600034889, "verified_seconds": 3.560171135002747, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "datasail_i1_aligned", "n": 32593, "valid": true, "changed": 10846, "quarantined": 0, "objective": 10846, "seconds": 3.590732900003786, "error": null, "audit_seconds": 0.2061517480033217, "verified_seconds": 3.796884648007108, "violations": {}}
+{"dataset": "oulad", "seed": 0, "method": "dataset_splitter", "n": 32593, "valid": true, "changed": 10798, "quarantined": 0, "objective": 10798, "seconds": 0.05919187399558723, "error": null, "audit_seconds": 0.19476199000200722, "verified_seconds": 0.25395386399759445, "violations": {}}
+{"dataset": "oulad", "seed": 1, "method": "datasail_i1", "n": 32593, "valid": false, "changed": 11623, "quarantined": 0, "objective": 11623, "seconds": 3.178914016010822, "error": null, "audit_seconds": 0.11053757900663186, "verified_seconds": 3.2894515950174537, "violations": {"size": 2, "label": 4}}
+{"dataset": "oulad", "seed": 1, "method": "datasail_i1_tight", "n": 32593, "valid": false, "changed": 10963, "quarantined": 0, "objective": 10963, "seconds": 3.5455020319932373, "error": null, "audit_seconds": 0.13405361300101504, "verified_seconds": 3.6795556449942524, "violations": {"size": 1}}
+{"dataset": "oulad", "seed": 1, "method": "datasail_i1_aligned", "n": 32593, "valid": true, "changed": 10959, "quarantined": 0, "objective": 10959, "seconds": 3.9600438729976304, "error": null, "audit_seconds": 0.10931400398840196, "verified_seconds": 4.069357876986032, "violations": {}}
+{"dataset": "oulad", "seed": 1, "method": "dataset_splitter", "n": 32593, "valid": true, "changed": 10703, "quarantined": 0, "objective": 10703, "seconds": 0.08296626099036075, "error": null, "audit_seconds": 0.2299396140006138, "verified_seconds": 0.31290587499097455, "violations": {}}
+{"dataset": "oulad", "seed": 2, "method": "datasail_i1", "n": 32593, "valid": false, "changed": 11675, "quarantined": 0, "objective": 11675, "seconds": 3.487818387002335, "error": null, "audit_seconds": 0.35665156599134207, "verified_seconds": 3.844469952993677, "violations": {"size": 2, "label": 4}}
+{"dataset": "oulad", "seed": 2, "method": "datasail_i1_tight", "n": 32593, "valid": false, "changed": 10783, "quarantined": 0, "objective": 10783, "seconds": 4.094358757996815, "error": null, "audit_seconds": 0.19656698100152425, "verified_seconds": 4.2909257389983395, "violations": {"size": 1}}
+{"dataset": "oulad", "seed": 2, "method": "datasail_i1_aligned", "n": 32593, "valid": true, "changed": 10765, "quarantined": 0, "objective": 10765, "seconds": 3.7001195199991344, "error": null, "audit_seconds": 0.1468905609945068, "verified_seconds": 3.847010080993641, "violations": {}}
+{"dataset": "oulad", "seed": 2, "method": "dataset_splitter", "n": 32593, "valid": true, "changed": 10838, "quarantined": 0, "objective": 10838, "seconds": 0.07872363599017262, "error": null, "audit_seconds": 0.30416069499915466, "verified_seconds": 0.3828843309893273, "violations": {}}
+{"dataset": "oulad", "seed": 3, "method": "datasail_i1", "n": 32593, "valid": false, "changed": 11609, "quarantined": 0, "objective": 11609, "seconds": 4.532115032998263, "error": null, "audit_seconds": 0.3249465939879883, "verified_seconds": 4.857061626986251, "violations": {"size": 2, "label": 4}}
+{"dataset": "oulad", "seed": 3, "method": "datasail_i1_tight", "n": 32593, "valid": false, "changed": 10989, "quarantined": 0, "objective": 10989, "seconds": 4.074075783995795, "error": null, "audit_seconds": 0.14393807100714184, "verified_seconds": 4.218013855002937, "violations": {"size": 1}}
+{"dataset": "oulad", "seed": 3, "method": "datasail_i1_aligned", "n": 32593, "valid": true, "changed": 10973, "quarantined": 0, "objective": 10973, "seconds": 4.1104415339941625, "error": null, "audit_seconds": 0.19641243199293967, "verified_seconds": 4.306853965987102, "violations": {}}
+{"dataset": "oulad", "seed": 3, "method": "dataset_splitter", "n": 32593, "valid": true, "changed": 10663, "quarantined": 0, "objective": 10663, "seconds": 0.10175201999663841, "error": null, "audit_seconds": 0.38958754399209283, "verified_seconds": 0.49133956398873124, "violations": {}}
+{"dataset": "oulad", "seed": 4, "method": "datasail_i1", "n": 32593, "valid": false, "changed": 11498, "quarantined": 0, "objective": 11498, "seconds": 3.8484337460104143, "error": null, "audit_seconds": 0.2974725749954814, "verified_seconds": 4.145906321005896, "violations": {"size": 2, "label": 4}}
+{"dataset": "oulad", "seed": 4, "method": "datasail_i1_tight", "n": 32593, "valid": false, "changed": 11006, "quarantined": 0, "objective": 11006, "seconds": 3.955554876010865, "error": null, "audit_seconds": 0.16888088700943626, "verified_seconds": 4.124435763020301, "violations": {"size": 1}}
+{"dataset": "oulad", "seed": 4, "method": "datasail_i1_aligned", "n": 32593, "valid": true, "changed": 11003, "quarantined": 0, "objective": 11003, "seconds": 3.7178569800016703, "error": null, "audit_seconds": 0.13833320599223953, "verified_seconds": 3.85619018599391, "violations": {}}
+{"dataset": "oulad", "seed": 4, "method": "dataset_splitter", "n": 32593, "valid": true, "changed": 10802, "quarantined": 0, "objective": 10802, "seconds": 0.13053452600433957, "error": null, "audit_seconds": 0.3268806699925335, "verified_seconds": 0.4574151959968731, "violations": {}}
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/strong_baseline_followup.py
+{"dataset": "har", "seed": 0, "method": "cost_greedy_local", "n": 10299, "valid": true, "changed": 2006, "quarantined": 0, "objective": 2006, "seconds": 0.030646721002995037, "audit_seconds": 0.014645226998254657, "verified_seconds": 0.04529194800124969, "violations": {}, "search_seconds": 0.001197267003590241, "preprocessing_seconds": 0.0050928850105265155, "greedy_steps": 3, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 21, "remaining_count_violation": 0}
+{"dataset": "har", "seed": 1, "method": "cost_greedy_local", "n": 10299, "valid": true, "changed": 2028, "quarantined": 0, "objective": 2028, "seconds": 0.027805794001324102, "audit_seconds": 0.012993965996429324, "verified_seconds": 0.040799759997753426, "violations": {}, "search_seconds": 0.0012385589943733066, "preprocessing_seconds": 0.004598528001224622, "greedy_steps": 3, "local_steps": 1, "stop_reason": "local_neighborhood_exhausted", "profiles": 21, "remaining_count_violation": 0}
+{"dataset": "har", "seed": 2, "method": "cost_greedy_local", "n": 10299, "valid": true, "changed": 2004, "quarantined": 0, "objective": 2004, "seconds": 0.03595602100540418, "audit_seconds": 0.017828201001975685, "verified_seconds": 0.05378422200737987, "violations": {}, "search_seconds": 0.0022920880001038313, "preprocessing_seconds": 0.006465855010901578, "greedy_steps": 3, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 21, "remaining_count_violation": 0}
+{"dataset": "har", "seed": 3, "method": "cost_greedy_local", "n": 10299, "valid": true, "changed": 2181, "quarantined": 0, "objective": 2181, "seconds": 0.03465180400235113, "audit_seconds": 0.014912079990608618, "verified_seconds": 0.049563883992959745, "violations": {}, "search_seconds": 0.0016553979949094355, "preprocessing_seconds": 0.005726199990021996, "greedy_steps": 4, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 21, "remaining_count_violation": 0}
+{"dataset": "har", "seed": 4, "method": "cost_greedy_local", "n": 10299, "valid": true, "changed": 2000, "quarantined": 0, "objective": 2000, "seconds": 0.03712549599003978, "audit_seconds": 0.0176678779971553, "verified_seconds": 0.05479337398719508, "violations": {}, "search_seconds": 0.0020452160097192973, "preprocessing_seconds": 0.006158781994599849, "greedy_steps": 3, "local_steps": 1, "stop_reason": "local_neighborhood_exhausted", "profiles": 21, "remaining_count_violation": 0}
+{"dataset": "oulad", "seed": 0, "method": "cost_greedy_local", "n": 32593, "valid": true, "changed": 2097, "quarantined": 0, "objective": 2097, "seconds": 0.34774421399924904, "audit_seconds": 0.2251832649926655, "verified_seconds": 0.5729274789919145, "violations": {}, "search_seconds": 0.023234336986206472, "preprocessing_seconds": 0.23428650001005735, "greedy_steps": 0, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 74, "remaining_count_violation": 0}
+{"dataset": "oulad", "seed": 1, "method": "cost_greedy_local", "n": 32593, "valid": true, "changed": 2142, "quarantined": 0, "objective": 2142, "seconds": 0.3689258840022376, "audit_seconds": 0.20296170700748917, "verified_seconds": 0.5718875910097267, "violations": {}, "search_seconds": 0.020086396994884126, "preprocessing_seconds": 0.14473529100359883, "greedy_steps": 0, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 65, "remaining_count_violation": 0}
+{"dataset": "oulad", "seed": 2, "method": "cost_greedy_local", "n": 32593, "valid": true, "changed": 2196, "quarantined": 0, "objective": 2196, "seconds": 0.3381113159994129, "audit_seconds": 0.2515945699997246, "verified_seconds": 0.5897058859991375, "violations": {}, "search_seconds": 0.037183243010076694, "preprocessing_seconds": 0.1780192729929695, "greedy_steps": 0, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 70, "remaining_count_violation": 0}
+{"dataset": "oulad", "seed": 3, "method": "cost_greedy_local", "n": 32593, "valid": true, "changed": 2160, "quarantined": 0, "objective": 2160, "seconds": 0.5557903570006602, "audit_seconds": 0.1385946270020213, "verified_seconds": 0.6943849840026814, "violations": {}, "search_seconds": 0.05914548199507408, "preprocessing_seconds": 0.3688411110051675, "greedy_steps": 0, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 68, "remaining_count_violation": 0}
+{"dataset": "oulad", "seed": 4, "method": "cost_greedy_local", "n": 32593, "valid": true, "changed": 2108, "quarantined": 0, "objective": 2108, "seconds": 0.5012930590019096, "audit_seconds": 0.36812772501434665, "verified_seconds": 0.8694207840162562, "violations": {}, "search_seconds": 0.028170593999675475, "preprocessing_seconds": 0.36260393999691587, "greedy_steps": 0, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 72, "remaining_count_violation": 0}
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/clinical_experiments.py
+{"case": "diabetes_0_tol010", "dataset": "diabetes", "seed": 0, "tolerance": 0.01, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": false, "changed": 7555, "objective": 7555, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6400}, "seconds": 0.38438117600162514, "audit_seconds": 0.5602656429982744, "verified_seconds": 0.9446468189998996}
+{"case": "diabetes_0_tol010", "dataset": "diabetes", "seed": 0, "tolerance": 0.01, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": false, "changed": 30575, "objective": 30575, "quarantined": 0, "violations": {"label": 16}, "initial_violations": {"group_overlap": 6400}, "seconds": 0.6058196780068101, "audit_seconds": 0.6646964770043269, "verified_seconds": 1.270516155011137}
+{"case": "diabetes_0_tol010", "dataset": "diabetes", "seed": 0, "tolerance": 0.01, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 10735, "objective": 10735, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 1.5351577160035959, "audit_seconds": 0.9702507259935373, "verified_seconds": 2.505408441997133, "search_seconds": 0.5749588690086966, "preprocessing_seconds": 0.9360005459893728, "greedy_steps": 1398, "local_steps": 0, "stop_reason": "feasible", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol010", "dataset": "diabetes", "seed": 0, "tolerance": 0.01, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7568, "objective": 7568, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 2.337413524001022, "audit_seconds": 0.7321329139958834, "verified_seconds": 3.0695464379969053, "search_seconds": 1.2302922870003385, "preprocessing_seconds": 1.083566286994028, "greedy_steps": 2705, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol010", "dataset": "diabetes", "seed": 0, "tolerance": 0.01, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7567, "objective": 7567, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 8.824899712999468, "audit_seconds": 0.6272638270020252, "verified_seconds": 9.452163540001493, "status": "optimal", "lower_bound": 7567.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36608, "variables": 160143, "constraints": 220246}}
+{"case": "diabetes_0_tol025", "dataset": "diabetes", "seed": 0, "tolerance": 0.025, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": false, "changed": 7555, "objective": 7555, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6400}, "seconds": 0.4766346880060155, "audit_seconds": 0.8383241120027378, "verified_seconds": 1.3149588000087533}
+{"case": "diabetes_0_tol025", "dataset": "diabetes", "seed": 0, "tolerance": 0.025, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": false, "changed": 30575, "objective": 30575, "quarantined": 0, "violations": {"label": 4}, "initial_violations": {"group_overlap": 6400}, "seconds": 1.012178271994344, "audit_seconds": 0.7984785649896367, "verified_seconds": 1.8106568369839806}
+{"case": "diabetes_0_tol025", "dataset": "diabetes", "seed": 0, "tolerance": 0.025, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 9741, "objective": 9741, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 1.6407870859984541, "audit_seconds": 0.7525813679967541, "verified_seconds": 2.3933684539952083, "search_seconds": 0.3516863950062543, "preprocessing_seconds": 1.2683471350028412, "greedy_steps": 698, "local_steps": 0, "stop_reason": "feasible", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol025", "dataset": "diabetes", "seed": 0, "tolerance": 0.025, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7558, "objective": 7558, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 2.0800839899893617, "audit_seconds": 0.9657245250127744, "verified_seconds": 3.045808515002136, "search_seconds": 1.091907327005174, "preprocessing_seconds": 0.9657448749931064, "greedy_steps": 2105, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol025", "dataset": "diabetes", "seed": 0, "tolerance": 0.025, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7558, "objective": 7558, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 9.346291256995755, "audit_seconds": 0.7258321390108904, "verified_seconds": 10.072123396006646, "status": "optimal", "lower_bound": 7558.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36608, "variables": 160143, "constraints": 220246}}
+{"case": "diabetes_0_tol050", "dataset": "diabetes", "seed": 0, "tolerance": 0.05, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": false, "changed": 7555, "objective": 7555, "quarantined": 0, "violations": {"size": 2, "label": 32}, "initial_violations": {"group_overlap": 6400}, "seconds": 0.46672619399032556, "audit_seconds": 0.8775577889900887, "verified_seconds": 1.3442839829804143}
+{"case": "diabetes_0_tol050", "dataset": "diabetes", "seed": 0, "tolerance": 0.05, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 30575, "objective": 30575, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 0.8959853900014423, "audit_seconds": 1.1492466310010059, "verified_seconds": 2.045232021002448}
+{"case": "diabetes_0_tol050", "dataset": "diabetes", "seed": 0, "tolerance": 0.05, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 9032, "objective": 9032, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 1.417131520996918, "audit_seconds": 0.8606332769995788, "verified_seconds": 2.277764797996497, "search_seconds": 0.2563738570024725, "preprocessing_seconds": 1.1359477579972008, "greedy_steps": 318, "local_steps": 0, "stop_reason": "feasible", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol050", "dataset": "diabetes", "seed": 0, "tolerance": 0.05, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7555, "objective": 7555, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 1.9113519499951508, "audit_seconds": 0.7729304179956671, "verified_seconds": 2.684282367990818, "search_seconds": 0.5294936389982468, "preprocessing_seconds": 1.361303316996782, "greedy_steps": 1275, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1472, "remaining_count_violation": 0}
+{"case": "diabetes_0_tol050", "dataset": "diabetes", "seed": 0, "tolerance": 0.05, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20484, "joint_strata": 25, "initial_counts": {"validation": 20318, "test": 20484, "train": 60964}, "valid": true, "changed": 7555, "objective": 7555, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6400}, "seconds": 10.130848656001035, "audit_seconds": 0.762839064002037, "verified_seconds": 10.893687720003072, "status": "optimal", "lower_bound": 7555.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36608, "variables": 160143, "constraints": 220246}}
+{"case": "diabetes_1_tol010", "dataset": "diabetes", "seed": 1, "tolerance": 0.01, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": false, "changed": 7556, "objective": 7556, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.4426121980068274, "audit_seconds": 0.9066006889916025, "verified_seconds": 1.34921288699843}
+{"case": "diabetes_1_tol010", "dataset": "diabetes", "seed": 1, "tolerance": 0.01, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": false, "changed": 30477, "objective": 30477, "quarantined": 0, "violations": {"label": 18}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.984695829989505, "audit_seconds": 0.7380706230032956, "verified_seconds": 1.7227664529928006}
+{"case": "diabetes_1_tol010", "dataset": "diabetes", "seed": 1, "tolerance": 0.01, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 10855, "objective": 10855, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 1.9709385939931963, "audit_seconds": 0.8167465760052437, "verified_seconds": 2.78768516999844, "search_seconds": 0.6350218409934314, "preprocessing_seconds": 1.3113378249981906, "greedy_steps": 1410, "local_steps": 0, "stop_reason": "feasible", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol010", "dataset": "diabetes", "seed": 1, "tolerance": 0.01, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7573, "objective": 7573, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 2.1559038600098575, "audit_seconds": 0.9249916190019576, "verified_seconds": 3.080895479011815, "search_seconds": 1.1914264969964279, "preprocessing_seconds": 0.9403133059968241, "greedy_steps": 2766, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol010", "dataset": "diabetes", "seed": 1, "tolerance": 0.01, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7573, "objective": 7573, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 9.491557293993537, "audit_seconds": 0.4587425899953814, "verified_seconds": 9.950299883988919, "status": "optimal", "lower_bound": 7573.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36578, "variables": 160053, "constraints": 220069}}
+{"case": "diabetes_1_tol025", "dataset": "diabetes", "seed": 1, "tolerance": 0.025, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": false, "changed": 7556, "objective": 7556, "quarantined": 0, "violations": {"size": 2, "label": 46}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.48547171500104014, "audit_seconds": 0.7343055630044546, "verified_seconds": 1.2197772780054947}
+{"case": "diabetes_1_tol025", "dataset": "diabetes", "seed": 1, "tolerance": 0.025, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": false, "changed": 30477, "objective": 30477, "quarantined": 0, "violations": {"label": 4}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.8609259590011789, "audit_seconds": 0.8762446109903976, "verified_seconds": 1.7371705699915765}
+{"case": "diabetes_1_tol025", "dataset": "diabetes", "seed": 1, "tolerance": 0.025, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 9792, "objective": 9792, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 1.294180059005157, "audit_seconds": 0.7023657060053665, "verified_seconds": 1.9965457650105236, "search_seconds": 0.3356095179915428, "preprocessing_seconds": 0.9375312219926855, "greedy_steps": 714, "local_steps": 0, "stop_reason": "feasible", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol025", "dataset": "diabetes", "seed": 1, "tolerance": 0.025, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7569, "objective": 7569, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 2.003289001993835, "audit_seconds": 0.7622138550068485, "verified_seconds": 2.7655028570006834, "search_seconds": 0.8377229180041468, "preprocessing_seconds": 1.1486198060010793, "greedy_steps": 2181, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol025", "dataset": "diabetes", "seed": 1, "tolerance": 0.025, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7569, "objective": 7569, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 8.734575375012355, "audit_seconds": 0.7433765290043084, "verified_seconds": 9.477951904016663, "status": "optimal", "lower_bound": 7569.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36578, "variables": 160053, "constraints": 220069}}
+{"case": "diabetes_1_tol050", "dataset": "diabetes", "seed": 1, "tolerance": 0.05, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": false, "changed": 7556, "objective": 7556, "quarantined": 0, "violations": {"size": 2, "label": 32}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.3229594579897821, "audit_seconds": 1.026277665005182, "verified_seconds": 1.349237122994964}
+{"case": "diabetes_1_tol050", "dataset": "diabetes", "seed": 1, "tolerance": 0.05, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 30477, "objective": 30477, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 0.7638172229926568, "audit_seconds": 0.8789022190030664, "verified_seconds": 1.6427194419957232}
+{"case": "diabetes_1_tol050", "dataset": "diabetes", "seed": 1, "tolerance": 0.05, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 9068, "objective": 9068, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 1.3141735090030124, "audit_seconds": 0.7053349199995864, "verified_seconds": 2.019508429002599, "search_seconds": 0.22393662900140043, "preprocessing_seconds": 1.0709261369920569, "greedy_steps": 329, "local_steps": 0, "stop_reason": "feasible", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol050", "dataset": "diabetes", "seed": 1, "tolerance": 0.05, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7561, "objective": 7561, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 1.6222759429947473, "audit_seconds": 0.7760666109970771, "verified_seconds": 2.3983425539918244, "search_seconds": 0.5978735759999836, "preprocessing_seconds": 1.0070941259909887, "greedy_steps": 1319, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1485, "remaining_count_violation": 0}
+{"case": "diabetes_1_tol050", "dataset": "diabetes", "seed": 1, "tolerance": 0.05, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20536, "joint_strata": 25, "initial_counts": {"validation": 20310, "test": 20536, "train": 60920}, "valid": true, "changed": 7561, "objective": 7561, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6421}, "seconds": 10.232167489011772, "audit_seconds": 0.6440723480045563, "verified_seconds": 10.876239837016328, "status": "optimal", "lower_bound": 7561.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36578, "variables": 160053, "constraints": 220069}}
+{"case": "diabetes_2_tol010", "dataset": "diabetes", "seed": 2, "tolerance": 0.01, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": false, "changed": 7584, "objective": 7584, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.35428935100208037, "audit_seconds": 0.8947100320074242, "verified_seconds": 1.2489993830095045}
+{"case": "diabetes_2_tol010", "dataset": "diabetes", "seed": 2, "tolerance": 0.01, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": false, "changed": 30627, "objective": 30627, "quarantined": 0, "violations": {"label": 18}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.9365694000007352, "audit_seconds": 0.7150325379916467, "verified_seconds": 1.6516019379923819}
+{"case": "diabetes_2_tol010", "dataset": "diabetes", "seed": 2, "tolerance": 0.01, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 10784, "objective": 10784, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 1.5029580010013888, "audit_seconds": 0.7149954280030215, "verified_seconds": 2.2179534290044103, "search_seconds": 0.4880231319984887, "preprocessing_seconds": 0.9969269809953403, "greedy_steps": 1392, "local_steps": 0, "stop_reason": "feasible", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol010", "dataset": "diabetes", "seed": 2, "tolerance": 0.01, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7599, "objective": 7599, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 2.02048791499692, "audit_seconds": 0.6708276900026249, "verified_seconds": 2.691315604999545, "search_seconds": 0.9276212849945296, "preprocessing_seconds": 1.075019452997367, "greedy_steps": 2768, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol010", "dataset": "diabetes", "seed": 2, "tolerance": 0.01, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7594, "objective": 7594, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 8.478928418990108, "audit_seconds": 0.6162564209953416, "verified_seconds": 9.09518483998545, "status": "optimal", "lower_bound": 7594.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36555, "variables": 159984, "constraints": 219441}}
+{"case": "diabetes_2_tol025", "dataset": "diabetes", "seed": 2, "tolerance": 0.025, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": false, "changed": 7584, "objective": 7584, "quarantined": 0, "violations": {"size": 2, "label": 46}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.3093383649975294, "audit_seconds": 0.9694846260099439, "verified_seconds": 1.2788229910074733}
+{"case": "diabetes_2_tol025", "dataset": "diabetes", "seed": 2, "tolerance": 0.025, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": false, "changed": 30627, "objective": 30627, "quarantined": 0, "violations": {"label": 6}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.7356820330023766, "audit_seconds": 0.9927124630048638, "verified_seconds": 1.7283944960072404}
+{"case": "diabetes_2_tol025", "dataset": "diabetes", "seed": 2, "tolerance": 0.025, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 9808, "objective": 9808, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 1.5655976809939602, "audit_seconds": 0.8493788780033356, "verified_seconds": 2.414976558997296, "search_seconds": 0.3854123439959949, "preprocessing_seconds": 1.1540599340078188, "greedy_steps": 708, "local_steps": 0, "stop_reason": "feasible", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol025", "dataset": "diabetes", "seed": 2, "tolerance": 0.025, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7587, "objective": 7587, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 2.1552131219941657, "audit_seconds": 0.8024078830057988, "verified_seconds": 2.9576210049999645, "search_seconds": 0.9852820960077224, "preprocessing_seconds": 1.1464076200063573, "greedy_steps": 2223, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol025", "dataset": "diabetes", "seed": 2, "tolerance": 0.025, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7587, "objective": 7587, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 9.578448315005517, "audit_seconds": 0.7360802089970093, "verified_seconds": 10.314528524002526, "status": "optimal", "lower_bound": 7587.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36555, "variables": 159984, "constraints": 219441}}
+{"case": "diabetes_2_tol050", "dataset": "diabetes", "seed": 2, "tolerance": 0.05, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": false, "changed": 7584, "objective": 7584, "quarantined": 0, "violations": {"size": 2, "label": 32}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.25910897500580177, "audit_seconds": 0.8292151360074058, "verified_seconds": 1.0883241110132076}
+{"case": "diabetes_2_tol050", "dataset": "diabetes", "seed": 2, "tolerance": 0.05, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 30627, "objective": 30627, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 0.9329945530043915, "audit_seconds": 0.7375633060000837, "verified_seconds": 1.6705578590044752}
+{"case": "diabetes_2_tol050", "dataset": "diabetes", "seed": 2, "tolerance": 0.05, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 9138, "objective": 9138, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 1.3233150870073587, "audit_seconds": 0.6860735679947538, "verified_seconds": 2.0093886550021125, "search_seconds": 0.24642392399255186, "preprocessing_seconds": 1.0597380649996921, "greedy_steps": 344, "local_steps": 0, "stop_reason": "feasible", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol050", "dataset": "diabetes", "seed": 2, "tolerance": 0.05, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7585, "objective": 7585, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 1.703578626998933, "audit_seconds": 0.8172139100061031, "verified_seconds": 2.520792537005036, "search_seconds": 0.56658361000882, "preprocessing_seconds": 1.116768260995741, "greedy_steps": 1297, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1487, "remaining_count_violation": 0}
+{"case": "diabetes_2_tol050", "dataset": "diabetes", "seed": 2, "tolerance": 0.05, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20300, "joint_strata": 25, "initial_counts": {"validation": 20365, "train": 61101, "test": 20300}, "valid": true, "changed": 7585, "objective": 7585, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6437}, "seconds": 9.376013649001834, "audit_seconds": 0.7332838300062576, "verified_seconds": 10.109297479008092, "status": "optimal", "lower_bound": 7585.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36555, "variables": 159984, "constraints": 219441}}
+{"case": "diabetes_3_tol010", "dataset": "diabetes", "seed": 3, "tolerance": 0.01, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.34244931300054304, "audit_seconds": 0.8251301270065596, "verified_seconds": 1.1675794400071027}
+{"case": "diabetes_3_tol010", "dataset": "diabetes", "seed": 3, "tolerance": 0.01, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 30468, "objective": 30468, "quarantined": 0, "violations": {"label": 14}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.9556754200020805, "audit_seconds": 1.0988126739975996, "verified_seconds": 2.05448809399968}
+{"case": "diabetes_3_tol010", "dataset": "diabetes", "seed": 3, "tolerance": 0.01, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 11020, "objective": 11020, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 2.1750523649971, "audit_seconds": 0.7793817380006658, "verified_seconds": 2.954434102997766, "search_seconds": 0.6636029200017219, "preprocessing_seconds": 1.492987235003966, "greedy_steps": 1464, "local_steps": 0, "stop_reason": "feasible", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol010", "dataset": "diabetes", "seed": 3, "tolerance": 0.01, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7672, "objective": 7672, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 2.0570560860069236, "audit_seconds": 0.7942331600061152, "verified_seconds": 2.851289246013039, "search_seconds": 0.988295763003407, "preprocessing_seconds": 1.0524576130119385, "greedy_steps": 2796, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol010", "dataset": "diabetes", "seed": 3, "tolerance": 0.01, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7670, "objective": 7670, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 10.124519934004638, "audit_seconds": 0.6931442389904987, "verified_seconds": 10.817664172995137, "status": "optimal", "lower_bound": 7670.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36537, "variables": 159930, "constraints": 219012}}
+{"case": "diabetes_3_tol025", "dataset": "diabetes", "seed": 3, "tolerance": 0.025, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.40750661700440105, "audit_seconds": 0.6329189309908543, "verified_seconds": 1.0404255479952553}
+{"case": "diabetes_3_tol025", "dataset": "diabetes", "seed": 3, "tolerance": 0.025, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 30468, "objective": 30468, "quarantined": 0, "violations": {"label": 6}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.8381013369944412, "audit_seconds": 0.7068848359922413, "verified_seconds": 1.5449861729866825}
+{"case": "diabetes_3_tol025", "dataset": "diabetes", "seed": 3, "tolerance": 0.025, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 9900, "objective": 9900, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 1.5730338419962209, "audit_seconds": 0.7739039970037993, "verified_seconds": 2.34693783900002, "search_seconds": 0.3562181879970012, "preprocessing_seconds": 1.198082916002022, "greedy_steps": 756, "local_steps": 0, "stop_reason": "feasible", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol025", "dataset": "diabetes", "seed": 3, "tolerance": 0.025, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7664, "objective": 7664, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 1.9676515650062356, "audit_seconds": 1.0092908229999011, "verified_seconds": 2.9769423880061368, "search_seconds": 0.9166224850050639, "preprocessing_seconds": 1.0266653770086123, "greedy_steps": 2211, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol025", "dataset": "diabetes", "seed": 3, "tolerance": 0.025, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7664, "objective": 7664, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 10.032417702997918, "audit_seconds": 1.1175835260073654, "verified_seconds": 11.150001229005284, "status": "optimal", "lower_bound": 7664.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36537, "variables": 159930, "constraints": 219012}}
+{"case": "diabetes_3_tol050", "dataset": "diabetes", "seed": 3, "tolerance": 0.05, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 32}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.35656790000211913, "audit_seconds": 0.9252493570093066, "verified_seconds": 1.2818172570114257}
+{"case": "diabetes_3_tol050", "dataset": "diabetes", "seed": 3, "tolerance": 0.05, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": false, "changed": 30468, "objective": 30468, "quarantined": 0, "violations": {"label": 2}, "initial_violations": {"group_overlap": 6466}, "seconds": 0.7997190890018828, "audit_seconds": 0.9826887140079634, "verified_seconds": 1.7824078030098462}
+{"case": "diabetes_3_tol050", "dataset": "diabetes", "seed": 3, "tolerance": 0.05, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 9163, "objective": 9163, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 1.3590679940098198, "audit_seconds": 0.8150014620041475, "verified_seconds": 2.1740694560139673, "search_seconds": 0.24497132400574628, "preprocessing_seconds": 1.0929370619996917, "greedy_steps": 340, "local_steps": 0, "stop_reason": "feasible", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol050", "dataset": "diabetes", "seed": 3, "tolerance": 0.05, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 1.8565218719886616, "audit_seconds": 0.7781040129921166, "verified_seconds": 2.634625884980778, "search_seconds": 0.6115847510081949, "preprocessing_seconds": 1.2203361409920035, "greedy_steps": 1310, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1484, "remaining_count_violation": 0}
+{"case": "diabetes_3_tol050", "dataset": "diabetes", "seed": 3, "tolerance": 0.05, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20145, "joint_strata": 25, "initial_counts": {"test": 20145, "train": 61215, "validation": 20406}, "valid": true, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6466}, "seconds": 8.77509214800375, "audit_seconds": 0.771494051994523, "verified_seconds": 9.546586199998274, "status": "optimal", "lower_bound": 7662.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36537, "variables": 159930, "constraints": 219012}}
+{"case": "diabetes_4_tol010", "dataset": "diabetes", "seed": 4, "tolerance": 0.01, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 48}, "initial_violations": {"group_overlap": 6545}, "seconds": 0.32126471400260925, "audit_seconds": 0.9580914279940771, "verified_seconds": 1.2793561419966863}
+{"case": "diabetes_4_tol010", "dataset": "diabetes", "seed": 4, "tolerance": 0.01, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": false, "changed": 30625, "objective": 30625, "quarantined": 0, "violations": {"label": 24}, "initial_violations": {"group_overlap": 6545}, "seconds": 0.8210367009887705, "audit_seconds": 0.9247712079959456, "verified_seconds": 1.745807908984716}
+{"case": "diabetes_4_tol010", "dataset": "diabetes", "seed": 4, "tolerance": 0.01, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 11015, "objective": 11015, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.9021121340047102, "audit_seconds": 0.8914290069951676, "verified_seconds": 2.793541140999878, "search_seconds": 0.6523895540012745, "preprocessing_seconds": 1.2311253950028913, "greedy_steps": 1451, "local_steps": 0, "stop_reason": "feasible", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol010", "dataset": "diabetes", "seed": 4, "tolerance": 0.01, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7687, "objective": 7687, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 2.384066055994481, "audit_seconds": 0.8694852309999987, "verified_seconds": 3.2535512869944796, "search_seconds": 1.2728552499902435, "preprocessing_seconds": 1.0868837489979342, "greedy_steps": 2783, "local_steps": 1, "stop_reason": "local_neighborhood_exhausted", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol010", "dataset": "diabetes", "seed": 4, "tolerance": 0.01, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7686, "objective": 7686, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 9.926618283003336, "audit_seconds": 0.8222854729974642, "verified_seconds": 10.7489037560008, "status": "optimal", "lower_bound": 7686.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36545, "variables": 159954, "constraints": 219598}}
+{"case": "diabetes_4_tol025", "dataset": "diabetes", "seed": 4, "tolerance": 0.025, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 46}, "initial_violations": {"group_overlap": 6545}, "seconds": 0.49347551399841905, "audit_seconds": 0.8123790259996895, "verified_seconds": 1.3058545399981085}
+{"case": "diabetes_4_tol025", "dataset": "diabetes", "seed": 4, "tolerance": 0.025, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": false, "changed": 30625, "objective": 30625, "quarantined": 0, "violations": {"label": 4}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.011687869002344, "audit_seconds": 0.7734783019986935, "verified_seconds": 1.7851661710010376}
+{"case": "diabetes_4_tol025", "dataset": "diabetes", "seed": 4, "tolerance": 0.025, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 9928, "objective": 9928, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.522947662990191, "audit_seconds": 0.8481466700031888, "verified_seconds": 2.37109433299338, "search_seconds": 0.3610981449892279, "preprocessing_seconds": 1.142726712001604, "greedy_steps": 769, "local_steps": 0, "stop_reason": "feasible", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol025", "dataset": "diabetes", "seed": 4, "tolerance": 0.025, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7673, "objective": 7673, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 2.0403924379934324, "audit_seconds": 0.9334708670066902, "verified_seconds": 2.9738633050001226, "search_seconds": 1.0093551150057465, "preprocessing_seconds": 1.003440693995799, "greedy_steps": 2219, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol025", "dataset": "diabetes", "seed": 4, "tolerance": 0.025, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7673, "objective": 7673, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 8.54185665800469, "audit_seconds": 0.9663242050010012, "verified_seconds": 9.508180863005691, "status": "optimal", "lower_bound": 7673.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36545, "variables": 159954, "constraints": 219598}}
+{"case": "diabetes_4_tol050", "dataset": "diabetes", "seed": 4, "tolerance": 0.05, "method": "majority", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": false, "changed": 7662, "objective": 7662, "quarantined": 0, "violations": {"size": 2, "label": 32}, "initial_violations": {"group_overlap": 6545}, "seconds": 0.5160377340071136, "audit_seconds": 0.8870927399984794, "verified_seconds": 1.403130474005593}
+{"case": "diabetes_4_tol050", "dataset": "diabetes", "seed": 4, "tolerance": 0.05, "method": "group_resplit", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 30625, "objective": 30625, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.068694172994583, "audit_seconds": 1.3054473399970448, "verified_seconds": 2.3741415129916277}
+{"case": "diabetes_4_tol050", "dataset": "diabetes", "seed": 4, "tolerance": 0.05, "method": "violation_greedy", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 9202, "objective": 9202, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.3347547779994784, "audit_seconds": 0.9179989300027955, "verified_seconds": 2.252753708002274, "search_seconds": 0.2999140229949262, "preprocessing_seconds": 1.0090683909947984, "greedy_steps": 331, "local_steps": 0, "stop_reason": "feasible", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol050", "dataset": "diabetes", "seed": 4, "tolerance": 0.05, "method": "cost_greedy_local", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7667, "objective": 7667, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 1.9228135430021212, "audit_seconds": 0.8334802610042971, "verified_seconds": 2.756293804006418, "search_seconds": 0.6371553900098661, "preprocessing_seconds": 1.2615094300126657, "greedy_steps": 1294, "local_steps": 0, "stop_reason": "local_neighborhood_exhausted", "profiles": 1477, "remaining_count_violation": 0}
+{"case": "diabetes_4_tol050", "dataset": "diabetes", "seed": 4, "tolerance": 0.05, "method": "splitmend", "rows": 101766, "patients": 71518, "test_patients": 14304, "locked_test_rows": 20320, "joint_strata": 25, "initial_counts": {"train": 61082, "validation": 20364, "test": 20320}, "valid": true, "changed": 7667, "objective": 7667, "quarantined": 0, "violations": {}, "initial_violations": {"group_overlap": 6545}, "seconds": 9.492508733994327, "audit_seconds": 0.8066912680078531, "verified_seconds": 10.29920000200218, "status": "optimal", "lower_bound": 7667.0, "gap": 0.0, "model": {"rows": 101766, "blocks": 36545, "variables": 159954, "constraints": 219598}}
+CLINICAL RUN COMPLETE 75
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/clinical_summary.py
+{
+  "cases": 15,
+  "rows": 75,
+  "summaries": [
+    {
+      "tolerance": 0.01,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7619.8,
+      "median_verified_seconds": 3.069546437996905,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "group_resplit",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.7227664529928002,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.248999383009504,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.01,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7618.0,
+      "median_verified_seconds": 9.950299883988919,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.01,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 10881.8,
+      "median_verified_seconds": 2.78768516999844,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7610.2,
+      "median_verified_seconds": 2.973863305000122,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "group_resplit",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.737170569991576,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.278822991007473,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.025,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7610.2,
+      "median_verified_seconds": 10.072123396006646,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.025,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 9833.8,
+      "median_verified_seconds": 2.37109433299338,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "cost_greedy_local",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7606.0,
+      "median_verified_seconds": 2.634625884980778,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "group_resplit",
+      "valid": 4,
+      "runs": 5,
+      "mean_changed_valid": 30576.0,
+      "median_verified_seconds": 1.782407803009846,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "majority",
+      "valid": 0,
+      "runs": 5,
+      "mean_changed_valid": null,
+      "median_verified_seconds": 1.344283982980414,
+      "optimal": 0
+    },
+    {
+      "tolerance": 0.05,
+      "method": "splitmend",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 7606.0,
+      "median_verified_seconds": 10.29920000200218,
+      "optimal": 5
+    },
+    {
+      "tolerance": 0.05,
+      "method": "violation_greedy",
+      "valid": 5,
+      "runs": 5,
+      "mean_changed_valid": 9120.6,
+      "median_verified_seconds": 2.174069456013967,
+      "optimal": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "majority",
+      "paired_valid_cases": 0,
+      "splitmend_better": 0,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 0,
+      "aggregate_reduction_percent": null,
+      "largest_per_case_reduction": null
+    },
+    {
+      "baseline": "group_resplit",
+      "paired_valid_cases": 4,
+      "splitmend_better": 4,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 91936,
+      "aggregate_reduction_percent": 75.17006802721089,
+      "largest_per_case_reduction": 23042
+    },
+    {
+      "baseline": "violation_greedy",
+      "paired_valid_cases": 15,
+      "splitmend_better": 15,
+      "ties": 0,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 35010,
+      "aggregate_reduction_percent": 23.468136022683854,
+      "largest_per_case_reduction": 3350
+    },
+    {
+      "baseline": "cost_greedy_local",
+      "paired_valid_cases": 15,
+      "splitmend_better": 4,
+      "ties": 11,
+      "splitmend_worse": 0,
+      "total_fewer_changes": 9,
+      "aggregate_reduction_percent": 0.007882291119285338,
+      "largest_per_case_reduction": 5
+    }
+  ],
+  "note": "Paired costs use cases where both methods return valid assignments. All invalid results remain in all_runs.csv."
+}
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/summarize.py
+| Dataset | Method | Valid runs | Mean changes on valid runs | Median verified seconds |
+|---|---|---:|---:|---:|
+| beijing | group_resplit | 5/5 | 1128.0 | 1.840 |
+| beijing | majority | 5/5 | 1128.0 | 2.405 |
+| beijing | splitmend | 5/5 | 1128.0 | 6.223 |
+| har | cost_greedy_local | 5/5 | 2043.8 | 0.050 |
+| har | datasail_i1 | 0/5 | NA | 0.038 |
+| har | datasail_i1_aligned | 5/5 | 2482.2 | 0.029 |
+| har | datasail_i1_tight | 5/5 | 2416.0 | 0.033 |
+| har | dataset_splitter | 5/5 | 2399.6 | 0.036 |
+| har | greedy | 5/5 | 2113.8 | 0.033 |
+| har | group_resplit | 5/5 | 2478.8 | 0.020 |
+| har | majority | 0/5 | NA | 0.017 |
+| har | splitmend | 5/5 | 2009.8 | 0.234 |
+| oulad | cost_greedy_local | 5/5 | 2140.6 | 0.590 |
+| oulad | datasail_i1 | 0/5 | NA | 3.844 |
+| oulad | datasail_i1_aligned | 5/5 | 10909.2 | 3.856 |
+| oulad | datasail_i1_tight | 1/5 | 10830.0 | 4.124 |
+| oulad | dataset_splitter | 5/5 | 10760.8 | 0.383 |
+| oulad | greedy | 5/5 | 2140.6 | 0.846 |
+| oulad | group_resplit | 5/5 | 10717.8 | 0.247 |
+| oulad | majority | 5/5 | 2140.6 | 0.292 |
+| oulad | splitmend | 5/5 | 2140.6 | 4.455 |
+Running: /workspace/scratch/6aa040e667a4/splitmend_env/bin/python /workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py
+Traceback (most recent call last):
+  File "/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py", line 57, in <module>
+    main()
+  File "/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py", line 37, in main
+    result = json.load(f)
+             ^^^^^^^^^^^^
+  File "<python-stdlib>/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "<python-stdlib>/gzip.py", line 338, in read
+    return self._buffer.read(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-stdlib>/_compression.py", line 118, in readall
+    while data := self.read(sys.maxsize):
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-stdlib>/gzip.py", line 564, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+Traceback (most recent call last):
+  File "/workspace/scratch/6aa040e667a4/SplitMend/scripts/reproduce.py", line 93, in <module>
+    main()
+  File "/workspace/scratch/6aa040e667a4/SplitMend/scripts/reproduce.py", line 60, in main
+    run([main_python, ROOT / "scripts/verify_results.py"])
+  File "/workspace/scratch/6aa040e667a4/SplitMend/scripts/reproduce.py", line 18, in run
+    subprocess.run(list(map(str, command)), cwd=ROOT, check=True)
+  File "<python-stdlib>/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/workspace/scratch/6aa040e667a4/splitmend_env/bin/python', '/workspace/scratch/6aa040e667a4/SplitMend/scripts/verify_results.py']' returned non-zero exit status 1.

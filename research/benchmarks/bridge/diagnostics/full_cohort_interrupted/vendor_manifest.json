@@ -1,0 +1,7 @@
+{
+  "vendor/splitmend/__init__.py": "7d8c5e1d0e7b2fa5a1cc569cb581ee3037b80f0f3b93a974f43e9c6eccf9ba39",
+  "vendor/splitmend/audit.py": "ebc0f64090b64edd0a5f48156fe1efe6daa9d7568576d209ae0e1076f3e91e16",
+  "vendor/splitmend/cli.py": "c10e1c5ab1797fe7d6059f3a8bafc2a83612820773af84b382bc78fae52bc598",
+  "vendor/splitmend/model.py": "81b69d1aacf942e9409822724ad69ca3142b03709168b7d9cd28aff8c2cebcfc",
+  "vendor/splitmend/solver.py": "71a1c3b9eeea1a3a90464e14227e59328367c1ffb69f9a513aa159f0e84b9296"
+}

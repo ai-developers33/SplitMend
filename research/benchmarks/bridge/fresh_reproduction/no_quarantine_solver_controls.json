@@ -1,0 +1,522 @@
+[
+  {
+    "case": "seed0_test0_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2854,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.028470529003243428,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test0_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2854,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025619460000598338,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test0_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2854,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.028118324000388384,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test0_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2854,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.023708164000709075,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test1_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2968,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025518084003124386,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test1_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2968,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.033597206995182205,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test1_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2968,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025418061995878816,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test1_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2968,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025024993003171403,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test2_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2836,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.022857857002236415,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test2_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2836,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.024765488000412006,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test2_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2836,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.026783933004480787,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test2_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2836,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.04066203800175572,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test3_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2890,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025360501997056417,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test3_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2890,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.027421154001785908,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test3_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2890,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025287241995101795,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test3_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2890,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02534339900012128,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test4_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2827,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.028919233001943212,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test4_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2827,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.05194333599501988,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test4_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2827,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02819408100185683,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed0_test4_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2827,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.024247061999631114,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test0_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2872,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025738394004292786,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test0_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2872,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.027072534001490567,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test0_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2872,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.024459814994770568,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test0_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2872,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.0232640110043576,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test1_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2815,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.027865251002367586,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test1_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2815,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025001380003232043,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test1_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2815,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02611182499822462,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test1_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2815,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02665826700103935,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test2_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2956,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02719020100630587,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test2_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2956,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.05735250699945027,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test2_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2956,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02849913899990497,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test2_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2956,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.03063691200077301,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test3_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2887,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02802934699866455,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test3_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2887,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.039432769000995904,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test3_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2887,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02596894500311464,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test3_val4",
+    "model": {
+      "blocks": 345,
+      "constraints": 2887,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.025451467001403216,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test4_val0",
+    "model": {
+      "blocks": 345,
+      "constraints": 2845,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.026119043002836406,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test4_val1",
+    "model": {
+      "blocks": 345,
+      "constraints": 2845,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.04116446000261931,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test4_val2",
+    "model": {
+      "blocks": 345,
+      "constraints": 2845,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.026379470000392757,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  },
+  {
+    "case": "seed20261107_test4_val3",
+    "model": {
+      "blocks": 345,
+      "constraints": 2845,
+      "rows": 1134,
+      "variables": 1479
+    },
+    "objective": null,
+    "seconds": 0.02461076200415846,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible"
+  }
+]

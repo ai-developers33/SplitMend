@@ -1,0 +1,6 @@
+dataset,attempted,optimal,infeasible,unresolved,valid_pairs,greedy_failures_on_feasible,greedy_moved,splitmend_moved,aggregate_reduction_percent,wins,ties
+HAR70+,40,40,0,0,39,1,26956,25799,4.292179848642232,2,37
+PAMAP2,40,12,28,0,6,6,9622,9622,0.0,0,6
+UniMiB SHAR,40,40,0,0,40,0,9926,9926,0.0,0,40
+Sleep-EDF Telemetry,40,40,0,0,40,0,114340,112778,1.3661011019765612,2,38
+ExtraSensory,40,40,0,0,40,0,379730,378804,0.24385747768151056,4,36

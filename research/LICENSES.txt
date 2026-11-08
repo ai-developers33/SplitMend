@@ -1,0 +1,28 @@
+LICENSE SCOPE FOR THE UNIFIED ARCHIVE
+
+SplitMend source, examples, tests and experiment scripts retain their MIT
+license. See LICENSE, package/LICENSE and notices in the original distributions.
+This license does not relicense datasets or third-party dependencies.
+
+The original research archive is preserved under original/, including its
+LICENSES.txt. Each historical supplementary ZIP retains its original notices.
+The new archive-level scripts and documentation are supplied under the same
+MIT license as SplitMend. The manuscript is an author draft, not a published
+journal article; no journal publication license is asserted.
+
+Dataset attribution and terms:
+- Original HAR, OULAD, Beijing and diabetes: original/LICENSES.txt and
+  original/SplitMend/data/README.md (CC BY 4.0 at the recorded source versions).
+- HAR70+ and PAMAP2: UCI source records, CC BY 4.0.
+- UniMiB SHAR: original provider's research-use and citation terms; see
+  benchmarks/single_group/data/source/unimib_readme.txt and the provider page.
+- Sleep-EDF Telemetry: Open Data Commons Attribution License v1.0; retain the
+  PhysioNet and original-study citations in benchmarks/single_group/README.md.
+- ExtraSensory: original provider's public-download and citation terms;
+  no software MIT license is asserted for the data.
+- The bridge cohort is derived from the original OULAD release under CC BY 4.0.
+
+Full source URLs, citations, checksums and transformation descriptions are in
+the corresponding benchmark READMEs, protocols and data manifests. Numerical
+reproduction uses included derived cohorts; large source sensor archives must
+be retrieved from their providers to independently repeat source extraction.

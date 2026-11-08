@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "method": "violation_greedy",
+    "valid": false,
+    "changed": 724,
+    "seconds": 0.0034373579983366653,
+    "external_audit_seconds": 0.010551819003012497,
+    "status": null,
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "label_bounds": 2
+    },
+    "dataset": "pamap2",
+    "case": "seed0_test4_val2",
+    "fold_seed": 0,
+    "test_fold": 4,
+    "validation_fold": 2
+  },
+  "problem_sha256": "e31660ba3e1340792ce9b6416a4cb2329eb0d91524c393827d1c5ab1dce3fdd3",
+  "group_assignments": {
+    "participant:subject101": "train",
+    "participant:subject102": "test",
+    "participant:subject103": "train",
+    "participant:subject104": "validation",
+    "participant:subject105": "train",
+    "participant:subject106": "validation",
+    "participant:subject107": "train",
+    "participant:subject108": "train",
+    "participant:subject109": "validation"
+  },
+  "raw": {
+    "search_seconds": 0.0006493280016002245,
+    "preprocessing_seconds": 0.002758741997240577,
+    "greedy_steps": 1,
+    "local_steps": 0,
+    "stop_reason": "no_improving_violation_move",
+    "profiles": 8,
+    "remaining_count_violation": 3
+  },
+  "library_audit": {
+    "valid": false,
+    "counts": {
+      "train": 3454,
+      "validation": 1401,
+      "test": 894,
+      "__quarantine__": 0
+    },
+    "violation_counts": {
+      "label": 2
+    },
+    "violations": [
+      {
+        "kind": "label",
+        "label": "activity_07",
+        "partition": "train",
+        "count": 209,
+        "bounds": [
+          212,
+          264
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "activity_07",
+        "partition": "validation",
+        "count": 108,
+        "bounds": [
+          53,
+          105
+        ]
+      }
+    ],
+    "changed": 724,
+    "quarantined": 0,
+    "objective": 724
+  },
+  "independent_audit": {
+    "valid": false,
+    "changed": 724,
+    "violations": {
+      "label_bounds": 2
+    },
+    "sizes": {
+      "train": 3454,
+      "test": 894,
+      "validation": 1401
+    },
+    "labels": {
+      "activity_00": {
+        "train": 1070,
+        "test": 366,
+        "validation": 425
+      },
+      "activity_01": {
+        "train": 245,
+        "test": 47,
+        "validation": 93
+      },
+      "activity_02": {
+        "train": 229,
+        "test": 45,
+        "validation": 97
+      },
+      "activity_03": {
+        "train": 231,
+        "test": 51,
+        "validation": 97
+      },
+      "activity_17": {
+        "train": 294,
+        "test": 58,
+        "validation": 126
+      },
+      "activity_16": {
+        "train": 227,
+        "test": 42,
+        "validation": 82
+      },
+      "activity_12": {
+        "train": 139,
+        "test": 34,
+        "validation": 60
+      },
+      "activity_13": {
+        "train": 127,
+        "test": 31,
+        "validation": 52
+      },
+      "activity_04": {
+        "train": 297,
+        "test": 65,
+        "validation": 115
+      },
+      "activity_07": {
+        "train": 209,
+        "test": 59,
+        "validation": 108
+      },
+      "activity_06": {
+        "train": 193,
+        "test": 51,
+        "validation": 86
+      },
+      "activity_05": {
+        "train": 133,
+        "test": 18,
+        "validation": 46
+      },
+      "activity_24": {
+        "train": 60,
+        "test": 27,
+        "validation": 14
+      }
+    }
+  }
+}

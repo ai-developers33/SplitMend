@@ -1,0 +1,21 @@
+[
+  {
+    "name": "har70.zip",
+    "url": "https://archive.ics.uci.edu/static/public/780/har70.zip",
+    "bytes": 44267192,
+    "sha256": "5db89b85c1a4f494f51fcc6661eb2ad41dd7efbc4799c776e794c56fb439e5c3"
+  },
+  {
+    "name": "pamap2.zip",
+    "url": "https://archive.ics.uci.edu/static/public/231/pamap2%2Bphysical%2Bactivity%2Bmonitoring.zip",
+    "bytes": 688226940,
+    "sha256": "76b3580bd5a804121f507717cb498c66a312ef5c774f4a78ac470e6558add352"
+  },
+  {
+    "name": "unimib.zip",
+    "url": "https://www.dropbox.com/s/x2fpfqj0bpf8ep6/UniMiB-SHAR.zip?dl=1",
+    "bytes": 266206080,
+    "sha256": "365a396729c0755b4ba8ef8ee0ba52a0621aa535282470546d8a663ff2567160",
+    "source_page": "http://www.sal.disco.unimib.it/technologies/unimib-shar/"
+  }
+]

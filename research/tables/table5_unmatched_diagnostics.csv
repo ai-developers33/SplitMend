@@ -1,0 +1,4 @@
+method,cases,valid,quarantined,retained_moved,objective
+violation_first_bridge,36,20,2839,1284,29674
+cost_aware_bridge_exchanges,36,23,2539,2711,28101
+all_pair_bridge,36,36,2160,5641,27241

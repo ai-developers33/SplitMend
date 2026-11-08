@@ -1,0 +1,1928 @@
+{
+  "all_match": true,
+  "all_primary_results_match": true,
+  "checks": [
+    {
+      "case": "seed0_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed0_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed0_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed0_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed0_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test0_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test0_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test0_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test0_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test1_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test1_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test1_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test1_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test2_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test2_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test2_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test2_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test3_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test3_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test3_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test3_val4",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test4_val0",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test4_val1",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test4_val2",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "all_pair_bridge"
+    },
+    {
+      "case": "seed20261107_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "cost_aware_bridge_exchanges"
+    },
+    {
+      "case": "seed20261107_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "splitmend"
+    },
+    {
+      "case": "seed20261107_test4_val3",
+      "matching_fields": {
+        "changed": true,
+        "objective": true,
+        "quarantined": true,
+        "retained_moved": true,
+        "status": true,
+        "valid": true
+      },
+      "method": "violation_first_bridge"
+    }
+  ],
+  "outputs": 160,
+  "scope": "Fresh run on the same development host; not external independent reproduction. Alternative optimal assignments may occur on different solver versions."
+}

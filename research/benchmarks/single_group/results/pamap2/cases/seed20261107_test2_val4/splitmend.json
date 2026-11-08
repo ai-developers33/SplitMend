@@ -1,0 +1,285 @@
+{
+  "summary": {
+    "method": "splitmend",
+    "valid": false,
+    "changed": null,
+    "seconds": 0.060553808994882274,
+    "external_audit_seconds": 1.9800063455477357e-07,
+    "status": "infeasible",
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "missing_assignment": 1
+    },
+    "dataset": "pamap2",
+    "case": "seed20261107_test2_val4",
+    "fold_seed": 20261107,
+    "test_fold": 2,
+    "validation_fold": 4
+  },
+  "problem_sha256": "dd12d660791218744832cf8e2dae2b46f96785957bfd6afdfb594dcf033842ff",
+  "group_assignments": {},
+  "raw": {
+    "schema_version": 1,
+    "input_sha256": "dd12d660791218744832cf8e2dae2b46f96785957bfd6afdfb594dcf033842ff",
+    "before": {
+      "valid": false,
+      "counts": {
+        "train": 4021,
+        "validation": 894,
+        "test": 834,
+        "__quarantine__": 0
+      },
+      "violation_counts": {
+        "size": 2,
+        "label": 20
+      },
+      "violations": [
+        {
+          "kind": "size",
+          "partition": "train",
+          "count": 4021,
+          "bounds": [
+            3440,
+            3932
+          ]
+        },
+        {
+          "kind": "size",
+          "partition": "validation",
+          "count": 894,
+          "bounds": [
+            983,
+            1475
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "train",
+          "count": 289,
+          "bounds": [
+            225,
+            279
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_01",
+          "partition": "validation",
+          "count": 47,
+          "bounds": [
+            57,
+            111
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_02",
+          "partition": "train",
+          "count": 280,
+          "bounds": [
+            217,
+            270
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_02",
+          "partition": "validation",
+          "count": 45,
+          "bounds": [
+            55,
+            108
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "train",
+          "count": 278,
+          "bounds": [
+            220,
+            274
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_03",
+          "partition": "validation",
+          "count": 51,
+          "bounds": [
+            55,
+            109
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "train",
+          "count": 349,
+          "bounds": [
+            277,
+            344
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_04",
+          "partition": "validation",
+          "count": 65,
+          "bounds": [
+            70,
+            137
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "train",
+          "count": 146,
+          "bounds": [
+            109,
+            137
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_05",
+          "partition": "validation",
+          "count": 18,
+          "bounds": [
+            27,
+            55
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "train",
+          "count": 176,
+          "bounds": [
+            140,
+            175
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_12",
+          "partition": "validation",
+          "count": 34,
+          "bounds": [
+            35,
+            70
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_13",
+          "partition": "train",
+          "count": 160,
+          "bounds": [
+            127,
+            159
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_13",
+          "partition": "validation",
+          "count": 31,
+          "bounds": [
+            32,
+            64
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_16",
+          "partition": "train",
+          "count": 260,
+          "bounds": [
+            202,
+            251
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_16",
+          "partition": "validation",
+          "count": 42,
+          "bounds": [
+            51,
+            100
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_17",
+          "partition": "train",
+          "count": 354,
+          "bounds": [
+            276,
+            342
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_17",
+          "partition": "validation",
+          "count": 58,
+          "bounds": [
+            70,
+            136
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "train",
+          "count": 43,
+          "bounds": [
+            46,
+            59
+          ]
+        },
+        {
+          "kind": "label",
+          "label": "activity_24",
+          "partition": "validation",
+          "count": 27,
+          "bounds": [
+            11,
+            24
+          ]
+        }
+      ],
+      "changed": 0,
+      "quarantined": 0,
+      "objective": 0
+    },
+    "after": null,
+    "conflict": null,
+    "objective": null,
+    "lower_bound": null,
+    "gap": null,
+    "model": {
+      "rows": 5749,
+      "blocks": 99,
+      "variables": 324,
+      "constraints": 591
+    },
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "status": "infeasible",
+    "reason": "solver_proved_infeasible",
+    "seconds": 0.06048223900143057
+  },
+  "library_audit": null,
+  "independent_audit": {
+    "valid": false,
+    "changed": null,
+    "violations": {
+      "missing_assignment": 1
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "method": "cost_greedy_local",
+    "valid": false,
+    "changed": 0,
+    "seconds": 0.005414625993580557,
+    "external_audit_seconds": 0.014631976999226026,
+    "status": null,
+    "lower_bound": null,
+    "gap": null,
+    "violations": {
+      "label_bounds": 2
+    },
+    "dataset": "har70",
+    "case": "seed0_test4_val2",
+    "fold_seed": 0,
+    "test_fold": 4,
+    "validation_fold": 2
+  },
+  "problem_sha256": "053c30196d0b7c63fbd20d3773cb65b10e2521ee7ef4b503a726e81956c70e4a",
+  "group_assignments": {
+    "participant:501": "train",
+    "participant:502": "test",
+    "participant:503": "train",
+    "participant:504": "train",
+    "participant:505": "train",
+    "participant:506": "train",
+    "participant:507": "train",
+    "participant:508": "train",
+    "participant:509": "test",
+    "participant:510": "train",
+    "participant:511": "train",
+    "participant:512": "validation",
+    "participant:513": "train",
+    "participant:514": "validation",
+    "participant:515": "validation",
+    "participant:516": "test",
+    "participant:517": "validation",
+    "participant:518": "train"
+  },
+  "raw": {
+    "search_seconds": 0.0009627639956306666,
+    "preprocessing_seconds": 0.0043330639964551665,
+    "greedy_steps": 0,
+    "local_steps": 0,
+    "stop_reason": "no_improving_violation_move",
+    "profiles": 15,
+    "remaining_count_violation": 1
+  },
+  "library_audit": {
+    "valid": false,
+    "counts": {
+      "train": 5481,
+      "validation": 2116,
+      "test": 1594,
+      "__quarantine__": 0
+    },
+    "violation_counts": {
+      "label": 2
+    },
+    "violations": [
+      {
+        "kind": "label",
+        "label": "activity_04",
+        "partition": "train",
+        "count": 9,
+        "bounds": [
+          10,
+          13
+        ]
+      },
+      {
+        "kind": "label",
+        "label": "activity_04",
+        "partition": "validation",
+        "count": 6,
+        "bounds": [
+          2,
+          5
+        ]
+      }
+    ],
+    "changed": 0,
+    "quarantined": 0,
+    "objective": 0
+  },
+  "independent_audit": {
+    "valid": false,
+    "changed": 0,
+    "violations": {
+      "label_bounds": 2
+    },
+    "sizes": {
+      "train": 5481,
+      "test": 1594,
+      "validation": 2116
+    },
+    "labels": {
+      "activity_06": {
+        "train": 988,
+        "test": 312,
+        "validation": 456
+      },
+      "activity_01": {
+        "train": 2666,
+        "test": 812,
+        "validation": 947
+      },
+      "activity_07": {
+        "train": 1196,
+        "test": 289,
+        "validation": 485
+      },
+      "activity_08": {
+        "train": 508,
+        "test": 129,
+        "validation": 188
+      },
+      "activity_03": {
+        "train": 101,
+        "test": 43,
+        "validation": 28
+      },
+      "activity_05": {
+        "train": 13,
+        "test": 4,
+        "validation": 6
+      },
+      "activity_04": {
+        "train": 9,
+        "test": 5,
+        "validation": 6
+      }
+    }
+  }
+}

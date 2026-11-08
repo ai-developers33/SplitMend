@@ -1,0 +1,233 @@
+[
+  {
+    "dataset": "beijing",
+    "method": "group_resplit",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 1128.0,
+    "min_changed_valid": 1128,
+    "max_changed_valid": 1128,
+    "median_verified_seconds": 1.9427904289914295,
+    "mean_quarantined_valid": 1128.0
+  },
+  {
+    "dataset": "beijing",
+    "method": "majority",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 1128.0,
+    "min_changed_valid": 1128,
+    "max_changed_valid": 1128,
+    "median_verified_seconds": 2.5756800630042562,
+    "mean_quarantined_valid": 1128.0
+  },
+  {
+    "dataset": "beijing",
+    "method": "splitmend",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 1128.0,
+    "min_changed_valid": 1128,
+    "max_changed_valid": 1128,
+    "median_verified_seconds": 6.751023764998536,
+    "mean_quarantined_valid": 1128.0
+  },
+  {
+    "dataset": "har",
+    "method": "cost_greedy_local",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2043.8,
+    "min_changed_valid": 2000,
+    "max_changed_valid": 2181,
+    "median_verified_seconds": 0.04804168100235984,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "datasail_i1",
+    "valid": 0,
+    "runs": 5,
+    "mean_changed_valid": null,
+    "min_changed_valid": null,
+    "max_changed_valid": null,
+    "median_verified_seconds": 0.03357390199380461,
+    "mean_quarantined_valid": null
+  },
+  {
+    "dataset": "har",
+    "method": "datasail_i1_aligned",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2482.2,
+    "min_changed_valid": 2475,
+    "max_changed_valid": 2501,
+    "median_verified_seconds": 0.036945047992048785,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "datasail_i1_tight",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2416.0,
+    "min_changed_valid": 2386,
+    "max_changed_valid": 2436,
+    "median_verified_seconds": 0.031414765006047674,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "dataset_splitter",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2399.6,
+    "min_changed_valid": 2278,
+    "max_changed_valid": 2503,
+    "median_verified_seconds": 0.033090070995967835,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "greedy",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2113.8,
+    "min_changed_valid": 2058,
+    "max_changed_valid": 2162,
+    "median_verified_seconds": 0.029373027005931363,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "group_resplit",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2478.8,
+    "min_changed_valid": 2415,
+    "max_changed_valid": 2539,
+    "median_verified_seconds": 0.021874329991987906,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "har",
+    "method": "majority",
+    "valid": 0,
+    "runs": 5,
+    "mean_changed_valid": null,
+    "min_changed_valid": null,
+    "max_changed_valid": null,
+    "median_verified_seconds": 0.019305562993395142,
+    "mean_quarantined_valid": null
+  },
+  {
+    "dataset": "har",
+    "method": "splitmend",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2009.8,
+    "min_changed_valid": 2000,
+    "max_changed_valid": 2028,
+    "median_verified_seconds": 0.24104936799267307,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "cost_greedy_local",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2140.6,
+    "min_changed_valid": 2097,
+    "max_changed_valid": 2196,
+    "median_verified_seconds": 0.6454639449948445,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "datasail_i1",
+    "valid": 0,
+    "runs": 5,
+    "mean_changed_valid": null,
+    "min_changed_valid": null,
+    "max_changed_valid": null,
+    "median_verified_seconds": 3.7733245700073894,
+    "mean_quarantined_valid": null
+  },
+  {
+    "dataset": "oulad",
+    "method": "datasail_i1_aligned",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 10909.2,
+    "min_changed_valid": 10765,
+    "max_changed_valid": 11003,
+    "median_verified_seconds": 3.954902420999133,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "datasail_i1_tight",
+    "valid": 1,
+    "runs": 5,
+    "mean_changed_valid": 10830.0,
+    "min_changed_valid": 10830,
+    "max_changed_valid": 10830,
+    "median_verified_seconds": 3.666101171998889,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "dataset_splitter",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 10760.8,
+    "min_changed_valid": 10663,
+    "max_changed_valid": 10838,
+    "median_verified_seconds": 0.42804817800060846,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "greedy",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2140.6,
+    "min_changed_valid": 2097,
+    "max_changed_valid": 2196,
+    "median_verified_seconds": 0.7810316409886582,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "group_resplit",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 10717.8,
+    "min_changed_valid": 10642,
+    "max_changed_valid": 10787,
+    "median_verified_seconds": 0.22940790699794888,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "majority",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2140.6,
+    "min_changed_valid": 2097,
+    "max_changed_valid": 2196,
+    "median_verified_seconds": 0.2452756050042808,
+    "mean_quarantined_valid": 0.0
+  },
+  {
+    "dataset": "oulad",
+    "method": "splitmend",
+    "valid": 5,
+    "runs": 5,
+    "mean_changed_valid": 2140.6,
+    "min_changed_valid": 2097,
+    "max_changed_valid": 2196,
+    "median_verified_seconds": 4.135087939997902,
+    "mean_quarantined_valid": 0.0
+  }
+]

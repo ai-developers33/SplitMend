@@ -1,0 +1,28 @@
+{
+  "free_participants": 17,
+  "allocations_checked": 131072,
+  "valid_allocations": 512,
+  "optimal_movement": 4018,
+  "number_of_minimizers": 1,
+  "best_mask": 28688,
+  "participant_order": [
+    "participant:ST01",
+    "participant:ST04",
+    "participant:ST05",
+    "participant:ST08",
+    "participant:ST09",
+    "participant:ST11",
+    "participant:ST12",
+    "participant:ST13",
+    "participant:ST14",
+    "participant:ST15",
+    "participant:ST17",
+    "participant:ST18",
+    "participant:ST19",
+    "participant:ST20",
+    "participant:ST21",
+    "participant:ST22",
+    "participant:ST24"
+  ],
+  "seconds": 0.043580970996117685
+}

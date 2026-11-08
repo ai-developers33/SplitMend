@@ -1,0 +1,51 @@
+{
+  "dataset": "pamap2",
+  "observations": 5749,
+  "participants": 9,
+  "labels": 13,
+  "records_per_participant": {
+    "count": 9.0,
+    "mean": 638.7777777777778,
+    "std": 258.4534666907071,
+    "min": 17.0,
+    "25%": 628.0,
+    "50%": 724.0,
+    "75%": 753.0,
+    "max": 894.0
+  },
+  "label_counts": {
+    "activity_00": 1861,
+    "activity_17": 478,
+    "activity_04": 477,
+    "activity_01": 385,
+    "activity_03": 379,
+    "activity_07": 376,
+    "activity_02": 371,
+    "activity_16": 351,
+    "activity_06": 330,
+    "activity_12": 233,
+    "activity_13": 210,
+    "activity_05": 197,
+    "activity_24": 101
+  },
+  "participants_per_label": {
+    "activity_00": 9,
+    "activity_01": 8,
+    "activity_02": 8,
+    "activity_03": 8,
+    "activity_04": 8,
+    "activity_05": 6,
+    "activity_06": 7,
+    "activity_07": 7,
+    "activity_12": 8,
+    "activity_13": 8,
+    "activity_16": 8,
+    "activity_17": 8,
+    "activity_24": 6
+  },
+  "cohort_sha256": "a6a0edc48a277b34dfda58133f5298ec99d41b4bb91b4791fe2ae06bb8018964",
+  "preprocessing_sha256": "539add01c183371ff28daff11a3128ec6ca97b46917d2982660819d155344c48",
+  "notes": "All nine Protocol participants, including subject109, and all Protocol labels including 0 (transient activities). Optional sessions excluded by the pre-specified task. Five-second recorded-time windows.",
+  "source_rows_retained": 2872533,
+  "mixed_label_windows": 188
+}

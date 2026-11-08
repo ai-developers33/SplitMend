@@ -1,0 +1,36 @@
+{
+  "independent_host_reproduction": false,
+  "timing_equality_required": false,
+  "compared_fields": [
+    "valid",
+    "changed",
+    "objective",
+    "quarantined",
+    "status",
+    "lower_bound",
+    "gap",
+    "violations"
+  ],
+  "files": {
+    "results/main.json": {
+      "runs": 55,
+      "identical_scalar_outcomes": 55,
+      "differences": []
+    },
+    "results/external.json": {
+      "runs": 40,
+      "identical_scalar_outcomes": 40,
+      "differences": []
+    },
+    "results/strong_baseline_followup.json": {
+      "runs": 10,
+      "identical_scalar_outcomes": 10,
+      "differences": []
+    },
+    "results/clinical/runs.json": {
+      "runs": 75,
+      "identical_scalar_outcomes": 75,
+      "differences": []
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "repository": "ai-developers33/SplitMend",
+  "base_commit": "55e63c5a3b92cbf8c82024001d7132186d5870cc",
+  "core_matches_published_repository": true,
+  "checks": {
+    "vendor/splitmend/__init__.py": {
+      "expected_git_blob": "2f46e9fbe7621394e0b380741c68a15372c721b1",
+      "actual_git_blob": "2f46e9fbe7621394e0b380741c68a15372c721b1",
+      "match": true
+    },
+    "vendor/splitmend/audit.py": {
+      "expected_git_blob": "abac8f61bd99257c413345f41deb792385fefc8e",
+      "actual_git_blob": "abac8f61bd99257c413345f41deb792385fefc8e",
+      "match": true
+    },
+    "vendor/splitmend/cli.py": {
+      "expected_git_blob": "ac470b5cf2b21d27aae9cd9e87834e5839f5eca8",
+      "actual_git_blob": "ac470b5cf2b21d27aae9cd9e87834e5839f5eca8",
+      "match": true
+    },
+    "vendor/splitmend/model.py": {
+      "expected_git_blob": "387319aa424e96cab2b496e9b34cdcd751860123",
+      "actual_git_blob": "387319aa424e96cab2b496e9b34cdcd751860123",
+      "match": true
+    },
+    "vendor/splitmend/solver.py": {
+      "expected_git_blob": "c154c92d792e9b06c41888b427379225a80e9314",
+      "actual_git_blob": "c154c92d792e9b06c41888b427379225a80e9314",
+      "match": true
+    }
+  }
+}

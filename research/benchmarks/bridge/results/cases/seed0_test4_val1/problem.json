@@ -1,0 +1,104 @@
+{
+  "active_group_tokens": 148,
+  "free_rows": 965,
+  "locked_rows": 169,
+  "original_validation_offerings": [
+    "BBB:2013J",
+    "CCC:2014B",
+    "DDD:2014J",
+    "EEE:2013J",
+    "GGG:2014B"
+  ],
+  "policy": {
+    "allow_quarantine": true,
+    "label_bounds": {
+      "Distinction": {
+        "test": [
+          8,
+          8
+        ],
+        "train": [
+          57,
+          72
+        ],
+        "validation": [
+          14,
+          29
+        ]
+      },
+      "Fail": {
+        "test": [
+          47,
+          47
+        ],
+        "train": [
+          135,
+          168
+        ],
+        "validation": [
+          34,
+          67
+        ]
+      },
+      "Pass": {
+        "test": [
+          72,
+          72
+        ],
+        "train": [
+          246,
+          306
+        ],
+        "validation": [
+          62,
+          122
+        ]
+      },
+      "Withdrawn": {
+        "test": [
+          42,
+          42
+        ],
+        "train": [
+          207,
+          257
+        ],
+        "validation": [
+          52,
+          102
+        ]
+      }
+    },
+    "partitions": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "quarantine_cost": 10,
+    "size_bounds": {
+      "test": [
+        169,
+        169
+      ],
+      "train": [
+        675,
+        772
+      ],
+      "validation": [
+        193,
+        290
+      ]
+    }
+  },
+  "rows": 1134,
+  "seed": 0,
+  "singleton_group_tokens_removed": 874,
+  "test_fold": 4,
+  "test_offerings": [
+    "AAA:2014J",
+    "DDD:2013J",
+    "EEE:2014J",
+    "FFF:2013B"
+  ],
+  "validation_fold": 1
+}

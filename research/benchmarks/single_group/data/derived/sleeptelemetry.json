@@ -1,0 +1,895 @@
+{
+  "dataset": "sleeptelemetry",
+  "observations": 42696,
+  "participants": 22,
+  "labels": 12,
+  "records_per_participant": {
+    "count": 22.0,
+    "mean": 1940.7272727272727,
+    "std": 120.22129667059899,
+    "min": 1711.0,
+    "25%": 1871.0,
+    "50%": 1960.0,
+    "75%": 2015.25,
+    "max": 2137.0
+  },
+  "label_counts": {
+    "stage_2:temazepam": 10358,
+    "stage_2:placebo": 9493,
+    "stage_R:temazepam": 4218,
+    "stage_R:placebo": 4131,
+    "stage_W:placebo": 2437,
+    "stage_1:placebo": 2044,
+    "stage_W:temazepam": 1991,
+    "stage_3:placebo": 1705,
+    "stage_3:temazepam": 1693,
+    "stage_1:temazepam": 1609,
+    "stage_4:temazepam": 1577,
+    "stage_4:placebo": 1440
+  },
+  "participants_per_label": {
+    "stage_1:placebo": 22,
+    "stage_1:temazepam": 22,
+    "stage_2:placebo": 22,
+    "stage_2:temazepam": 22,
+    "stage_3:placebo": 22,
+    "stage_3:temazepam": 21,
+    "stage_4:placebo": 18,
+    "stage_4:temazepam": 16,
+    "stage_R:placebo": 22,
+    "stage_R:temazepam": 22,
+    "stage_W:placebo": 22,
+    "stage_W:temazepam": 22
+  },
+  "cohort_sha256": "f450aae944788cce40d63be411b9d60c21fb167d837fdc70a0d121f6c06d5472",
+  "preprocessing_sha256": "fc0e16e9f97b59a6470c391bf8c02216542fb8a476fb525a5067d118b0896d5c",
+  "notes": "All 44 Sleep Telemetry recordings / 22 participants. One record per scored 30-second epoch; six original R&K stages crossed with original placebo/temazepam treatment. Only unscored and movement intervals excluded, as frozen before optimization. No EEG signals are required for this assignment-repair task.",
+  "excluded_annotation_seconds": {
+    "Movement time": 2490.0
+  },
+  "recordings": [
+    {
+      "name": "ST7011JP-Hypnogram.edf",
+      "participant": 1,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1092,
+      "stage_counts": {
+        "W": 204,
+        "1": 101,
+        "2": 529,
+        "3": 93,
+        "R": 122,
+        "4": 43
+      }
+    },
+    {
+      "name": "ST7012JP-Hypnogram.edf",
+      "participant": 1,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 1040,
+      "stage_counts": {
+        "W": 103,
+        "1": 62,
+        "2": 586,
+        "3": 104,
+        "R": 180,
+        "4": 5
+      }
+    },
+    {
+      "name": "ST7021JM-Hypnogram.edf",
+      "participant": 2,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 920,
+      "stage_counts": {
+        "W": 69,
+        "1": 44,
+        "2": 412,
+        "3": 62,
+        "4": 157,
+        "R": 176
+      }
+    },
+    {
+      "name": "ST7022JM-Hypnogram.edf",
+      "participant": 2,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 944,
+      "stage_counts": {
+        "W": 74,
+        "1": 74,
+        "2": 353,
+        "3": 127,
+        "4": 157,
+        "R": 159
+      }
+    },
+    {
+      "name": "ST7041JO-Hypnogram.edf",
+      "participant": 4,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1007,
+      "stage_counts": {
+        "1": 66,
+        "2": 536,
+        "3": 61,
+        "W": 55,
+        "4": 71,
+        "R": 218
+      }
+    },
+    {
+      "name": "ST7042JO-Hypnogram.edf",
+      "participant": 4,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 1130,
+      "stage_counts": {
+        "1": 60,
+        "W": 110,
+        "2": 622,
+        "3": 80,
+        "4": 42,
+        "R": 216
+      }
+    },
+    {
+      "name": "ST7051JA-Hypnogram.edf",
+      "participant": 5,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 1018,
+      "stage_counts": {
+        "1": 103,
+        "W": 74,
+        "2": 368,
+        "3": 79,
+        "4": 169,
+        "R": 225
+      }
+    },
+    {
+      "name": "ST7052JA-Hypnogram.edf",
+      "participant": 5,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 1034,
+      "stage_counts": {
+        "W": 111,
+        "1": 121,
+        "2": 396,
+        "3": 53,
+        "4": 127,
+        "R": 226
+      }
+    },
+    {
+      "name": "ST7061JR-Hypnogram.edf",
+      "participant": 6,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1008,
+      "stage_counts": {
+        "W": 49,
+        "1": 89,
+        "2": 589,
+        "3": 10,
+        "R": 271
+      }
+    },
+    {
+      "name": "ST7062JR-Hypnogram.edf",
+      "participant": 6,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 952,
+      "stage_counts": {
+        "W": 52,
+        "1": 47,
+        "2": 581,
+        "3": 26,
+        "R": 246
+      }
+    },
+    {
+      "name": "ST7071JA-Hypnogram.edf",
+      "participant": 7,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 821,
+      "stage_counts": {
+        "W": 332,
+        "1": 88,
+        "2": 201,
+        "3": 50,
+        "4": 82,
+        "R": 68
+      }
+    },
+    {
+      "name": "ST7072JA-Hypnogram.edf",
+      "participant": 7,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 915,
+      "stage_counts": {
+        "W": 241,
+        "1": 57,
+        "2": 345,
+        "3": 118,
+        "4": 42,
+        "R": 112
+      }
+    },
+    {
+      "name": "ST7081JW-Hypnogram.edf",
+      "participant": 8,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 967,
+      "stage_counts": {
+        "W": 164,
+        "1": 79,
+        "2": 468,
+        "3": 168,
+        "R": 88
+      }
+    },
+    {
+      "name": "ST7082JW-Hypnogram.edf",
+      "participant": 8,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 931,
+      "stage_counts": {
+        "W": 154,
+        "1": 171,
+        "2": 450,
+        "3": 45,
+        "R": 111
+      }
+    },
+    {
+      "name": "ST7091JE-Hypnogram.edf",
+      "participant": 9,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 943,
+      "stage_counts": {
+        "W": 140,
+        "1": 91,
+        "2": 464,
+        "3": 62,
+        "R": 186
+      }
+    },
+    {
+      "name": "ST7092JE-Hypnogram.edf",
+      "participant": 9,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 923,
+      "stage_counts": {
+        "W": 200,
+        "1": 153,
+        "2": 354,
+        "3": 56,
+        "R": 160
+      }
+    },
+    {
+      "name": "ST7101JE-Hypnogram.edf",
+      "participant": 10,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1042,
+      "stage_counts": {
+        "W": 131,
+        "1": 72,
+        "2": 303,
+        "3": 179,
+        "4": 126,
+        "R": 231
+      }
+    },
+    {
+      "name": "ST7102JE-Hypnogram.edf",
+      "participant": 10,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 980,
+      "stage_counts": {
+        "W": 55,
+        "1": 30,
+        "2": 258,
+        "3": 85,
+        "4": 209,
+        "R": 343
+      }
+    },
+    {
+      "name": "ST7111JE-Hypnogram.edf",
+      "participant": 11,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 1017,
+      "stage_counts": {
+        "W": 45,
+        "1": 25,
+        "2": 408,
+        "3": 29,
+        "4": 195,
+        "R": 315
+      }
+    },
+    {
+      "name": "ST7112JE-Hypnogram.edf",
+      "participant": 11,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 978,
+      "stage_counts": {
+        "W": 49,
+        "1": 37,
+        "2": 388,
+        "3": 64,
+        "4": 147,
+        "R": 293
+      }
+    },
+    {
+      "name": "ST7121JE-Hypnogram.edf",
+      "participant": 12,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1026,
+      "stage_counts": {
+        "W": 70,
+        "1": 34,
+        "2": 452,
+        "3": 120,
+        "4": 83,
+        "R": 267
+      }
+    },
+    {
+      "name": "ST7122JE-Hypnogram.edf",
+      "participant": 12,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 945,
+      "stage_counts": {
+        "W": 90,
+        "1": 73,
+        "2": 480,
+        "3": 45,
+        "4": 113,
+        "R": 144
+      }
+    },
+    {
+      "name": "ST7131JR-Hypnogram.edf",
+      "participant": 13,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 859,
+      "stage_counts": {
+        "W": 18,
+        "1": 60,
+        "2": 470,
+        "3": 136,
+        "4": 13,
+        "R": 162
+      }
+    },
+    {
+      "name": "ST7132JR-Hypnogram.edf",
+      "participant": 13,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 852,
+      "stage_counts": {
+        "W": 60,
+        "1": 89,
+        "2": 384,
+        "3": 83,
+        "4": 20,
+        "R": 216
+      }
+    },
+    {
+      "name": "ST7141JE-Hypnogram.edf",
+      "participant": 14,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 858,
+      "stage_counts": {
+        "W": 43,
+        "1": 78,
+        "2": 364,
+        "3": 79,
+        "4": 86,
+        "R": 208
+      }
+    },
+    {
+      "name": "ST7142JE-Hypnogram.edf",
+      "participant": 14,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 873,
+      "stage_counts": {
+        "W": 35,
+        "1": 31,
+        "2": 401,
+        "3": 52,
+        "4": 105,
+        "R": 249
+      }
+    },
+    {
+      "name": "ST7151JA-Hypnogram.edf",
+      "participant": 15,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 897,
+      "stage_counts": {
+        "W": 104,
+        "1": 78,
+        "2": 304,
+        "3": 142,
+        "4": 126,
+        "R": 143
+      }
+    },
+    {
+      "name": "ST7152JA-Hypnogram.edf",
+      "participant": 15,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 1045,
+      "stage_counts": {
+        "W": 56,
+        "1": 81,
+        "2": 447,
+        "3": 85,
+        "4": 176,
+        "R": 200
+      }
+    },
+    {
+      "name": "ST7161JM-Hypnogram.edf",
+      "participant": 16,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 1057,
+      "stage_counts": {
+        "1": 92,
+        "W": 124,
+        "2": 445,
+        "3": 115,
+        "4": 89,
+        "R": 192
+      }
+    },
+    {
+      "name": "ST7162JM-Hypnogram.edf",
+      "participant": 16,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 988,
+      "stage_counts": {
+        "W": 158,
+        "1": 102,
+        "2": 430,
+        "3": 128,
+        "4": 90,
+        "R": 80
+      }
+    },
+    {
+      "name": "ST7171JA-Hypnogram.edf",
+      "participant": 17,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 965,
+      "stage_counts": {
+        "W": 226,
+        "1": 140,
+        "2": 294,
+        "3": 139,
+        "4": 37,
+        "R": 129
+      }
+    },
+    {
+      "name": "ST7172JA-Hypnogram.edf",
+      "participant": 17,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 1006,
+      "stage_counts": {
+        "W": 141,
+        "1": 180,
+        "2": 382,
+        "3": 137,
+        "4": 18,
+        "R": 148
+      }
+    },
+    {
+      "name": "ST7181JR-Hypnogram.edf",
+      "participant": 18,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 959,
+      "stage_counts": {
+        "W": 108,
+        "1": 119,
+        "2": 569,
+        "3": 27,
+        "R": 136
+      }
+    },
+    {
+      "name": "ST7182JR-Hypnogram.edf",
+      "participant": 18,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 967,
+      "stage_counts": {
+        "W": 46,
+        "1": 73,
+        "2": 525,
+        "3": 67,
+        "4": 5,
+        "R": 251
+      }
+    },
+    {
+      "name": "ST7191JR-Hypnogram.edf",
+      "participant": 19,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 955,
+      "stage_counts": {
+        "W": 71,
+        "1": 68,
+        "2": 423,
+        "3": 49,
+        "4": 144,
+        "R": 200
+      }
+    },
+    {
+      "name": "ST7192JR-Hypnogram.edf",
+      "participant": 19,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 931,
+      "stage_counts": {
+        "W": 21,
+        "1": 21,
+        "2": 545,
+        "3": 59,
+        "4": 53,
+        "R": 232
+      }
+    },
+    {
+      "name": "ST7201JO-Hypnogram.edf",
+      "participant": 20,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 922,
+      "stage_counts": {
+        "1": 69,
+        "2": 610,
+        "W": 17,
+        "3": 66,
+        "4": 26,
+        "R": 134
+      }
+    },
+    {
+      "name": "ST7202JO-Hypnogram.edf",
+      "participant": 20,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 898,
+      "stage_counts": {
+        "1": 34,
+        "W": 21,
+        "2": 625,
+        "3": 44,
+        "R": 174
+      }
+    },
+    {
+      "name": "ST7211JJ-Hypnogram.edf",
+      "participant": 21,
+      "night": 1,
+      "condition": "temazepam",
+      "retained_epochs": 1077,
+      "stage_counts": {
+        "W": 172,
+        "1": 60,
+        "2": 538,
+        "3": 92,
+        "4": 59,
+        "R": 156
+      }
+    },
+    {
+      "name": "ST7212JJ-Hypnogram.edf",
+      "participant": 21,
+      "night": 2,
+      "condition": "placebo",
+      "retained_epochs": 1010,
+      "stage_counts": {
+        "W": 155,
+        "1": 135,
+        "2": 378,
+        "3": 44,
+        "4": 154,
+        "R": 144
+      }
+    },
+    {
+      "name": "ST7221JA-Hypnogram.edf",
+      "participant": 22,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1033,
+      "stage_counts": {
+        "W": 151,
+        "1": 211,
+        "2": 438,
+        "3": 2,
+        "R": 231
+      }
+    },
+    {
+      "name": "ST7222JA-Hypnogram.edf",
+      "participant": 22,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 951,
+      "stage_counts": {
+        "W": 85,
+        "1": 191,
+        "2": 475,
+        "R": 200
+      }
+    },
+    {
+      "name": "ST7241JO-Hypnogram.edf",
+      "participant": 24,
+      "night": 1,
+      "condition": "placebo",
+      "retained_epochs": 1021,
+      "stage_counts": {
+        "1": 42,
+        "W": 27,
+        "2": 670,
+        "3": 38,
+        "4": 7,
+        "R": 237
+      }
+    },
+    {
+      "name": "ST7242JO-Hypnogram.edf",
+      "participant": 24,
+      "night": 2,
+      "condition": "temazepam",
+      "retained_epochs": 939,
+      "stage_counts": {
+        "1": 22,
+        "2": 591,
+        "3": 98,
+        "4": 41,
+        "W": 17,
+        "R": 170
+      }
+    }
+  ],
+  "source_doi": "10.13026/C2X676",
+  "source_license": "Open Data Commons Attribution License v1.0",
+  "annotation_reader_checks": [
+    {
+      "name": "ST7011JP-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7012JP-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7021JM-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7021JM-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7022JM-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7041JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7042JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7051JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7052JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7061JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7062JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7071JA-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7071JA-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7072JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7081JW-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7082JW-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7091JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7092JE-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7092JE-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7101JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7102JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7111JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7112JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7121JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7122JE-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7131JR-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7131JR-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7132JR-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7132JR-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7141JE-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7141JE-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7142JE-Hypnogram.edf",
+      "pyedflib": "source_header_rejected",
+      "message": "/workspace/scratch/6aa040e667a4/splitmend_dataset_search/data/source/sleepedf/ST7142JE-Hypnogram.edf: the file is not EDF(+) or BDF(+) compliant (EDF+ Recordingfield)",
+      "action": "unchanged TAL bytes decoded directly"
+    },
+    {
+      "name": "ST7151JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7152JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7161JM-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7162JM-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7171JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7172JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7181JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7182JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7191JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7192JR-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7201JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7202JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7211JJ-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7212JJ-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7221JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7222JA-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7241JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    },
+    {
+      "name": "ST7242JO-Hypnogram.edf",
+      "pyedflib": "exact_annotation_match"
+    }
+  ]
+}

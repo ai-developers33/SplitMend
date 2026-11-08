@@ -1,0 +1,171 @@
+{
+  "summary": {
+    "method": "cost_greedy_local",
+    "valid": true,
+    "changed": 577,
+    "seconds": 0.005948575999354944,
+    "external_audit_seconds": 0.02204722999886144,
+    "status": null,
+    "lower_bound": null,
+    "gap": null,
+    "violations": {},
+    "dataset": "unimib",
+    "case": "seed20261107_test3_val2",
+    "fold_seed": 20261107,
+    "test_fold": 3,
+    "validation_fold": 2
+  },
+  "problem_sha256": "0b86cdb2671a93c7aeca0a158eb8caf110cc8514e42431825483718655c6d59c",
+  "group_assignments": {
+    "participant:subject001": "train",
+    "participant:subject002": "train",
+    "participant:subject003": "validation",
+    "participant:subject005": "validation",
+    "participant:subject006": "train",
+    "participant:subject008": "validation",
+    "participant:subject009": "train",
+    "participant:subject011": "test",
+    "participant:subject012": "train",
+    "participant:subject013": "validation",
+    "participant:subject014": "train",
+    "participant:subject015": "train",
+    "participant:subject016": "train",
+    "participant:subject017": "test",
+    "participant:subject018": "train",
+    "participant:subject019": "validation",
+    "participant:subject020": "train",
+    "participant:subject021": "train",
+    "participant:subject022": "train",
+    "participant:subject023": "train",
+    "participant:subject024": "test",
+    "participant:subject025": "test",
+    "participant:subject026": "validation",
+    "participant:subject029": "train",
+    "participant:subject004": "validation",
+    "participant:subject007": "test",
+    "participant:subject027": "test",
+    "participant:subject028": "validation",
+    "participant:subject030": "train",
+    "participant:subject010": "train"
+  },
+  "raw": {
+    "search_seconds": 0.0013508409974747337,
+    "preprocessing_seconds": 0.0044918960047652945,
+    "greedy_steps": 2,
+    "local_steps": 0,
+    "stop_reason": "local_neighborhood_exhausted",
+    "profiles": 24,
+    "remaining_count_violation": 0
+  },
+  "library_audit": {
+    "valid": true,
+    "counts": {
+      "train": 6605,
+      "validation": 2605,
+      "test": 2561,
+      "__quarantine__": 0
+    },
+    "violation_counts": {},
+    "violations": [],
+    "changed": 577,
+    "quarantined": 0,
+    "objective": 577
+  },
+  "independent_audit": {
+    "valid": true,
+    "changed": 577,
+    "violations": {},
+    "sizes": {
+      "train": 6605,
+      "validation": 2605,
+      "test": 2561
+    },
+    "labels": {
+      "activity_01": {
+        "train": 95,
+        "validation": 25,
+        "test": 33
+      },
+      "activity_02": {
+        "train": 127,
+        "validation": 40,
+        "test": 49
+      },
+      "activity_03": {
+        "train": 1066,
+        "validation": 226,
+        "test": 446
+      },
+      "activity_04": {
+        "train": 1062,
+        "validation": 500,
+        "test": 423
+      },
+      "activity_05": {
+        "train": 492,
+        "validation": 208,
+        "test": 221
+      },
+      "activity_06": {
+        "train": 411,
+        "validation": 197,
+        "test": 138
+      },
+      "activity_07": {
+        "train": 721,
+        "validation": 310,
+        "test": 293
+      },
+      "activity_08": {
+        "train": 160,
+        "validation": 74,
+        "test": 62
+      },
+      "activity_09": {
+        "train": 124,
+        "validation": 37,
+        "test": 39
+      },
+      "activity_10": {
+        "train": 301,
+        "validation": 127,
+        "test": 101
+      },
+      "activity_11": {
+        "train": 285,
+        "validation": 127,
+        "test": 99
+      },
+      "activity_12": {
+        "train": 289,
+        "validation": 134,
+        "test": 103
+      },
+      "activity_13": {
+        "train": 367,
+        "validation": 162,
+        "test": 132
+      },
+      "activity_14": {
+        "train": 273,
+        "validation": 96,
+        "test": 115
+      },
+      "activity_15": {
+        "train": 239,
+        "validation": 95,
+        "test": 100
+      },
+      "activity_16": {
+        "train": 292,
+        "validation": 113,
+        "test": 108
+      },
+      "activity_17": {
+        "train": 301,
+        "validation": 134,
+        "test": 99
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "changed": 0,
+  "counts": {
+    "__quarantine__": 0,
+    "test": 225,
+    "train": 667,
+    "validation": 242
+  },
+  "objective": 0,
+  "quarantined": 0,
+  "retained": 1134,
+  "retained_moved": 0,
+  "valid": false,
+  "violations": {
+    "student_overlap": 70
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "case": "seed0_test1_val2",
+  "dataset": "extrasensory_revision",
+  "fold_seed": 0,
+  "test_fold": 1,
+  "validation_fold": 2,
+  "problem_sha256": "b738dc2ad1dc4003dd2d8043332145df0ac635815dfd143227b65c0dd6b868d7",
+  "before": {
+    "valid": false,
+    "changed": 0,
+    "violations": {
+      "label_bounds": 6
+    },
+    "sizes": {
+      "validation": 89900,
+      "test": 70360,
+      "train": 217086
+    },
+    "labels": {
+      "SITTING": {
+        "validation": 25587,
+        "test": 27916,
+        "train": 82853
+      },
+      "WALKING": {
+        "validation": 3849,
+        "test": 4722,
+        "train": 13946
+      },
+      "STANDING_AND_MOVING": {
+        "validation": 8038,
+        "test": 5499,
+        "train": 16217
+      },
+      "LYING_DOWN": {
+        "validation": 22792,
+        "test": 21189,
+        "train": 60229
+      },
+      "UNREPORTED_MAIN_ACTIVITY": {
+        "validation": 27236,
+        "test": 8012,
+        "train": 34878
+      },
+      "STANDING_IN_PLACE": {
+        "validation": 1507,
+        "test": 1816,
+        "train": 4705
+      },
+      "RUNNING": {
+        "test": 219,
+        "train": 1038,
+        "validation": 78
+      },
+      "BICYCLING": {
+        "test": 987,
+        "validation": 813,
+        "train": 3220
+      }
+    }
+  },
+  "size_bounds": {
+    "train": [
+      214890,
+      245589
+    ],
+    "validation": [
+      61397,
+      92096
+    ],
+    "test": [
+      70360,
+      70360
+    ]
+  },
+  "label_bounds": {
+    "BICYCLING": {
+      "train": [
+        2702,
+        3348
+      ],
+      "validation": [
+        685,
+        1331
+      ],
+      "test": [
+        987,
+        987
+      ]
+    },
+    "LYING_DOWN": {
+      "train": [
+        55624,
+        68908
+      ],
+      "validation": [
+        14113,
+        27397
+      ],
+      "test": [
+        21189,
+        21189
+      ]
+    },
+    "RUNNING": {
+      "train": [
+        747,
+        927
+      ],
+      "validation": [
+        189,
+        369
+      ],
+      "test": [
+        219,
+        219
+      ]
+    },
+    "SITTING": {
+      "train": [
+        72654,
+        90006
+      ],
+      "validation": [
+        18434,
+        35786
+      ],
+      "test": [
+        27916,
+        27916
+      ]
+    },
+    "STANDING_AND_MOVING": {
+      "train": [
+        16250,
+        20132
+      ],
+      "validation": [
+        4123,
+        8005
+      ],
+      "test": [
+        5499,
+        5499
+      ]
+    },
+    "STANDING_IN_PLACE": {
+      "train": [
+        4162,
+        5156
+      ],
+      "validation": [
+        1056,
+        2050
+      ],
+      "test": [
+        1816,
+        1816
+      ]
+    },
+    "UNREPORTED_MAIN_ACTIVITY": {
+      "train": [
+        41616,
+        51555
+      ],
+      "validation": [
+        10559,
+        20498
+      ],
+      "test": [
+        8012,
+        8012
+      ]
+    },
+    "WALKING": {
+      "train": [
+        11922,
+        14770
+      ],
+      "validation": [
+        3025,
+        5873
+      ],
+      "test": [
+        4722,
+        4722
+      ]
+    }
+  },
+  "test_participants": [
+    "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+    "0BFC35E2-4817-4865-BFA7-764742302A2D",
+    "27E04243-B138-4F40-A164-F40B60165CF3",
+    "4FC32141-E888-4BFF-8804-12559A491D8C",
+    "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+    "61359772-D8D8-480D-B623-7C636EAD0C81",
+    "7CE37510-56D0-4120-A1CF-0E23351428D2",
+    "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+    "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+    "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+    "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+    "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B"
+  ],
+  "original_validation_participants": [
+    "00EABED2-271D-49D8-B599-1D4A09240601",
+    "11B5EC4D-4133-4289-B475-4E737182A406",
+    "4E98F91F-4654-42EF-B908-A3389443F2E7",
+    "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+    "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+    "59EEFAE0-DEB0-4FFF-9250-54D2A03D0CF2",
+    "665514DE-49DC-421F-8DCB-145D0B2609AD",
+    "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+    "86A4F379-B305-473D-9D83-FC7D800180EF",
+    "96A358A0-FFF2-4239-B93E-C7425B901B47",
+    "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+    "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC"
+  ]
+}

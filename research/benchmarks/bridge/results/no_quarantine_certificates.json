@@ -1,0 +1,762 @@
+[
+  {
+    "case": "seed0_test0_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test0_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test0_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test0_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test1_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test1_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test1_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test1_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test2_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test2_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test2_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test2_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test3_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2014J",
+        "record": "enrolment:6415",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:2572",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:6385",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test3_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2014J",
+        "record": "enrolment:6415",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:2572",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:6385",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test3_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2014J",
+        "record": "enrolment:6415",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:2572",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:6385",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test3_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2014J",
+        "record": "enrolment:6415",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:2572",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:6385",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test4_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test4_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test4_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed0_test4_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test0_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test0_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test0_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test0_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013B",
+        "record": "enrolment:1112",
+        "to": "student:425817"
+      },
+      {
+        "from": "student:425817",
+        "record": "enrolment:2889",
+        "to": "offering:BBB:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:2572",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:757",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test1_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test1_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test1_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test1_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2014J",
+        "record": "enrolment:457",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:94",
+        "to": "offering:AAA:2013J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:94",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:386",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test2_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:CCC:2014B",
+        "record": "enrolment:8688",
+        "to": "student:84299"
+      },
+      {
+        "from": "student:84299",
+        "record": "enrolment:26224",
+        "to": "offering:FFF:2014B"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:26224",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:8671",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test2_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:CCC:2014B",
+        "record": "enrolment:8688",
+        "to": "student:84299"
+      },
+      {
+        "from": "student:84299",
+        "record": "enrolment:26224",
+        "to": "offering:FFF:2014B"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:26224",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:8671",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test2_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:CCC:2014B",
+        "record": "enrolment:8688",
+        "to": "student:84299"
+      },
+      {
+        "from": "student:84299",
+        "record": "enrolment:26224",
+        "to": "offering:FFF:2014B"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:26224",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:8671",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test2_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:CCC:2014B",
+        "record": "enrolment:8688",
+        "to": "student:84299"
+      },
+      {
+        "from": "student:84299",
+        "record": "enrolment:26224",
+        "to": "offering:FFF:2014B"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:26224",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:8671",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test3_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test3_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test3_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test3_val4",
+    "equal_partition_path": [
+      {
+        "from": "offering:AAA:2013J",
+        "record": "enrolment:94",
+        "to": "student:235507"
+      },
+      {
+        "from": "student:235507",
+        "record": "enrolment:457",
+        "to": "offering:AAA:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:386",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:94",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test4_val0",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test4_val1",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test4_val2",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  },
+  {
+    "case": "seed20261107_test4_val3",
+    "equal_partition_path": [
+      {
+        "from": "offering:BBB:2013J",
+        "record": "enrolment:2572",
+        "to": "student:125874"
+      },
+      {
+        "from": "student:125874",
+        "record": "enrolment:6415",
+        "to": "offering:BBB:2014J"
+      }
+    ],
+    "free_record_disallowing_test": "enrolment:6385",
+    "infeasible_without_quarantine": true,
+    "locked_test_record": "enrolment:2572",
+    "proof": "Without quarantine, each path record forces its two group tokens to share a partition. The locked endpoint fixes test; the free endpoint prohibits test. This is a structural certificate, not a solver run."
+  }
+]
